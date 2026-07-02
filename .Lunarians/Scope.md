@@ -1,0 +1,31 @@
+2 sapient characters:
+- [ ] Urahiah, Legendary Graverobber
+- [ ] Agnosi, the Last Lunarian
+
+1 new area:
+- [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and lunarian enemies. Intended for level 35-40+, post any base game qud content
+
+1 questline:
+- [ ] Seek out the hidden cache under the tomb
+	- [ ] Find the bowels of the tomb of the eaters
+	- [ ] Convince Urahiah to follow you OR otherwise acquire the key off her
+	- [ ] Reach the bottom of the tomb and slay the Moon King (finish quest)
+
+Big picture steps:
+- [ ] Design and create XML data:
+	- [ ] Urahiah
+	- [ ] Agnosi
+	- [ ] All lunarian enemies, Moon King
+	- [ ] Lab specific weapons, decor, items
+- [ ] Plan overall structure of dungeon
+- [ ] Design specific, preset maps
+- [ ] Design intended overall style of random maps in dungeon
+- [ ] Program
+	- [ ] Implement placement of lab under tomb
+	- [ ] Implement quest system, including
+		- [ ] Urahiah's quest start, detecting sultan masks or intimidating her with strength
+		- [ ] Urahiah joining the party and
+		- [ ] If possible, Urahiah "unlocking" doors (by just zapping them from a conversation part, probably)
+		- [ ] Urahiah going mad at the end, after Moon King dies
+	- [ ] Implement designed generation for random dungeon
+	- [ ] Implement custom parts and map widgets as necessaty

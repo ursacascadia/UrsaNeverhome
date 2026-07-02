@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <!-- FRIENDLY -->
+    <object Name="Ursa_Urahiah" Inherits="Graverobber">
+        <part Name="Render" DisplayName="Urahiah" Tile="Creatures/Ursa_Urahiah.png" RenderString="h" ColorString="&amp;K" DetailColor="m" />
+        <part Name="ConversationScript" ConversationID="Arconaut" />
+        <part Name="Brain" Factions="Prey-100" />
+        <stat Name="Hitpoints" Value="415" />
+        <stat Name="Level" Value="38" />
+        <stat Name="AV" Value="5" />
+        <!-- <part Name="Description" Short="Scarred fingers with moss-crudded nails clench a pigskin satchel bilging with implements of dead digging. A sable hood and cloak swathe a nimble body pitched on a crooked spine; =pronouns.subjective= =verb:are:afterpronoun= used to bowing toward the ground." /> -->
+        <tag Name="Role" Value="Skirmisher" />
+        <part Name="Interesting" />
+        <part Name="GivesRep" />
+        <part Name="Titles" Ordinary="infamous graverobber" />
+        <xtagGrammar Proper="true" />
+        <skill Name="LongBlades" />
+        <skill Name="LongBladesProficiency" />
+        <skill Name="LongBladesLunge" />
+        <skill Name="LongBladesSwipe" />
+        <skill Name="LongBladesDuelingStance" />
+        <skill Name="LongBladesImprovedAggressiveStance" />
+        <skill Name="LongBladesImprovedDefensiveStance" />
+        <skill Name="LongBladesImprovedDuelistStance" />
+        <skill Name="LongBladesDeathblow" />
+        <skill Name="ShortBlades_Jab" />
+        <skill Name="ShortBlades_Bloodletter" />
+        <skill Name="ShortBlades_Rejoinder" />
+    </object>
+    <object Name="Ursa_Agnosi" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;K" DetailColor="m" />
+        <part Name="ConversationScript" ConversationID="" />
+        <part Name="Brain" Factions="Playerneutral-100" />
+        <stat Name="Hitpoints" Value="115" />
+        <stat Name="Level" Value="15" />
+        <stat Name="AV" Value="7" />
+        <!-- <part Name="Description" Short="Scarred fingers with moss-crudded nails clench a pigskin satchel bilging with implements of dead digging. A sable hood and cloak swathe a nimble body pitched on a crooked spine; =pronouns.subjective= =verb:are:afterpronoun= used to bowing toward the ground." /> -->
+        <tag Name="Role" Value="Skirmisher" />
+        <part Name="Interesting" />
+        <xtagGrammar Proper="true" />
+    </object>
+    <!-- End FRIENDLY -->
+
+    <!-- ENEMIES -->
+    <object Name="Ursa_Lunarian" Inherits="Creature">
+        <part Name="Render" DisplayName="Base Lunarian" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_FantasyFantasy" Inherits="Creature">
+        <part Name="Render" DisplayName="Fantasy, Fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_GirshCask" Inherits="Creature">
+        <part Name="Render" DisplayName="Girsh Cask" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Gravit" Inherits="Creature">
+        <part Name="Render" DisplayName="Gravit" Tile="Creatures/Lunarians/Ursa_Grav.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Herald" Inherits="Creature">
+        <part Name="Render" DisplayName="Herald" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Moonchild" Inherits="Creature">
+        <part Name="Render" DisplayName="Moon Child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Moonking" Inherits="Creature">
+        <part Name="Render" DisplayName="Moon King" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Naut" Inherits="Creature">
+        <part Name="Render" DisplayName="Naut" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Paracusian" Inherits="Creature">
+        <part Name="Render" DisplayName="Paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Rena" Inherits="Creature">
+        <part Name="Render" DisplayName="Rena" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Sarcoman" Inherits="Creature">
+        <part Name="Render" DisplayName="Sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Stonia" Inherits="Creature">
+        <part Name="Render" DisplayName="Stonia" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <object Name="Ursa_Vask" Inherits="Creature">
+        <part Name="Render" DisplayName="Vask" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+    </object>
+    <!-- End ENEMIES -->
+</objects>

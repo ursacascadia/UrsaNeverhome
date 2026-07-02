@@ -1,0 +1,13 @@
+{
+    "ID": "Ursa_Neverhome",
+    "Title": "NEVERHOME",
+    "Description": "",
+    "Version": "1.0.0",
+    "Dependencies": {
+        "Ursa_CompanionHelpers": "*",
+        "Sibs_Library": "*"
+    },
+    "Author": "{{amorous|UrsaCascadia}}, {{olive|billy checkers}}",
+    "Tags": "Quest, Item, Weapon, NPC, Conversation",
+    "PreviewImage": "preview.png"
+}

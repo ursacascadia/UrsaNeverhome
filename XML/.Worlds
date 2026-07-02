@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<worlds>
+    <world Name="JoppaWorld">
+        <cell Name="TheSpindle" Inherits="BananaGrove" ApplyTo="TerrainTheSpindle" Load="Merge">
+            <zone Level="11" x="0-2" y="0-2" Name="Folk Catacombs" NameContext="the Tomb of the Eaters" DisableForcedConnections="Yes">
+                <builder Class="CatacombsPublicus"></builder>
+                <builder Class="UrsaNeverhomeCatacombs"></builder>
+                <music Track="Music/Among The Tombs of Eaters" />
+            </zone>
+        </cell>
+    </world>
+</worlds>
