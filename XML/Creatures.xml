@@ -2,18 +2,30 @@
 <objects>
     <!-- FRIENDLY -->
     <object Name="Ursa_Urahiah" Inherits="Graverobber">
+        <!-- Basics -->
         <part Name="Render" DisplayName="Urahiah" Tile="Creatures/Ursa_Urahiah.png" RenderString="h" ColorString="&amp;K" DetailColor="m" />
-        <part Name="ConversationScript" ConversationID="Arconaut" />
+        <!-- <part Name="Description" Short="Scarred fingers with moss-crudded nails clench a pigskin satchel bilging with implements of dead digging. A sable hood and cloak swathe a nimble body pitched on a crooked spine; =pronouns.subjective= =verb:are:afterpronoun= used to bowing toward the ground." /> -->
+        <part Name="ConversationScript" ConversationID="Ursa_Urahiah" />
         <part Name="Brain" Factions="Prey-100" />
         <stat Name="Hitpoints" Value="415" />
         <stat Name="Level" Value="38" />
         <stat Name="AV" Value="5" />
-        <!-- <part Name="Description" Short="Scarred fingers with moss-crudded nails clench a pigskin satchel bilging with implements of dead digging. A sable hood and cloak swathe a nimble body pitched on a crooked spine; =pronouns.subjective= =verb:are:afterpronoun= used to bowing toward the ground." /> -->
         <tag Name="Role" Value="Skirmisher" />
+        <!-- Legendary -->
         <part Name="Interesting" />
         <part Name="GivesRep" />
         <part Name="Titles" Ordinary="infamous graverobber" />
         <xtagGrammar Proper="true" />
+        <!-- Inventory -->
+        <removeinventoryobject Blueprint="Pickaxe" />
+        <part Name="UrsaSpawnsWithRelic" RelicCount="2" TierFrom="6" TierTo="8" />
+		<inventoryobject Blueprint="Transkinetic Cuffs" Number="1" />
+        <!-- Mutations -->
+        <mutation Name="ColdBlooded" />
+        <mutation Name="Regeneration" Level="10" />
+        <mutation Name="HeightenedSpeed" Level="4" />
+        <mutation Name="AdrenalControl2" Level="5" />
+        <!-- Skills -->
         <skill Name="LongBlades" />
         <skill Name="LongBladesProficiency" />
         <skill Name="LongBladesLunge" />
@@ -29,7 +41,7 @@
     </object>
     <object Name="Ursa_Agnosi" Inherits="Ursa_Lunarian">
         <part Name="Render" DisplayName="Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;K" DetailColor="m" />
-        <part Name="ConversationScript" ConversationID="" />
+        <part Name="ConversationScript" ConversationID="Ursa_Agnosi" />
         <part Name="Brain" Factions="Playerneutral-100" />
         <stat Name="Hitpoints" Value="115" />
         <stat Name="Level" Value="15" />

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+    <conversation ID="Ursa_Urahiah">
+        <start ID="FirstMeet">
+            <text>
+                Be on your way, tomb-traveller.~
+                Don't hang around. This is no place to dawdle.~
+                I have my eye on you.~
+                Try anything funny and watch what happens.~
+                You look weak. You shouldn't stay here.
+            </text>
+            <choice Target="Low">You look well equipped. What are you searching for in the low catacombs?</choice>
+            <choice Target="End">Live and drink, arconaut.</choice>
+        </start>
+        <node ID="Low">
+            <text>That's none of your business, dweller. Now go.</text>
+            <choice Target="Help">Maybe I can help?</choice>
+            <choice Target="End">Fine then. Live and drink.</choice>
+        </node>
+        <node ID="Help">
+            <text>
+                {{emote|*She scoffs.*}}
+
+                A whelp like you? As if. Go pilfer trash—you've wasted enough of my time.
+            </text>
+            <choice Target="Intimidate1">
+                <text>You can tell me what you're searching for or I can kill you and put the pieces back together myself.</text>
+                <part Name="Sibs_RequireStat" Stat="Strength" Value="32" />
+            </choice>
+            <choice Target="Proveit">I'm no ordinary graverobber. You're speaking to a living legend.</choice>
+            <choice Target="End">Your haught bores me. Live and drink, graverobber.</choice>
+        </node>
+        <node ID="Proveit">
+            <text>
+                You think you're real smart, don't you? Prove it then, whelp.
+            </text>
+            <choice Target="ShowMask" IfHaveItem="(The Kesil Face OR The Shemesh Face OR The Earth Face OR The Levant Face OR The Olive Face OR The Nil Face)">
+                <text>I bet you've never seen this before... {{emote|*Show her a mask of the Sultanate.*}}</text>
+            </choice>
+            <choice Target="HowProve">How can I prove it to you?</choice>
+            <choice Target="End">Nevermind</choice>
+        </node>
+        <node ID="HowProve">
+            <text>
+                Show me the face of a sultan. It's a graverobber's holy grail—but nobody's had the guts to take one yet.
+
+                Not that you could. You'll just get yourself killed.
+            </text>
+            <choice Target="End">I'll be back. Live and drink.</choice>
+        </node>
+        <node ID="ShowMask">
+            <text>
+                What—you actually stole one? I... I never thought I'd see one of these.
+                
+                It's immaculate... it almost feels holy.
+
+                But not holy enough to leave a corpse alone, eh?
+            </text>
+            <choice Target="Searching">Now, tell me what you're searching for.</choice>
+            <choice Target="End">
+                <text>Your insubordinance will be your last mistake, graverobber.</text>
+                <part Name="StartFight" />
+            </choice>
+        </node>
+        <node ID="Intimidate1" Inherits="Searching">
+            <text>
+                Tch. You have a lot of gall to threaten me like that. You must be tougher than you look. Okay, listen—
+
+                I have it on good word there's a secret cache under the tomb. An ancient trove of untapped technology, and *I have the key.* They say it's well hidden. I'm searching for the door.
+
+                If I find it, I will never have to work for water again. I can build a house in the far reaches of Qud and drink as much water as I please.
+            </text>
+        </node>
+        <node ID="Searching">
+            <text>
+                You must be tougher than you look.
+
+                I have it on good word there's a secret cache under the tomb. An ancient trove of untapped technology, and *I have the key.* They say it's well hidden. I'm searching for the door.
+
+                If I find it, I will never have to work for water again. I can build a house in the far reaches of Qud and drink as much water as I please.
+            </text>
+            <choice Target="WeFind">You mean if *we* find it.</choice>
+            <choice Target="GiveKey">Give me the key, then. I'll find it for you.</choice>
+            <choice Target="End">I'll pass—I've plenty of water. Live and drink.</choice>
+        </node>
+        <node ID="GiveKey" Inherits="Searching">
+            <text>
+                Not a chance. I'll die before I let this key fall into anyone else's hands.
+            </text>
+            <choice Target="Follows">Follow me, then. We're finding this treasure.</choice>
+            <choice Target="End">
+                <text>Your insubordinance will be your last mistake, graverobber.</text>
+                <part Name="StartFight" />
+            </choice>
+        </node>
+        <node ID="WeFind">
+            <text>
+                If *we* find it, we'll split the loot... {{emote|she takes a moment to think...}} 70/30.
+            </text>
+            <choice Target="Follows" >
+                <text>You have a deal. Let's find it.</text>
+            </choice>
+            <choice Target="Fair">70/30? How is that fair?</choice>
+            <choice Target="5050">
+                <text>
+                    50/50 or you won't have my "help."
+                </text>
+                <part Name="Sibs_RequirePart" Part="Persuasion_Intimidate" Render="Skill: Intimidate" />
+            </choice>
+        </node>
+        <node ID="Fair" Inherits="WeFind">
+            <text>
+                Finder's fee, whelp. I paid good water for this tip.
+            </text>
+        </node>
+        <node ID="5050">
+            <text>
+                {{emote|She sizes up your intimidating posture...}}
+
+                Fifty fifty, then. Let's go, tomb-seeker. I'll be right behind you.
+
+                If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
+            </text>
+            <choice Target="End" SetLeader="Player">Onward and into the depths. {{magenta|[Gain companion.]}}</choice>
+        </node>
+        <node ID="Follows" Inherits="5050">
+            <text>
+                Lead the way. I'll be close behind—turning over every stone.
+
+                If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
+            </text>
+        </node>
+    </conversation>
+</conversations>
