@@ -62,6 +62,31 @@
 
     <object Name="Ursa_FantasyFantasy" Inherits="Creature">
         <part Name="Render" DisplayName="fantasy, fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="75" />
+        <stat Name="AV" Value="4" />
+        <stat Name="DV" Value="16" />
+        <stat Name="MA" Value="15" />
+        
+        <stat Name="Strength" Value="10" />
+        <stat Name="Agility" Value="28" />
+        <stat Name="Toughness" Value="20" />
+        <stat Name="Willpower" Value="14" />
+        <stat Name="Intelligence" Value="10" />
+        <stat Name="Ego" Value="10" />
+
+        <tag Name="Role" Value="Swarmer" />
+
+        <mutation Name="MultipleLegs" Level="8" />
+        <mutation Name="DarkVision" Level="5" />
+
+        <skill Name="ShortBlades" />
+        <skill Name="ShortBlades_Expertise" />
+        <skill Name="ShortBlades_Bloodletter" />
+
+        <!-- Paradoxical embrace -->
     </object>
 
     <object Name="Ursa_GirshCask" Inherits="Creature">
@@ -119,6 +144,37 @@
 
     <object Name="Ursa_Paracusian" Inherits="Creature">
         <part Name="Render" DisplayName="paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="190" />
+        <stat Name="AV" Value="14" />
+        <stat Name="DV" Value="11" />
+        <stat Name="MA" Value="6" />
+        
+        <stat Name="Strength" Value="23" />
+        <stat Name="Agility" Value="33" />
+        <stat Name="Toughness" Value="27" />
+        <stat Name="Willpower" Value="17" />
+        <stat Name="Intelligence" Value="17" />
+        <stat Name="Ego" Value="20" />
+
+        <stat Name="ElectricResistance" Value="30" />
+        <stat Name="ColdResistance" Value="100" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="Invisibility" />
+        <mutation Name="DarkVision" Level="9" />
+
+        <skill Name="Tactics_Charge" />
+        <skill Name="Cudgel" />
+        <skill Name="Cudgel_Expertise" />
+        <skill Name="Cudgel_Bludgeon" />
+        <skill Name="Cudgel_ChargingStrike" />
+        <skill Name="Cudgel_Slam" />
+
+        <!-- Vantablack ribbon -->
     </object>
 
     <object Name="Ursa_Rena" Inherits="Creature">

@@ -32,7 +32,6 @@ Night vision: 3
 Cryokinesis: 10
 
 Lvl: 34
-
 ST: 13
 AG: 22
 TO: 19
@@ -40,7 +39,6 @@ WI: 19
 IN: 10
 EG: 18
 MA: 9
-
 QN: 100
 MS: 100
 
@@ -90,6 +88,8 @@ Spry
 Multiweapon Expertise
 Jab
 
+
+
 Sarcoman:
 Syphon Vim: 14
 Night vision: 3
@@ -121,3 +121,141 @@ Vibro
 Inflicts Stony, Inflicts Cracked
 
 Explodes into 50 density Osseous ash on death (maybe needs more? idk)
+
+
+
+Fantasy-Fantasy:
+Multiple Legs: 6
+Night vision: 5
+
+Lvl: 34
+ST: 10
+AG: 28
+TO: 20
+WI: 14
+IN: 10
+EG: 10
+MA: 15
+
+QN: 100
+MS: 105
+
+Elec res: 0
+Acid res: 0
+Cold res: 0
+Heat res: 0
+
+75 HP
+4 AV
+16 DV
+
+Natural wep: Paradoxical Embrace
+Vibro
+0 base damage
+Inflicts shaken, poisoned, 2-3 bleed damage per turn TO save of 35 (same as sharpened polyp)
+
+Skills:
+Short Blade
+
+
+
+Moon Child:
+Double Muscled: 5
+Night vision: 5
+
+Lvl: 34
+ST: 39
+AG: 25
+TO: 30
+WI: 25
+IN: 10
+EG: 10
+MA: 15
+
+QN: 100
+MS: 100
+
+Elec res: -10
+Acid res: 0
+Cold res: 20
+Heat res: 0
+
+305 HP
+9 AV
+14 DV
+
+Natural wep: Neversteel Adze
+PV scales with strength, strength bonus cap is 1000
+4d4 base damage
+
+Skills:
+Axe
+Dismember
+Charge
+Charging Strike
+Cleave
+
+
+
+Paracusian:
+Invisibility
+Night vision: 9
+
+Lvl:34
+ST: 23
+AG: 33
+TO: 27
+WI: 17
+IN: 17
+EG: 20
+MA: 6
+
+QN: 100
+MS: 100
+
+Elec res: 30
+Acid res: 0
+Cold res: 100
+Heat res: 0
+
+180 HP
+9 AV
+17 DV
+
+Natural wep: Vantablack Ribbon
+16 PV
+0 base damage
+1d9 + 12 umbral damage on hit
+
+Skills:
+Cudgel
+Bludgeon
+Charge
+Charging Strike
+Slam
+
+
+Herald:
+Night vision: 5
+
+Lvl:34
+ST: 13
+AG: 13
+TO: 25
+WI: 16
+IN: 10
+EG: 10
+
+QN: 100
+MS: 110
+
+Elec res: 0
+Acid res: 0
+Cold res: 0
+Heat res: 0
+
+60 HP
+3 AV
+7 DV
+
+Has the same behavior as a tumbling pod but creates a neutron flux explosion on death or detonation
