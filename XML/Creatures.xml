@@ -69,7 +69,7 @@
     </object>
 
     <object Name="Ursa_Gravit" Inherits="Creature">
-        <part Name="Render" DisplayName="k-driver" Tile="Creatures/Lunarians/Ursa_Grav.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Render" DisplayName="k-driver" Tile="Creatures/Lunarians/Ursa_KDriver.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
 
     <object Name="Ursa_Herald" Inherits="Creature">
