@@ -2,11 +2,20 @@
 <objects>
     <!-- Dynamic/important objects -->
     <object Name="Ursa_NeverhomeDoor" Inherits="Door">
-        <part Name="Render" DisplayName="door" ColorString="&amp;B" TileColor="&amp;c" DetailColor="w" />
-        <part Name="Description" Short="" />
-        <part Name="Door" Locked="true" KeyObject="Ursa_NeverhomeKey" />
+        <part Name="Render" DisplayName="pneumatic door" ColorString="&amp;c" TileColor="&amp;c" DetailColor="Y" Tile="Objects/Ursa_NeverhomeDoor.png" />
+        <part Name="Description" Short="A hermetically sealed passageway locked by a touchless keycard, somehow still working. Once-pristine glass filters light through a millenia's worth of dust and fungal growths. One might have seen through it, but that dream is long dead." />
+        <part Name="Door" Locked="true" KeyObject="Ursa_NeverhomeKey" ClosedTile="Objects/Ursa_NeverhomeDoor.png" OpenTile="Objects/Ursa_NeverhomeDoorOpen.png" />
         <stat Name="AV" Value="25" />
         <stat Name="Hitpoints" Value="1000" />
         <tag Name="UrahiahUnlock" />
+    </object>
+
+    <object Name="Ursa_NeverhomeKey" Inherits="Security Card">
+        <part Name="Render" DisplayName="vinyl keycard" RenderString="-" ColorString="&amp;B" Occluding="false" RenderIfDark="true" Tile="Items/sw_security_card.bmp" />
+        <part Name="Commerce" Value="200" />
+        <stat Name="AV" Value="25" />
+        <stat Name="Hitpoints" Value="500" />
+        <part Name="Description" Short="A scratched, flexible keycard. It's printed with indecipherable text and pictographs, buffed nearly clean by years of changing hands. 'Ne&#x4;&#xDB;r&#xDB;&#xDB;m&#x4;'" />
+        <tag Name="NoSparkingQuest" />
     </object>
 </objects>
