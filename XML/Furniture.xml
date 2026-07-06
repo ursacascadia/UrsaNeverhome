@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <!-- Dynamic/important objects -->
+    <object Name="Ursa_NeverhomeDoor" Inherits="Door">
+        <part Name="Render" DisplayName="door" ColorString="&amp;B" TileColor="&amp;c" DetailColor="w" />
+        <part Name="Description" Short="" />
+        <part Name="Door" Locked="true" KeyObject="Ursa_NeverhomeKey" />
+        <stat Name="AV" Value="25" />
+        <stat Name="Hitpoints" Value="1000" />
+        <tag Name="UrahiahUnlock" />
+    </object>
+</objects>

@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
     <conversation ID="Ursa_Urahiah">
+        <!-- For testing the unlock function -->
+        <!-- <start ID="TESTUNLOCK">
+            <text>
+                I'll unlock the door...
+            </text>
+            <choice Target="End" DestroyAll="UrahiahUnlock">I'm ready. Unlock it.</choice>
+        </start> -->
+
+        <!-- unlocking the Entryway -->
+        <start ID="UrahiahDoor1" IfTestState="UrsaUrahiahRecruited" > 
+            <text>
+                For salt, =name=! You actually found it. I can't believe I hadn't looked here... suppose I thought it'd be a little more obscure.
+
+                Whenever you're ready.
+            </text>
+            <choice Target="Thoughts">What do you make of this place?</choice>
+            <choice Target="End" DestroyAll="UrahiahUnlock">I'm ready. Unlock it.</choice>
+        </start>
+        <node ID="Thoughts" AllowEscape="False"> <!-- convnode:Ursa_Urahiah:Thoughts -->
+            <text>
+                It's very grand...
+
+                {{emote|*She shines a light from her laser pistol upward, craning her neck to look at the ceiling. *}}
+
+                It seems like a place of worship. These vaulted ceilings, the pillars carved with inscryptions. Maybe an ossuary and gold stockpile, if we're lucky. You ever take a trophy, =name=?
+            </text>
+            <choice Target="TrophyQ">What do you mean, a trophy?</choice>
+            <choice Target="TrophyA" IfHaveItem="SkybearJetpack">In a duel, I killed the sky-bear Saad Amus, and took his Flume-Flier.</choice>
+            <choice Target="TrophyB" IfHaveItem="Cyclopean Prism">I slew Souldrinker Mamon, and now attend to his accursed prism.</choice>
+            <choice Target="TrophyC" IfHaveItem="Stopsvaalinn">I tracked and fell the snapjaw who brandished the last heirloom of the House Yish, Stopsvaalinn.</choice>
+            <choice Target="TrophyD" IfHaveItem="TauDagger">I aassisted a crystal chime to complete in the ritual of Elseing, at the bottom of Chavvah's Taproot, then slew her and her Sightless Way cohort for her crystalline jile.</choice>
+            <choice Target="TrophyE" IfHaveItem="Fist of the Ape God">I felled the mighty Ape God, Oboroqoru, and severed one of his massive fists.</choice>
+            <choice Target="NoTrophies">I keep no trophies.</choice>
+        </node>
+        <node ID="TrophyQ" Inherits="Thoughts">
+            <text>
+                A mark of honor from the slaying of a great and terrible enemy. A severed head, a large scale, even a lock of hair.
+
+                Something to make your foes tremble when they see it, for they'll know you have the strength to challenge even legends.
+            </text>
+        </node>
+        <node ID="NoTrophies" Inherits="UrahiahDoor1" SetBooleanState="DidTrophyConvo">
+            <text>
+                You ought to. You'd look like less of a whelp. Keep your eye out down here—if you see a skull that looked like it belonged to a rich, or powerful man, take his teeth, and make a necklace from it. That will strike fear in the hearts of your enemies.
+            </text>
+        </node>
+        <node ID="TrophyA" Inherits="UrahiahDoor1" SetBooleanState="DidTrophyConvo">
+            <text>
+                I've heard stories about the sky-bear... I thought he had died a long time ago.
+
+                I hope he put up a good fight.
+            </text>
+        </node>
+        <node ID="TrophyB" Inherits="TrophyA">
+            <text>
+                Mamon, leader of the Children of Mamon... =name=, you've changed Qud for the better, but...
+
+                That prism, that is no trophy. You strike fear into the wrong people, keeping that around. Destroy it. Rid the world of it. You are doing no good keeping it in your own possession.
+            </text>
+        </node>
+        <node ID="TrophyC" Inherits="TrophyA">
+            <text>
+                Must've been a wily hunt. I wonder how you tracked him down in the first place.
+            </text>
+        </node>
+        <node ID="TrophyD" Inherits="TrophyA">
+            <text>
+                Braving the Moon-Stair'd lands of the east is no small feat, =name=, let alone to the root of the great crystal tree.
+
+                And to shatter a crystal chime following the path of Ptoh... that's quite a story. I'd not believe you without that dagger. 
+            </text>
+        </node>
+        <node ID="TrophyE" Inherits="TrophyA">
+            <text>
+                Deicide...
+
+                Robbing a god is a bead of salty sweat hitting the dunes of Moghra'yi, compared to killing one. Once we're done here, how 'bout you and me go on a god-hunt, eh?
+            </text>
+        </node>
+
+        <!-- Generic dialogue -->
+        <start ID="UrahiahRecruited" IfTestState="UrsaUrahiahRecruited">
+            <text>What do you want?</text>
+            <choice Target="End">Nothing. Let's keep going.</choice>
+        </start>
+
+        <!-- First meeting, recruiting -->
         <start ID="FirstMeet">
             <text>
                 Be on your way, tomb-traveller.~
@@ -68,7 +155,7 @@
 
                 I have it on good word there's a secret cache under the tomb. An ancient trove of untapped technology, and *I have the key.* They say it's well hidden. I'm searching for the door.
 
-                If I find it, I will never have to work for water again. I can build a house in the far reaches of Qud and drink as much water as I please.
+                If I find it, I will never have to work for water again. I can build a cabin in the far reaches of Qud and drink as much water as I please.
             </text>
         </node>
         <node ID="Searching">
@@ -77,7 +164,7 @@
 
                 I have it on good word there's a secret cache under the tomb. An ancient trove of untapped technology, and *I have the key.* They say it's well hidden. I'm searching for the door.
 
-                If I find it, I will never have to work for water again. I can build a house in the far reaches of Qud and drink as much water as I please.
+                If I find it, I will never have to work for water again. I can build a cabin in the mountains of Qud and drink as much water as I please.
             </text>
             <choice Target="WeFind">You mean if *we* find it.</choice>
             <choice Target="GiveKey">Give me the key, then. I'll find it for you.</choice>
@@ -121,7 +208,7 @@
 
                 If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
             </text>
-            <choice Target="End" SetLeader="Player">Onward and into the depths. {{magenta|[Gain companion.]}}</choice>
+            <choice Target="End" SetLeader="Player" SetBooleanState="UrsaUrahiahRecruited,True">Onward, for glory and water. {{magenta|[Gain companion.]}}</choice>
         </node>
         <node ID="Follows" Inherits="5050">
             <text>

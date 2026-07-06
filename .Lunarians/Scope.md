@@ -13,19 +13,20 @@
 
 Big picture steps:
 - [ ] Design and create XML data:
-	- [ ] Urahiah
+	- [x] Urahiah
 	- [ ] Agnosi
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
+	- [ ] Quests.xml
 - [ ] Plan overall structure of dungeon
 - [ ] Design specific, preset maps
 - [ ] Design intended overall style of random maps in dungeon
 - [ ] Program
 	- [ ] Implement placement of lab under tomb
 	- [ ] Implement quest system, including
-		- [ ] Urahiah's quest start, detecting sultan masks or intimidating her with strength
-		- [ ] Urahiah joining the party and
-		- [ ] If possible, Urahiah "unlocking" doors (by just zapping them from a conversation part, probably)
+		- [x] Urahiah's quest start, detecting sultan masks or intimidating her with strength
+		- [x] Urahiah joining the party and
+		- [x] If possible, Urahiah "unlocking" doors (by just zapping them from a conversation part, probably)
 		- [ ] Urahiah going mad at the end, after Moon King dies
 	- [ ] Implement designed generation for random dungeon
 	- [ ] Implement custom parts and map widgets as necessaty
