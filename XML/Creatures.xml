@@ -55,43 +55,181 @@
 
     <!-- ENEMIES -->
     <object Name="Ursa_Lunarian" Inherits="Creature">
-        <part Name="Render" DisplayName="Base Lunarian" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="base lunarian" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Brain" Factions="Playerhater-100" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
+
     <object Name="Ursa_FantasyFantasy" Inherits="Creature">
-        <part Name="Render" DisplayName="Fantasy, Fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="fantasy, fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_GirshCask" Inherits="Creature">
-        <part Name="Render" DisplayName="Girsh Cask" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="girsh cask" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Gravit" Inherits="Creature">
-        <part Name="Render" DisplayName="Gravit" Tile="Creatures/Lunarians/Ursa_Grav.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="k-driver" Tile="Creatures/Lunarians/Ursa_Grav.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Herald" Inherits="Creature">
-        <part Name="Render" DisplayName="Herald" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="herald" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Moonchild" Inherits="Creature">
-        <part Name="Render" DisplayName="Moon Child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="moon child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Moonking" Inherits="Creature">
-        <part Name="Render" DisplayName="Moon King" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="Moon King" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Naut" Inherits="Creature">
-        <part Name="Render" DisplayName="Naut" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="raynaut" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="190" />
+        <stat Name="AV" Value="14" />
+        <stat Name="DV" Value="11" />
+        <stat Name="MA" Value="5" />
+        
+        <stat Name="Strength" Value="17" />
+        <stat Name="Agility" Value="24" />
+        <stat Name="Toughness" Value="21" />
+        <stat Name="Willpower" Value="15" />
+        <stat Name="Intelligence" Value="12" />
+        <stat Name="Ego" Value="16" />
+
+        <stat Name="AcidResistance" Value="30" />
+        <stat Name="ElectricResistance" Value="300" />
+        <stat Name="ColdResistance" Value="50" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="TemporalFugue" Level="9" />
+        <mutation Name="ElectricalGeneration" Level="14" />
+        <mutation Name="DarkVision" Level="2" />
+
+        <skill Name="Cudgel" />
+        <skill Name="Cudgel_Expertise" />
+
+        <!-- crackling truncheon -->
     </object>
+
     <object Name="Ursa_Paracusian" Inherits="Creature">
-        <part Name="Render" DisplayName="Paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
     <object Name="Ursa_Rena" Inherits="Creature">
-        <part Name="Render" DisplayName="Rena" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="renegade" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="80" />
+        <stat Name="AV" Value="7" />
+        <stat Name="DV" Value="23" />
+        <stat Name="MA" Value="4" />
+        
+        <stat Name="Strength" Value="20" />
+        <stat Name="Agility" Value="38" />
+        <stat Name="Toughness" Value="20" />
+        <stat Name="Willpower" Value="10" />
+        <stat Name="Intelligence" Value="10" />
+        <stat Name="Ego" Value="10" />
+
+        <stat Name="ColdResistance" Value="50" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="HeightenedSpeed" Level="20" />
+        <mutation Name="DarkVision" Level="7" />
+
+        <skill Name="ShortBlades" />
+        <skill Name="ShortBlades_Expertise" />
+        <skill Name="ShortBlades_Jab" />
+        <skill Name="Acrobatics" />
+        <skill Name="Acrobatics_SwiftReflexes" />
+        <skill Name="Acrobatics_Dodge" />
+        <skill Name="Multiweapon_Fighting" />
+        <skill Name="Multiweapon_Flurry" />
     </object>
+
     <object Name="Ursa_Sarcoman" Inherits="Creature">
-        <part Name="Render" DisplayName="Sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="260" />
+        <stat Name="AV" Value="11" />
+        <stat Name="DV" Value="11" />
+        <stat Name="MA" Value="11" />
+        
+        <stat Name="Strength" Value="15" />
+        <stat Name="Agility" Value="16" />
+        <stat Name="Toughness" Value="35" />
+        <stat Name="Willpower" Value="20" />
+        <stat Name="Intelligence" Value="10" />
+        <stat Name="Ego" Value="20" />
+
+        <stat Name="MoveSpeed" Value="110" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="LifeDrain" Level="14" />
+        <mutation Name="DarkVision" Level="3" />
+
+        <!-- Enfeebling bite -->
+        <!-- Explode into gas -->
     </object>
+    
     <object Name="Ursa_Stonia" Inherits="Creature">
-        <part Name="Render" DisplayName="Stonia" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="stonia" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="125" />
+        <stat Name="AV" Value="8" />
+        <stat Name="DV" Value="17" />
+        <stat Name="MA" Value="9" />
+        
+        <stat Name="Strength" Value="13" />
+        <stat Name="Agility" Value="22" />
+        <stat Name="Toughness" Value="19" />
+        <stat Name="Willpower" Value="19" />
+        <stat Name="Intelligence" Value="10" />
+        <stat Name="Ego" Value="18" />
+
+        <stat Name="HeatResistance" Value="-10" />
+        <stat Name="ColdResistance" Value="300" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="FreezeBreath" Level="14" />
+        <mutation Name="Cryokinesis" Level="10" />
+        <mutation Name="DarkVision" Level="4" />
+
+        <!-- icy jaws -->
     </object>
+
     <object Name="Ursa_Vask" Inherits="Creature">
-        <part Name="Render" DisplayName="Vask" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;b" DetailColor="y" />
+        <part Name="Render" DisplayName="vask" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
+
+    <object Name="Ursa_Metastat" Inherits="Creature">
+        <part Name="Render" DisplayName="metastat" Tile="Creatures/Lunarians/Ursa_Metastat.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    </object>
+
+    <object Name="Ursa_Horned" Inherits="Creature">
+        <part Name="Render" DisplayName="horned" Tile="Creatures/Lunarians/Ursa_Horned.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    </object>
+
+    <object Name="Ursa_PhenoPhen" Inherits="Creature">
+        <part Name="Render" DisplayName="pheno phen" Tile="Creatures/Lunarians/Ursa_PhenoPhen.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    </object>
+
     <!-- End ENEMIES -->
+
+    <!-- NATURAL WEAPONS -->
+    <!-- End NATURAL WEAPONS -->
 </objects>

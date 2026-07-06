@@ -32,6 +32,7 @@ Night vision: 3
 Cryokinesis: 10
 
 Lvl: 34
+
 ST: 13
 AG: 22
 TO: 19
@@ -39,6 +40,7 @@ WI: 19
 IN: 10
 EG: 18
 MA: 9
+
 QN: 100
 MS: 100
 
