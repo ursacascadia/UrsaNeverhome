@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <object Name="Ursa_LabWall" Inherits="BaseWallCyber">
+        <part Name="Render" DisplayName="cleanroom wall" ColorString="&amp;c^k" TileColor="&amp;K" DetailColor="c" />
+        <stat Name="AV" Value="30" />
+        <stat Name="Hitpoints" Value="200" />
+        <part Name="Description" Short="" />
+        <tag Name="PaintedWall" Value="neverhome_lab" />
+    </object>
+</objects>
