@@ -18,4 +18,27 @@
         <part Name="Description" Short="A scratched, flexible keycard. It's printed with indecipherable text and pictographs, buffed nearly clean by years of changing hands. 'Ne&#x4;&#xDB;r&#xDB;&#xDB;m&#x4;'" />
         <tag Name="NoSparkingQuest" />
     </object>
+
+    <object Name="Ursa_Cryotube" Inherits="Furniture">
+        <part Name="Render" DisplayName="compact cryochamber" RenderString="U" Tile="Objects/Ursa_Cryotube.png" ColorString="&amp;C" DetailColor="O"/>
+        <stat Name="AV" Value="25" />
+        <stat Name="Hitpoints" Value="200" />
+        <part Name="Description" Short="" />
+    </object>
+    
+    <!-- Decorations -->
+
+    <object Name="Ursa_CrooningLamina" Inherits="Plant">
+        <part Name="Render" DisplayName="crooning lamina" RenderString="231" Tile="Objects/Ursa_CrooningLamina.png" ColorString="&amp;C" DetailColor="m" Occluding="false" />
+        <part Name="Description" Short="a plant" />
+        <stag Name="Luxury" />
+		<stag Name="Beauty" />
+    </object>
+
+    <object Name="Ursa_Lipocinth" Inherits="Plant">
+        <part Name="Render" DisplayName="lipocinth" RenderString="231" Tile="Objects/Ursa_Lipocinth.png" ColorString="&amp;C" DetailColor="O" Occluding="false" />
+        <part Name="Description" Short="a plant" />
+        <stag Name="Luxury" />
+		<stag Name="Beauty" />
+    </object>
 </objects>

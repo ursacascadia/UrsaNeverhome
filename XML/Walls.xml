@@ -4,7 +4,7 @@
         <part Name="Render" DisplayName="cleanroom wall" ColorString="&amp;c^k" TileColor="&amp;K" DetailColor="c" />
         <stat Name="AV" Value="30" />
         <stat Name="Hitpoints" Value="200" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="Clean, burnished steel plates rise and give way to high vaulted ceilings." />
         <tag Name="PaintedWall" Value="neverhome_lab" />
     </object>
 </objects>

@@ -39,18 +39,20 @@
         <skill Name="ShortBlades_Bloodletter" />
         <skill Name="ShortBlades_Rejoinder" />
     </object>
+
     <object Name="Ursa_Agnosi" Inherits="Ursa_Lunarian">
-        <part Name="Render" DisplayName="Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;K" DetailColor="m" />
+        <part Name="Render" DisplayName="Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;C" DetailColor="Y" />
         <part Name="ConversationScript" ConversationID="Ursa_Agnosi" />
         <part Name="Brain" Factions="Playerneutral-100" />
         <stat Name="Hitpoints" Value="115" />
         <stat Name="Level" Value="15" />
         <stat Name="AV" Value="7" />
-        <!-- <part Name="Description" Short="Scarred fingers with moss-crudded nails clench a pigskin satchel bilging with implements of dead digging. A sable hood and cloak swathe a nimble body pitched on a crooked spine; =pronouns.subjective= =verb:are:afterpronoun= used to bowing toward the ground." /> -->
+        <part Name="Description" Short="Scales, fur, flesh and steel have conjoined; lining the upper eyeline with a form both familiar and distantly alien. Legions of faces clash against one another, (something smart and cool idk the music ursa is playing is loud af). They scream in tandem, to the pity of onlooking spectres." />
         <tag Name="Role" Value="Skirmisher" />
         <part Name="Interesting" />
         <xtagGrammar Proper="true" />
     </object>
+
     <!-- End FRIENDLY -->
 
     <!-- ENEMIES -->
@@ -334,7 +336,7 @@
     </object>
 
     <object Name="Ursa_PhenoPhen" Inherits="Creature">
-        <part Name="Render" DisplayName="pheno phen" Tile="Creatures/Lunarians/Ursa_PhenoPhen.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Render" DisplayName="pheno phen" Tile="Creatures/Lunarians/Ursa_PhenoPhem.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
 
     <!-- End ENEMIES -->
