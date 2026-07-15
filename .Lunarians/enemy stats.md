@@ -1,4 +1,3 @@
-Raynaut:
 Temporal Fugue: 9
 Electrical Gen: 14
 Night Vision: 2
@@ -259,3 +258,79 @@ Heat res: 0
 7 DV
 
 Has the same behavior as a tumbling pod but creates a neutron flux explosion on death or detonation
+
+
+K-Driver
+Night vision: 6
+
+Lvl: 34
+ST: 40
+AG: 25
+TO: 40
+WI: 30
+IN: 25
+EG: 20
+MA: 20
+
+QN: 105
+MS: 105
+
+Elec res: -50
+Acid res: 50
+Cold res: 100
+Heat res: 50
+
+HP: 1000
+AV: 21
+DV: 11
+
+Natural weps: Jettisoned Scalpel
++10 To-Hit
+1000 Strength Cap
+PV 5
+4d9 base damage
+
+Skills: 
+
+Long Blade
+Lunge
+Improved Aggressive Stance
+Charge
+Jump
+
+
+Horned:
+Night vision: 7
+Horns: 18
+
+Lvl: 34
+ST: 37
+AG: 27
+TO: 28
+WI: 20
+IN: 20
+EG: 20
+MA: 7
+
+QN: 100
+MS: 100
+
+Elec res: 40
+Acid res: 40
+Cold res: 67
+Heat res: 40
+
+HP: 300
+AV: 14
+DV: 8
+
+Natural weps: Unicorn Horn variant i forgot the name (LOL!!!) 
+same stats as lvl 18 horns w strength scaling etc
+
+Skills: 
+
+Short Blade
+Shank
+Bloodletting
+
+
