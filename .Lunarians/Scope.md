@@ -7,6 +7,7 @@
 	- [x] Stats
 	- [ ] Description
 	- [ ] Natural weapon
+		- [ ] custom ShakenOnHit part
 - [ ] Girsh Cask
 	- [ ] Stats
 	- [ ] Description
@@ -46,7 +47,7 @@
 - [ ] Stonia
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [ ] Vask
 	- [ ] Stats
 	- [ ] Description
@@ -77,6 +78,7 @@ Big picture steps:
 - [ ] Design and create XML data:
 	- [x] Urahiah
 	- [ ] Agnosi
+		- [ ] Agnosi conversation
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
 		- [ ] Walls that break into warm static

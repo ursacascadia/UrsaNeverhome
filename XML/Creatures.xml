@@ -94,6 +94,13 @@
         <!-- Paradoxical embrace -->
     </object>
 
+    <object Name="Ursa_ParadoxicalEmbrace" Inherits="Bite">
+        <part Name="Render" DisplayName="{{lunar|paradoxical embrace}}" />
+        <part Name="MeleeWeapon" BaseDamage="0" />
+        <part Name="VibroWeapon" ChargeUse="0" />
+        <part Name="BleedingOnHit" Amount="2-3" SaveTarget="35" Stack="true" />
+    </object>
+
     <object Name="Ursa_GirshCask" Inherits="Creature">
         <part Name="Render" DisplayName="girsh cask" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
     </object>
@@ -237,6 +244,13 @@
         <skill Name="Cudgel_Expertise" />
 
         <!-- crackling truncheon -->
+        <inventoryobject Blueprint="Ursa_Crackling_Truncheon" />
+    </object>
+
+    <object Name="Ursa_Crackling_Truncheon" Inherits="NaturalFist">
+        <part Name="Render" DisplayName="{{electrical|crackling truncheon}}" />
+        <part Name="MeleeWeapon" BaseDamage="0" />
+        <part Name="ElementalDamage" Damage="1d8+20" Attributes="Electric" />
     </object>
 
     <object Name="Ursa_Paracusian" Inherits="Creature">
@@ -370,6 +384,7 @@
         <mutation Name="DarkVision" Level="4" />
 
         <!-- icy jaws -->
+        <inventoryobject Blueprint="Rimewyk_Bite" />
     </object>
 
     <object Name="Ursa_Vask" Inherits="Creature">
