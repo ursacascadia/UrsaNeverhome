@@ -1,6 +1,24 @@
 2 sapient characters:
-- [ ] Urahiah, Legendary Graverobber
+- [x] Urahiah, Legendary Graverobber
 - [ ] Agnosi, the Last Lunarian
+
+15 new enemies:
+- [ ] Fantasy, Fantasy!
+- [ ] Girsh Cask
+- [ ] K-Driver
+- [x] Herald
+- [ ] Moon Child
+- [ ] Moon King
+- [ ] Raynaut
+- [ ] Paracusian
+- [ ] Renegade
+- [ ] Sarcoman
+- [ ] Stonia
+- [ ] Vask
+- [ ] Metastat
+- [x] Horned
+- [ ] Pheno Phen
+	- [ ] And descriptions for all of them
 
 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and lunarian enemies. Intended for level 35-40+, post any base game qud content
@@ -17,6 +35,7 @@ Big picture steps:
 	- [ ] Agnosi
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
+		- [ ] Walls that break into warm static
 	- [ ] Quests.xml
 - [x] Plan overall structure of dungeon
 - [ ] Design specific, preset maps

@@ -100,6 +100,41 @@
 
     <object Name="Ursa_Gravit" Inherits="Creature">
         <part Name="Render" DisplayName="k-driver" Tile="Creatures/Lunarians/Ursa_KDriver.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
+
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="1000" />
+        <stat Name="AV" Value="21" />
+        <stat Name="DV" Value="11" />
+        <stat Name="MA" Value="20" />
+        
+        <stat Name="Strength" Value="40" />
+        <stat Name="Agility" Value="25" />
+        <stat Name="Toughness" Value="40" />
+        <stat Name="Willpower" Value="30" />
+        <stat Name="Intelligence" Value="25" />
+        <stat Name="Ego" Value="20" />
+
+        <stat Name="ElectricResistance" Value="-50" />
+        <stat Name="ColdResistance" Value="100" />
+        <stat Name="AcidResistance" Value="30" />
+        <stat Name="HeatResistance" Value="50" />
+
+        <stat Name="MoveSpeed" Value="105" />
+        <stat Name="Speed" Value="105" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+        <mutation Name="DarkVision" Level="6" />
+
+        <skill Name="Tactics_Charge" />
+        <skill Name="LongBlades" />
+        <skill Name="LongBladesProficiency" />
+        <skill Name="LongBladesLunge" />
+        <skill Name="Acrobatics_Jump" />
+
+        <!-- Jettisoned scalpel -->
     </object>
 
     <object Name="Ursa_Herald" Inherits="Creature">
@@ -273,6 +308,8 @@
         <skill Name="Acrobatics_Dodge" />
         <skill Name="Multiweapon_Fighting" />
         <skill Name="Multiweapon_Flurry" />
+
+        <!-- Warped hooks -->
     </object>
 
     <object Name="Ursa_Sarcoman" Inherits="Creature">
@@ -300,8 +337,9 @@
         <mutation Name="LifeDrain" Level="14" />
         <mutation Name="DarkVision" Level="3" />
 
+		<part Name="BurstOnDeath" Blueprint="MiasmaticAsh80" SkipSolid="true" />
+
         <!-- Enfeebling bite -->
-        <!-- Explode into gas -->
     </object>
     
     <object Name="Ursa_Stonia" Inherits="Creature">
@@ -347,6 +385,35 @@
     <object Name="Ursa_Horned" Inherits="Creature">
         <part Name="Render" DisplayName="horned" Tile="Creatures/Lunarians/Ursa_Horned.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A horrific specimin." />
+        
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="300" />
+        <stat Name="AV" Value="14" />
+        <stat Name="DV" Value="8" />
+        <stat Name="MA" Value="7" />
+        
+        <stat Name="Strength" Value="37" />
+        <stat Name="Agility" Value="27" />
+        <stat Name="Toughness" Value="28" />
+        <stat Name="Willpower" Value="20" />
+        <stat Name="Intelligence" Value="20" />
+        <stat Name="Ego" Value="20" />
+
+        <stat Name="ElectricResistance" Value="40" />
+        <stat Name="ColdResistance" Value="67" />
+        <stat Name="AcidResistance" Value="40" />
+        <stat Name="HeatResistance" Value="40" />
+
+        <tag Name="Role" Value="Skirmisher" />
+
+		<mutation Name="Horns" Level="18" Variant="Horns Spiral"/>
+        <mutation Name="DarkVision" Level="7" />
+        
+        <skill Name="ShortBlades" />
+        <skill Name="ShortBlades_Expertise" />
+        <skill Name="ShortBlades_Bloodletter" />
+        <skill Name="ShortBlades_Shank" />
     </object>
 
     <object Name="Ursa_PhenoPhen" Inherits="Creature">
