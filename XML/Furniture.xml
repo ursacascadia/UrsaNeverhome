@@ -41,4 +41,9 @@
         <stag Name="Luxury" />
 		<stag Name="Beauty" />
     </object>
+
+    <object Name="Ursa_ExamTable" Inherits="Furniture">
+        <part Name="Render" DisplayName="surgical table" RenderString="242" Tile="Objects/Ursa_ExamTable.png" ColorString="&amp;C" DetailColor="Y" Occluding="false" />
+        <part Name="Description" Short="omnimouse table..." />
+    </object>
 </objects>
