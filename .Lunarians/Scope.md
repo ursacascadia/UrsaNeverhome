@@ -4,21 +4,65 @@
 
 15 new enemies:
 - [ ] Fantasy, Fantasy!
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Girsh Cask
+	- [ ] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] K-Driver
-- [x] Herald
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
+- [ ] Herald
+	- [x] Stats
+	- [ ] Description
+	- [x] Natural weapon
 - [ ] Moon Child
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Moon King
+	- [ ] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Raynaut
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Paracusian
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Renegade
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Sarcoman
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Stonia
+	- [x] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Vask
+	- [ ] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 - [ ] Metastat
-- [x] Horned
+	- [ ] Stats
+	- [ ] Description
+	- [ ] Natural weapon
+- [ ] Horned
+	- [x] Stats
+	- [ ] Description
+	- [x] Natural weapon
 - [ ] Pheno Phen
-	- [ ] And descriptions for all of them
+	- [ ] Stats
+	- [ ] Description
+	- [ ] Natural weapon
 
 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and lunarian enemies. Intended for level 35-40+, post any base game qud content
@@ -52,4 +96,3 @@ Big picture steps:
 
 ### up next
 - [ ] quest xml
-- [ ] design style for random maps
