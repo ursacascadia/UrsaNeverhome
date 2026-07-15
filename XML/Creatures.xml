@@ -380,6 +380,35 @@
     <object Name="Ursa_Metastat" Inherits="Creature">
         <part Name="Render" DisplayName="metastat" Tile="Creatures/Lunarians/Ursa_Metastat.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A horrific specimin." />
+
+        <stat Name="Level" Value="34" />
+
+        <stat Name="Hitpoints" Value="280" />
+        <stat Name="AV" Value="11" />
+        <stat Name="DV" Value="7" />
+        <stat Name="MA" Value="7" />
+        
+        <stat Name="Strength" Value="34" />
+        <stat Name="Agility" Value="30" />
+        <stat Name="Toughness" Value="26" />
+        <stat Name="Willpower" Value="21" />
+        <stat Name="Intelligence" Value="21" />
+        <stat Name="Ego" Value="10" />
+
+        <stat Name="ElectricResistance" Value="0" />
+        <stat Name="ColdResistance" Value="30" />
+        <stat Name="AcidResistance" Value="0" />
+        <stat Name="HeatResistance" Value="0" />
+
+        <tag Name="Role" Value="Controller" />
+
+		<mutation Name="Burrowing" Level="5"/>
+        <mutation Name="DarkVision" Level="8" />
+        
+        <skill Name="Cudgel" />
+        <skill Name="Cudgel_Expertise" />
+
+        <!-- Uncertain gavel -->
     </object>
 
     <object Name="Ursa_Horned" Inherits="Creature">

@@ -334,3 +334,37 @@ Shank
 Bloodletting
 
 
+Metastat:
+Night vision: 8
+Burrowing Claws: 10
+Burrowing: 5
+
+Lvl: 34
+ST: 34
+AG: 30
+TO: 26
+WI: 21
+IN: 21
+EG: 10
+MA: 7
+
+QN: 100
+MS: 100
+
+Elec res: 0
+Acid res: 0
+Cold res: 30
+Heat res: 0
+
+HP: 280
+AV: 11
+DV: 7
+
+Natural weps: Uncertain Gavel
+3d5 base damage
+1000 Strength Cap
+PV 4
+inflicts entropic or whatever the warm static effect is called on hit
+Skills: 
+
+Cudgel

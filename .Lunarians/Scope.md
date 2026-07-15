@@ -52,7 +52,7 @@
 	- [ ] Description
 	- [ ] Natural weapon
 - [ ] Metastat
-	- [ ] Stats
+	- [x] Stats
 	- [ ] Description
 	- [ ] Natural weapon
 - [ ] Horned
