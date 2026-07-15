@@ -8,7 +8,7 @@
         <part Name="ConversationScript" ConversationID="Ursa_Urahiah" />
         <part Name="Brain" Factions="Prey-100" />
         <stat Name="Hitpoints" Value="415" />
-        <stat Name="Level" Value="38" />
+        <stat Name="Level" Value="45" />
         <stat Name="AV" Value="5" />
         <tag Name="Role" Value="Skirmisher" />
         <!-- Legendary -->
@@ -18,7 +18,9 @@
         <xtagGrammar Proper="true" />
         <!-- Inventory -->
         <removeinventoryobject Blueprint="Pickaxe" />
-        <part Name="UrsaSpawnsWithRelic" RelicCount="2" TierFrom="6" TierTo="8" />
+        <inventoryobject Blueprint="Flawless Crysteel Shardmail" />
+        <inventoryobject Blueprint="Snakeskin Armlet" />
+        <part Name="UrsaSpawnsWithRelic" RelicCount="3" TierFrom="6" TierTo="8" />
 		<inventoryobject Blueprint="Transkinetic Cuffs" Number="1" />
         <!-- Mutations -->
         <mutation Name="ColdBlooded" />
@@ -47,7 +49,7 @@
         <stat Name="Hitpoints" Value="115" />
         <stat Name="Level" Value="15" />
         <stat Name="AV" Value="7" />
-        <part Name="Description" Short="Scales, fur, flesh and steel have conjoined; lining the upper eyeline with a form both familiar and distantly alien. Legions of faces clash against one another, (something smart and cool idk the music ursa is playing is loud af). They scream in tandem, to the pity of onlooking spectres." />
+        <part Name="Description" Short="Scales, fur, flesh and steel have conjoined; lining the upper eyeline with a form both familiar and distantly alien. Legions of faces writhe in spiritual ecstacy, speaking wordless poetry with the voice of a thousand madmen. They scream in tandem, to the pity of onlooking spectres." />
         <tag Name="Role" Value="Skirmisher" />
         <part Name="Interesting" />
         <xtagGrammar Proper="true" />
@@ -64,6 +66,7 @@
 
     <object Name="Ursa_FantasyFantasy" Inherits="Creature">
         <part Name="Render" DisplayName="fantasy, fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
         
         <stat Name="Level" Value="34" />
 
@@ -101,6 +104,7 @@
 
     <object Name="Ursa_Herald" Inherits="Creature">
         <part Name="Render" DisplayName="herald" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
 
         <stat Name="Level" Value="34" />
 
@@ -127,6 +131,7 @@
 
     <object Name="Ursa_Moonchild" Inherits="Creature">
         <part Name="Render" DisplayName="moon child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
 
         <stat Name="Level" Value="34" />
 
@@ -162,10 +167,12 @@
 
     <object Name="Ursa_Moonking" Inherits="Creature">
         <part Name="Render" DisplayName="Moon King" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
 
     <object Name="Ursa_Naut" Inherits="Creature">
         <part Name="Render" DisplayName="raynaut" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
 
         <stat Name="Level" Value="34" />
 
@@ -199,6 +206,7 @@
 
     <object Name="Ursa_Paracusian" Inherits="Creature">
         <part Name="Render" DisplayName="paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
         
         <stat Name="Level" Value="34" />
 
@@ -234,6 +242,7 @@
 
     <object Name="Ursa_Rena" Inherits="Creature">
         <part Name="Render" DisplayName="renegade" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
         
         <stat Name="Level" Value="34" />
 
@@ -268,6 +277,7 @@
 
     <object Name="Ursa_Sarcoman" Inherits="Creature">
         <part Name="Render" DisplayName="sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
         
         <stat Name="Level" Value="34" />
 
@@ -296,6 +306,7 @@
     
     <object Name="Ursa_Stonia" Inherits="Creature">
         <part Name="Render" DisplayName="stonia" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
         
         <stat Name="Level" Value="34" />
 
@@ -325,18 +336,22 @@
 
     <object Name="Ursa_Vask" Inherits="Creature">
         <part Name="Render" DisplayName="vask" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
 
     <object Name="Ursa_Metastat" Inherits="Creature">
         <part Name="Render" DisplayName="metastat" Tile="Creatures/Lunarians/Ursa_Metastat.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
 
     <object Name="Ursa_Horned" Inherits="Creature">
         <part Name="Render" DisplayName="horned" Tile="Creatures/Lunarians/Ursa_Horned.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
 
     <object Name="Ursa_PhenoPhen" Inherits="Creature">
         <part Name="Render" DisplayName="pheno phen" Tile="Creatures/Lunarians/Ursa_PhenoPhem.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="A horrific specimin." />
     </object>
 
     <!-- End ENEMIES -->
