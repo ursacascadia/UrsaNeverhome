@@ -3148,7 +3148,9 @@
   <cell X="54" Y="14"></cell>
   <cell X="55" Y="14"></cell>
   <cell X="56" Y="14"></cell>
-  <cell X="57" Y="14"></cell>
+  <cell X="57" Y="14">
+    <object Name="Ursa_ExamTable"></object>
+  </cell>
   <cell X="58" Y="14"></cell>
   <cell X="59" Y="14"></cell>
   <cell X="60" Y="14"></cell>
