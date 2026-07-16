@@ -6,8 +6,8 @@
 - [ ] Fantasy, Fantasy!
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
-		- [ ] custom ShakenOnHit part
+	- [x] Natural weapon
+		- [x] custom ShakenOnHit part
 - [ ] Girsh Cask
 	- [ ] Stats
 	- [ ] Description
@@ -15,7 +15,7 @@
 - [ ] K-Driver
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [ ] Herald
 	- [x] Stats
 	- [ ] Description
@@ -23,7 +23,7 @@
 - [ ] Moon Child
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [ ] Moon King
 	- [ ] Stats
 	- [ ] Description
@@ -31,19 +31,20 @@
 - [ ] Raynaut
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
-- [ ] Paracusian
+	- [x] Natural weapon
+- [x] Paracusian
 	- [x] Stats
-	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Description
+	- [x] Natural weapon
 - [ ] Renegade
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [ ] Sarcoman
 	- [x] Stats
 	- [ ] Description
 	- [ ] Natural weapon
+		- [ ] Custom part probably
 - [ ] Stonia
 	- [x] Stats
 	- [ ] Description
@@ -55,7 +56,7 @@
 - [ ] Metastat
 	- [x] Stats
 	- [ ] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [ ] Horned
 	- [x] Stats
 	- [ ] Description

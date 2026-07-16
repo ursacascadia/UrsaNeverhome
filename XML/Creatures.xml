@@ -68,6 +68,8 @@
         <part Name="Render" DisplayName="fantasy, fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A horrific specimin." />
         
+        <part Name="Body" Anatomy="Quadruped" />
+
         <stat Name="Level" Value="34" />
 
         <stat Name="Hitpoints" Value="75" />
@@ -92,6 +94,7 @@
         <skill Name="ShortBlades_Bloodletter" />
 
         <!-- Paradoxical embrace -->
+        <inventoryobject Blueprint="Ursa_ParadoxicalEmbrace" />
     </object>
 
     <object Name="Ursa_ParadoxicalEmbrace" Inherits="Bite">
@@ -99,6 +102,8 @@
         <part Name="MeleeWeapon" BaseDamage="0" />
         <part Name="VibroWeapon" ChargeUse="0" />
         <part Name="BleedingOnHit" Amount="2-3" SaveTarget="35" Stack="true" />
+        <part Name="PoisonOnHit" />
+        <part Name="Ursa_ShakenOnHit" />
     </object>
 
     <object Name="Ursa_GirshCask" Inherits="Creature">
@@ -142,6 +147,12 @@
         <skill Name="Acrobatics_Jump" />
 
         <!-- Jettisoned scalpel -->
+        <inventoryobject Blueprint="Ursa_JettisonedScalpel" />
+    </object>
+    
+    <object Name="Ursa_JettisonedScalpel" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{lunar|jettisoned scalpel}}" />
+        <part Name="MeleeWeapon" BaseDamage="4d9" HitBonus="10" MaxStrengthBonus="999" Skill="LongBlades" Stat="Strength" Slot="Hand" />
     </object>
 
     <object Name="Ursa_Herald" Inherits="Creature">
@@ -205,6 +216,12 @@
         <skill Name="Axe_Dismember" />
 
         <!-- Neversteel adze -->
+        <inventoryobject Blueprint="Ursa_NeversteelAdze" />
+    </object>
+    
+    <object Name="Ursa_NeversteelAdze" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{lunar|neversteel adze}}" />
+        <part Name="MeleeWeapon" BaseDamage="4d4" MaxStrengthBonus="999" Skill="Axe" Stat="Strength" Slot="Hand" />
     </object>
 
     <object Name="Ursa_Moonking" Inherits="Creature">
@@ -255,7 +272,8 @@
 
     <object Name="Ursa_Paracusian" Inherits="Creature">
         <part Name="Render" DisplayName="paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
-        <part Name="Description" Short="A horrific specimin." />
+        <part Name="Description" Short="The winding limb of a temporal figure towers over you in a way no sublunar eye could perceive. Umbral tears like lightless ribbons flow freely through space, lacerating time as they flow by." />
+        <!-- To some unknown rhythm, an extended palm jets outwards from open air, collapsing the illusion of vacuous space. With a wave of cloth, conventional optics are once again rendered alarmingly foreign. -->
         
         <stat Name="Level" Value="34" />
 
@@ -287,9 +305,16 @@
         <skill Name="Cudgel_Slam" />
 
         <!-- Vantablack ribbon -->
+        <inventoryobject Blueprint="Ursa_VantablackRibbon" />
     </object>
 
-    <object Name="Ursa_Rena" Inherits="Creature">
+    <object Name="Ursa_VantablackRibbon" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{black|vantablack}} {{lunar|ribbon}}" />
+        <part Name="MeleeWeapon" BaseDamage="1d2" PenBonus="9" MaxStrengthBonus="10" Skill="Cudgel" Stat="Strength" Slot="Hand" />
+        <part Name="ElementalDamage" Damage="1d9+12" Attributes="Umbral" />
+    </object>
+
+    <object Name="Ursa_Renegade" Inherits="Creature">
         <part Name="Render" DisplayName="renegade" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A horrific specimin." />
         
@@ -317,6 +342,9 @@
         <skill Name="ShortBlades" />
         <skill Name="ShortBlades_Expertise" />
         <skill Name="ShortBlades_Jab" />
+        <skill Name="Axe" />
+        <skill Name="Axe_Expertise" />
+        <skill Name="Axe_HookAndDrag" />
         <skill Name="Acrobatics" />
         <skill Name="Acrobatics_SwiftReflexes" />
         <skill Name="Acrobatics_Dodge" />
@@ -324,6 +352,18 @@
         <skill Name="Multiweapon_Flurry" />
 
         <!-- Warped hooks -->
+        <inventoryobject Blueprint="Ursa_WarpedHook" />
+        <inventoryobject Blueprint="Ursa_WarpedHookAxe" />
+    </object>
+
+    <object Name="Ursa_WarpedHook" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{lunar|warped hook}}" />
+        <part Name="MeleeWeapon" BaseDamage="1d12+1" PenBonus="6" MaxStrengthBonus="10" Skill="ShortBlades" Stat="Strength" Slot="Hand" />
+    </object>
+
+    <object Name="Ursa_WarpedHookAxe" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{lunar|warped hook}}" />
+        <part Name="MeleeWeapon" BaseDamage="1d12+1" PenBonus="5" MaxStrengthBonus="10" Skill="Axe" Stat="Strength" Slot="Hand" />
     </object>
 
     <object Name="Ursa_Sarcoman" Inherits="Creature">
@@ -424,6 +464,13 @@
         <skill Name="Cudgel_Expertise" />
 
         <!-- Uncertain gavel -->
+        <inventoryobject Blueprint="Ursa_EntropicGavel" />
+    </object>
+
+    <object Name="Ursa_EntropicGavel" Inherits="NaturalWeapon">
+        <part Name="Render" DisplayName="{{lunar|entropic gavel}}" />
+        <part Name="MeleeWeapon" BaseDamage="3d5" MaxStrengthBonus="1000" Skill="Cudgel" Stat="Strength" Slot="Hand" />
+		<part Name="RandomStatusOnHit" Chance="100" />
     </object>
 
     <object Name="Ursa_Horned" Inherits="Creature">
