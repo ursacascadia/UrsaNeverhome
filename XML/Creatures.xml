@@ -184,7 +184,7 @@
 
     <object Name="Ursa_Moonchild" Inherits="Creature">
         <part Name="Render" DisplayName="moon child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
-        <part Name="Description" Short="A horrific specimin." />
+        <part Name="Description" Short="Polymer quartz stands taut over a slouched girdle in defiant reverence of oneness. Whisperings of a bygone hymn flow through gossamer veins like warm life, shifting their crushing frame to the key of corporeality." />
 
         <stat Name="Level" Value="34" />
 
@@ -314,9 +314,9 @@
         <part Name="ElementalDamage" Damage="1d9+12" Attributes="Umbral" />
     </object>
 
-    <object Name="Ursa_Renegade" Inherits="Creature">
-        <part Name="Render" DisplayName="renegade" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
-        <part Name="Description" Short="A horrific specimin." />
+    <object Name="Ursa_Barcarolles" Inherits="Creature">
+        <part Name="Render" DisplayName="barcarolles" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Description" Short="Swathed in plastifer wear, a lone figure bounds and stutters in the motion of a frantic waltz. Their needlepoint talons vault in fours, whirling forth a spring-loaded end faster than any manner of speech." />
         
         <stat Name="Level" Value="34" />
 
@@ -368,7 +368,7 @@
 
     <object Name="Ursa_Sarcoman" Inherits="Creature">
         <part Name="Render" DisplayName="sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
-        <part Name="Description" Short="A horrific specimin." />
+        <part Name="Description" Short="Distended limbs sway like rustling branches, while a smoke-clogged gut bloats with an unearthly sickness. Pillowed beneath their exposed trachea, a noxious fog of blackened bone promises to smother the world to monochrome stillness." />
         
         <stat Name="Level" Value="34" />
 
