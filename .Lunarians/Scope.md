@@ -20,9 +20,9 @@
 	- [x] Stats
 	- [ ] Description
 	- [x] Natural weapon
-- [ ] Moon Child
+- [x] Moon Child
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 - [ ] Moon King
 	- [ ] Stats
@@ -36,13 +36,13 @@
 	- [x] Stats
 	- [x] Description
 	- [x] Natural weapon
-- [ ] Renegade
+- [x] Renegade
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 - [ ] Sarcoman
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [ ] Natural weapon
 		- [ ] Custom part probably
 - [ ] Stonia
