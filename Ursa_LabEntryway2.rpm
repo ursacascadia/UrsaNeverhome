@@ -2,6 +2,7 @@
 <Map Width="80" Height="25">
   <cell X="0" Y="0">
     <object Name="Ursa_LabWall"></object>
+    <object Name="ConcreteFloor"></object>
   </cell>
   <cell X="1" Y="0">
     <object Name="Ursa_LabWall"></object>
@@ -606,9 +607,15 @@
   <cell X="41" Y="2">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="42" Y="2"></cell>
-  <cell X="43" Y="2"></cell>
-  <cell X="44" Y="2"></cell>
+  <cell X="42" Y="2">
+    <object Name="Locker"></object>
+  </cell>
+  <cell X="43" Y="2">
+    <object Name="Locker"></object>
+  </cell>
+  <cell X="44" Y="2">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="45" Y="2">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -727,92 +734,42 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="4" Y="3">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="MedLocker"></object>
   </cell>
-  <cell X="5" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="6" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="8" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="9" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="10" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="11" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="12" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="13" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="5" Y="3"></cell>
+  <cell X="6" Y="3"></cell>
+  <cell X="7" Y="3"></cell>
+  <cell X="8" Y="3"></cell>
+  <cell X="9" Y="3"></cell>
+  <cell X="10" Y="3"></cell>
+  <cell X="11" Y="3"></cell>
+  <cell X="12" Y="3"></cell>
+  <cell X="13" Y="3"></cell>
   <cell X="14" Y="3">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="15" Y="3">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="16" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="17" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="16" Y="3"></cell>
+  <cell X="17" Y="3"></cell>
   <cell X="18" Y="3">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
-  <cell X="19" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="20" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="21" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="22" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="23" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="24" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="25" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="26" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="27" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="28" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="29" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="30" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="32" Y="3">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="19" Y="3"></cell>
+  <cell X="20" Y="3"></cell>
+  <cell X="21" Y="3"></cell>
+  <cell X="22" Y="3"></cell>
+  <cell X="23" Y="3"></cell>
+  <cell X="24" Y="3"></cell>
+  <cell X="25" Y="3"></cell>
+  <cell X="26" Y="3"></cell>
+  <cell X="27" Y="3"></cell>
+  <cell X="28" Y="3"></cell>
+  <cell X="29" Y="3"></cell>
+  <cell X="30" Y="3"></cell>
+  <cell X="31" Y="3"></cell>
+  <cell X="32" Y="3"></cell>
   <cell X="33" Y="3">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -838,7 +795,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="41" Y="3">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="42" Y="3"></cell>
   <cell X="43" Y="3"></cell>
@@ -858,7 +815,9 @@
   <cell X="55" Y="3"></cell>
   <cell X="56" Y="3"></cell>
   <cell X="57" Y="3"></cell>
-  <cell X="58" Y="3"></cell>
+  <cell X="58" Y="3">
+    <object Name="Metal Door"></object>
+  </cell>
   <cell X="59" Y="3"></cell>
   <cell X="60" Y="3"></cell>
   <cell X="61" Y="3"></cell>
@@ -910,7 +869,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="5" Y="4">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
   <cell X="6" Y="4">
     <object Name="Ursa_LabWall"></object>
@@ -921,9 +880,7 @@
   <cell X="8" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="9" Y="4">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="9" Y="4"></cell>
   <cell X="10" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -945,9 +902,7 @@
   <cell X="16" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="17" Y="4">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="17" Y="4"></cell>
   <cell X="18" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -990,14 +945,10 @@
   <cell X="31" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="32" Y="4">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="33" Y="4">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="32" Y="4"></cell>
+  <cell X="33" Y="4"></cell>
   <cell X="34" Y="4">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="35" Y="4">
     <object Name="Ursa_LabWall"></object>
@@ -1018,11 +969,15 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="41" Y="4">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
-  <cell X="42" Y="4"></cell>
+  <cell X="42" Y="4">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="43" Y="4"></cell>
-  <cell X="44" Y="4"></cell>
+  <cell X="44" Y="4">
+    <object Name="MedLocker"></object>
+  </cell>
   <cell X="45" Y="4">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1138,97 +1093,57 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="4" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="5" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
-  <cell X="6" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="6" Y="5"></cell>
   <cell X="7" Y="5">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="8" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="9" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
-  <cell X="10" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="11" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="12" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="13" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="14" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="15" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="16" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="17" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="10" Y="5"></cell>
+  <cell X="11" Y="5"></cell>
+  <cell X="12" Y="5"></cell>
+  <cell X="13" Y="5"></cell>
+  <cell X="14" Y="5"></cell>
+  <cell X="15" Y="5"></cell>
+  <cell X="16" Y="5"></cell>
+  <cell X="17" Y="5"></cell>
   <cell X="18" Y="5">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="20" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="21" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="22" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="23" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="19" Y="5"></cell>
+  <cell X="20" Y="5"></cell>
+  <cell X="21" Y="5"></cell>
+  <cell X="22" Y="5"></cell>
+  <cell X="23" Y="5"></cell>
   <cell X="24" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
-  <cell X="25" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="26" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="27" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="25" Y="5"></cell>
+  <cell X="26" Y="5"></cell>
+  <cell X="27" Y="5"></cell>
   <cell X="28" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="29" Y="5">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="30" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="32" Y="5">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="30" Y="5"></cell>
+  <cell X="31" Y="5"></cell>
+  <cell X="32" Y="5"></cell>
   <cell X="33" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="34" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="35" Y="5">
     <object Name="Ursa_LabWall"></object>
@@ -1249,13 +1164,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="41" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="42" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="43" Y="5">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="44" Y="5">
     <object Name="Ursa_LabWall"></object>
@@ -1271,13 +1186,17 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="51" Y="5"></cell>
-  <cell X="52" Y="5"></cell>
+  <cell X="52" Y="5">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="53" Y="5"></cell>
   <cell X="54" Y="5"></cell>
   <cell X="55" Y="5"></cell>
   <cell X="56" Y="5"></cell>
   <cell X="57" Y="5"></cell>
-  <cell X="58" Y="5"></cell>
+  <cell X="58" Y="5">
+    <object Name="Metal Door"></object>
+  </cell>
   <cell X="59" Y="5"></cell>
   <cell X="60" Y="5"></cell>
   <cell X="61" Y="5"></cell>
@@ -1286,15 +1205,24 @@
   <cell X="64" Y="5"></cell>
   <cell X="65" Y="5"></cell>
   <cell X="66" Y="5"></cell>
-  <cell X="67" Y="5"></cell>
-  <cell X="68" Y="5"></cell>
-  <cell X="69" Y="5"></cell>
+  <cell X="67" Y="5">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="68" Y="5">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="69" Y="5">
+    <object Name="Rubble Grey"></object>
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="70" Y="5">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="71" Y="5"></cell>
   <cell X="72" Y="5"></cell>
-  <cell X="73" Y="5"></cell>
+  <cell X="73" Y="5">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="74" Y="5">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1326,13 +1254,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="4" Y="6">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="5" Y="6">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Locker"></object>
   </cell>
   <cell X="6" Y="6">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Locker"></object>
   </cell>
   <cell X="7" Y="6">
     <object Name="Ursa_LabWall"></object>
@@ -1341,7 +1269,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="9" Y="6">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="10" Y="6">
     <object Name="Ursa_LabWall"></object>
@@ -1379,9 +1307,7 @@
   <cell X="21" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="22" Y="6">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="22" Y="6"></cell>
   <cell X="23" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1394,9 +1320,7 @@
   <cell X="26" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="27" Y="6">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="27" Y="6"></cell>
   <cell X="28" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1406,9 +1330,7 @@
   <cell X="30" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="31" Y="6">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="31" Y="6"></cell>
   <cell X="32" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1473,7 +1395,9 @@
   <cell X="53" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="54" Y="6"></cell>
+  <cell X="54" Y="6">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="55" Y="6">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1575,74 +1499,44 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="9" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="10" Y="7">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="11" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="12" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="13" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="14" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
   </cell>
-  <cell X="15" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="16" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="17" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="18" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="19" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="20" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="21" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="22" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="23" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="24" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="15" Y="7"></cell>
+  <cell X="16" Y="7"></cell>
+  <cell X="17" Y="7"></cell>
+  <cell X="18" Y="7"></cell>
+  <cell X="19" Y="7"></cell>
+  <cell X="20" Y="7"></cell>
+  <cell X="21" Y="7"></cell>
+  <cell X="22" Y="7"></cell>
+  <cell X="23" Y="7"></cell>
+  <cell X="24" Y="7"></cell>
   <cell X="25" Y="7">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="26" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="27" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="28" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="26" Y="7"></cell>
+  <cell X="27" Y="7"></cell>
+  <cell X="28" Y="7"></cell>
   <cell X="29" Y="7">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
-  <cell X="30" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="7">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="30" Y="7"></cell>
+  <cell X="31" Y="7"></cell>
   <cell X="32" Y="7">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1683,16 +1577,29 @@
   <cell X="47" Y="7"></cell>
   <cell X="48" Y="7"></cell>
   <cell X="49" Y="7"></cell>
-  <cell X="50" Y="7"></cell>
+  <cell X="50" Y="7">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="51" Y="7"></cell>
   <cell X="52" Y="7">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="53" Y="7"></cell>
-  <cell X="54" Y="7"></cell>
-  <cell X="55" Y="7"></cell>
-  <cell X="56" Y="7"></cell>
-  <cell X="57" Y="7"></cell>
+  <cell X="53" Y="7">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="54" Y="7">
+    <object Name="DilutedWarmStaticPuddle"></object>
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="55" Y="7">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="56" Y="7">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="57" Y="7">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="58" Y="7">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -1797,7 +1704,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="21" Y="8">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
   <cell X="22" Y="8">
     <object Name="Ursa_LabWall"></object>
@@ -1982,101 +1889,47 @@
   <cell X="2" Y="9">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="9"></cell>
   <cell X="4" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_Lipocinth"></object>
   </cell>
-  <cell X="5" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="6" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="8" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="9" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="5" Y="9"></cell>
+  <cell X="6" Y="9"></cell>
+  <cell X="7" Y="9"></cell>
+  <cell X="8" Y="9"></cell>
+  <cell X="9" Y="9"></cell>
   <cell X="10" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_CrooningLamina"></object>
   </cell>
-  <cell X="11" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="12" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="13" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="14" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="15" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="16" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="17" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="18" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="19" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="20" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="21" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="22" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="23" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="24" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="25" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="11" Y="9"></cell>
+  <cell X="12" Y="9"></cell>
+  <cell X="13" Y="9"></cell>
+  <cell X="14" Y="9"></cell>
+  <cell X="15" Y="9"></cell>
+  <cell X="16" Y="9"></cell>
+  <cell X="17" Y="9"></cell>
+  <cell X="18" Y="9"></cell>
+  <cell X="19" Y="9"></cell>
+  <cell X="20" Y="9"></cell>
+  <cell X="21" Y="9"></cell>
+  <cell X="22" Y="9"></cell>
+  <cell X="23" Y="9"></cell>
+  <cell X="24" Y="9"></cell>
+  <cell X="25" Y="9"></cell>
   <cell X="26" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_Lipocinth"></object>
   </cell>
-  <cell X="27" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="28" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="29" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="30" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="27" Y="9"></cell>
+  <cell X="28" Y="9"></cell>
+  <cell X="29" Y="9"></cell>
+  <cell X="30" Y="9"></cell>
+  <cell X="31" Y="9"></cell>
   <cell X="32" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_CrooningLamina"></object>
   </cell>
-  <cell X="33" Y="9">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="33" Y="9"></cell>
   <cell X="34" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="35" Y="9">
     <object Name="Ursa_LabWall"></object>
@@ -2088,20 +1941,26 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="38" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="39" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="40" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="41" Y="9"></cell>
-  <cell X="42" Y="9"></cell>
+  <cell X="41" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="42" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="43" Y="9"></cell>
   <cell X="44" Y="9"></cell>
   <cell X="45" Y="9"></cell>
-  <cell X="46" Y="9"></cell>
+  <cell X="46" Y="9">
+    <object Name="Ursa_CrooningLamina"></object>
+  </cell>
   <cell X="47" Y="9"></cell>
   <cell X="48" Y="9"></cell>
   <cell X="49" Y="9"></cell>
@@ -2110,32 +1969,44 @@
   <cell X="52" Y="9"></cell>
   <cell X="53" Y="9"></cell>
   <cell X="54" Y="9"></cell>
-  <cell X="55" Y="9"></cell>
+  <cell X="55" Y="9">
+    <object Name="Ursa_Lipocinth"></object>
+  </cell>
   <cell X="56" Y="9"></cell>
   <cell X="57" Y="9"></cell>
-  <cell X="58" Y="9"></cell>
+  <cell X="58" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="59" Y="9">
-    <object Name="Rubble Black"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="60" Y="9">
-    <object Name="Rubble Black"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="61" Y="9">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="62" Y="9">
-    <object Name="Rubble Black"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="63" Y="9"></cell>
+  <cell X="63" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="64" Y="9"></cell>
   <cell X="65" Y="9"></cell>
   <cell X="66" Y="9"></cell>
   <cell X="67" Y="9"></cell>
   <cell X="68" Y="9"></cell>
   <cell X="69" Y="9"></cell>
-  <cell X="70" Y="9"></cell>
-  <cell X="71" Y="9"></cell>
-  <cell X="72" Y="9"></cell>
+  <cell X="70" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="71" Y="9">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="72" Y="9">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="73" Y="9"></cell>
   <cell X="74" Y="9"></cell>
   <cell X="75" Y="9">
@@ -2162,104 +2033,42 @@
   <cell X="2" Y="10">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="4" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="5" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="6" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="8" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="9" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="10" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="11" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="12" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="13" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="14" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="15" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="16" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="17" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="18" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="19" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="20" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="21" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="22" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="23" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="24" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="25" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="26" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="27" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="28" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="29" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="30" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="32" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="33" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="10"></cell>
+  <cell X="4" Y="10"></cell>
+  <cell X="5" Y="10"></cell>
+  <cell X="6" Y="10"></cell>
+  <cell X="7" Y="10"></cell>
+  <cell X="8" Y="10"></cell>
+  <cell X="9" Y="10"></cell>
+  <cell X="10" Y="10"></cell>
+  <cell X="11" Y="10"></cell>
+  <cell X="12" Y="10"></cell>
+  <cell X="13" Y="10"></cell>
+  <cell X="14" Y="10"></cell>
+  <cell X="15" Y="10"></cell>
+  <cell X="16" Y="10"></cell>
+  <cell X="17" Y="10"></cell>
+  <cell X="18" Y="10"></cell>
+  <cell X="19" Y="10"></cell>
+  <cell X="20" Y="10"></cell>
+  <cell X="21" Y="10"></cell>
+  <cell X="22" Y="10"></cell>
+  <cell X="23" Y="10"></cell>
+  <cell X="24" Y="10"></cell>
+  <cell X="25" Y="10"></cell>
+  <cell X="26" Y="10"></cell>
+  <cell X="27" Y="10"></cell>
+  <cell X="28" Y="10"></cell>
+  <cell X="29" Y="10"></cell>
+  <cell X="30" Y="10"></cell>
+  <cell X="31" Y="10"></cell>
+  <cell X="32" Y="10"></cell>
+  <cell X="33" Y="10"></cell>
   <cell X="34" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="35" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="36" Y="10">
     <object Name="Ursa_LabWall"></object>
@@ -2271,14 +2080,20 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="39" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="40" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="41" Y="10"></cell>
-  <cell X="42" Y="10"></cell>
-  <cell X="43" Y="10"></cell>
+  <cell X="41" Y="10">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="42" Y="10">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="43" Y="10">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="44" Y="10"></cell>
   <cell X="45" Y="10"></cell>
   <cell X="46" Y="10"></cell>
@@ -2294,9 +2109,11 @@
   <cell X="56" Y="10"></cell>
   <cell X="57" Y="10"></cell>
   <cell X="58" Y="10"></cell>
-  <cell X="59" Y="10"></cell>
+  <cell X="59" Y="10">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="60" Y="10">
-    <object Name="Rubble Black"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="61" Y="10">
     <object Name="Ursa_LabWall"></object>
@@ -2305,12 +2122,14 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="63" Y="10">
-    <object Name="Rubble Black"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="64" Y="10"></cell>
   <cell X="65" Y="10"></cell>
   <cell X="66" Y="10"></cell>
-  <cell X="67" Y="10"></cell>
+  <cell X="67" Y="10">
+    <object Name="Ursa_Lipocinth"></object>
+  </cell>
   <cell X="68" Y="10"></cell>
   <cell X="69" Y="10"></cell>
   <cell X="70" Y="10"></cell>
@@ -2342,21 +2161,13 @@
   <cell X="2" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="4" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="11"></cell>
+  <cell X="4" Y="11"></cell>
   <cell X="5" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="EaterStatue"></object>
   </cell>
-  <cell X="6" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="6" Y="11"></cell>
+  <cell X="7" Y="11"></cell>
   <cell X="8" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2427,9 +2238,10 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="31" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
   <cell X="32" Y="11">
+    <object Name="Metal Door"></object>
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="11">
@@ -2503,11 +2315,14 @@
   </cell>
   <cell X="56" Y="11">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
   <cell X="57" Y="11">
+    <object Name="Metal Door"></object>
+  </cell>
+  <cell X="58" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="58" Y="11"></cell>
   <cell X="59" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2523,7 +2338,9 @@
   <cell X="63" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="64" Y="11"></cell>
+  <cell X="64" Y="11">
+    <object Name="Metal Door"></object>
+  </cell>
   <cell X="65" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2574,21 +2391,11 @@
   <cell X="2" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="4" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="5" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="6" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="12"></cell>
+  <cell X="4" Y="12"></cell>
+  <cell X="5" Y="12"></cell>
+  <cell X="6" Y="12"></cell>
+  <cell X="7" Y="12"></cell>
   <cell X="8" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2652,39 +2459,17 @@
   <cell X="28" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="29" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="30" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="31" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="32" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="33" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="34" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="35" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="36" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="37" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="38" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="39" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="29" Y="12"></cell>
+  <cell X="30" Y="12"></cell>
+  <cell X="31" Y="12"></cell>
+  <cell X="32" Y="12"></cell>
+  <cell X="33" Y="12"></cell>
+  <cell X="34" Y="12"></cell>
+  <cell X="35" Y="12"></cell>
+  <cell X="36" Y="12"></cell>
+  <cell X="37" Y="12"></cell>
+  <cell X="38" Y="12"></cell>
+  <cell X="39" Y="12"></cell>
   <cell X="40" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2737,13 +2522,17 @@
   <cell X="61" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="62" Y="12"></cell>
+  <cell X="62" Y="12">
+    <object Name="Random Rare Phial"></object>
+  </cell>
   <cell X="63" Y="12">
     <object Name="Work Chair"></object>
   </cell>
   <cell X="64" Y="12"></cell>
   <cell X="65" Y="12"></cell>
-  <cell X="66" Y="12"></cell>
+  <cell X="66" Y="12">
+    <object Name="Ursa_CrooningLamina"></object>
+  </cell>
   <cell X="67" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2788,21 +2577,13 @@
   <cell X="2" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="4" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="13"></cell>
+  <cell X="4" Y="13"></cell>
   <cell X="5" Y="13">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="StairsDown"></object>
   </cell>
-  <cell X="6" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="6" Y="13"></cell>
+  <cell X="7" Y="13"></cell>
   <cell X="8" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2899,50 +2680,28 @@
   <cell X="39" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="41" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="42" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="43" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="13"></cell>
+  <cell X="41" Y="13"></cell>
+  <cell X="42" Y="13"></cell>
+  <cell X="43" Y="13"></cell>
   <cell X="44" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="45" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="46" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="47" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="48" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="49" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="50" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="51" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="52" Y="13">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="45" Y="13"></cell>
+  <cell X="46" Y="13"></cell>
+  <cell X="47" Y="13"></cell>
+  <cell X="48" Y="13"></cell>
+  <cell X="49" Y="13"></cell>
+  <cell X="50" Y="13"></cell>
+  <cell X="51" Y="13"></cell>
+  <cell X="52" Y="13"></cell>
   <cell X="53" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="54" Y="13"></cell>
-  <cell X="55" Y="13"></cell>
+  <cell X="55" Y="13">
+    <object Name="Sleek Table"></object>
+  </cell>
   <cell X="56" Y="13"></cell>
   <cell X="57" Y="13"></cell>
   <cell X="58" Y="13"></cell>
@@ -2992,21 +2751,11 @@
   <cell X="2" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="3" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="4" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="5" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="6" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="7" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="3" Y="14"></cell>
+  <cell X="4" Y="14"></cell>
+  <cell X="5" Y="14"></cell>
+  <cell X="6" Y="14"></cell>
+  <cell X="7" Y="14"></cell>
   <cell X="8" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3106,9 +2855,7 @@
   <cell X="40" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="41" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="41" Y="14"></cell>
   <cell X="42" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3116,7 +2863,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="44" Y="14">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_Cryotube"></object>
   </cell>
   <cell X="45" Y="14">
     <object Name="Ursa_LabWall"></object>
@@ -3139,9 +2886,7 @@
   <cell X="51" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="52" Y="14">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="52" Y="14"></cell>
   <cell X="53" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3180,7 +2925,9 @@
   <cell X="72" Y="14"></cell>
   <cell X="73" Y="14"></cell>
   <cell X="74" Y="14"></cell>
-  <cell X="75" Y="14"></cell>
+  <cell X="75" Y="14">
+    <object Name="Eater Hologram"></object>
+  </cell>
   <cell X="76" Y="14"></cell>
   <cell X="77" Y="14">
     <object Name="Ursa_LabWall"></object>
@@ -3311,45 +3058,21 @@
   <cell X="39" Y="15">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="41" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="42" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="15"></cell>
+  <cell X="41" Y="15"></cell>
+  <cell X="42" Y="15"></cell>
   <cell X="43" Y="15">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="44" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="45" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="46" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="47" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="48" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="49" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="50" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="51" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="52" Y="15">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="44" Y="15"></cell>
+  <cell X="45" Y="15"></cell>
+  <cell X="46" Y="15"></cell>
+  <cell X="47" Y="15"></cell>
+  <cell X="48" Y="15"></cell>
+  <cell X="49" Y="15"></cell>
+  <cell X="50" Y="15"></cell>
+  <cell X="51" Y="15"></cell>
+  <cell X="52" Y="15"></cell>
   <cell X="53" Y="15">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3366,7 +3089,9 @@
   <cell X="62" Y="15"></cell>
   <cell X="63" Y="15"></cell>
   <cell X="64" Y="15"></cell>
-  <cell X="65" Y="15"></cell>
+  <cell X="65" Y="15">
+    <object Name="Ursa_CrooningLamina"></object>
+  </cell>
   <cell X="66" Y="15">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3515,45 +3240,33 @@
   <cell X="39" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="16"></cell>
   <cell X="41" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="42" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="42" Y="16"></cell>
   <cell X="43" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="44" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="44" Y="16"></cell>
   <cell X="45" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="46" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="46" Y="16"></cell>
   <cell X="47" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="48" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="49" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="49" Y="16"></cell>
   <cell X="50" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="51" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="52" Y="16">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="52" Y="16"></cell>
   <cell X="53" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3727,21 +3440,13 @@
   <cell X="39" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="17"></cell>
   <cell X="41" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="42" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="43" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="44" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="42" Y="17"></cell>
+  <cell X="43" Y="17"></cell>
+  <cell X="44" Y="17"></cell>
   <cell X="45" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3751,21 +3456,15 @@
   <cell X="47" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="48" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="48" Y="17"></cell>
   <cell X="49" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="50" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="50" Y="17"></cell>
   <cell X="51" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="52" Y="17">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="52" Y="17"></cell>
   <cell X="53" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3779,7 +3478,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="57" Y="17">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Door"></object>
   </cell>
   <cell X="58" Y="17">
     <object Name="Ursa_LabWall"></object>
@@ -3953,45 +3652,29 @@
   <cell X="39" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="18"></cell>
   <cell X="41" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="42" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="42" Y="18"></cell>
   <cell X="43" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="44" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="44" Y="18"></cell>
   <cell X="45" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="46" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="46" Y="18"></cell>
   <cell X="47" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="48" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="49" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="50" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="48" Y="18"></cell>
+  <cell X="49" Y="18"></cell>
+  <cell X="50" Y="18"></cell>
   <cell X="51" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="52" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="52" Y="18"></cell>
   <cell X="53" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3999,17 +3682,11 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="55" Y="18">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="56" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="57" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="58" Y="18">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="56" Y="18"></cell>
+  <cell X="57" Y="18"></cell>
+  <cell X="58" Y="18"></cell>
   <cell X="59" Y="18">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4193,21 +3870,15 @@
   <cell X="39" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="40" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="40" Y="19"></cell>
   <cell X="41" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="42" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="42" Y="19"></cell>
   <cell X="43" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="44" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="44" Y="19"></cell>
   <cell X="45" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4217,9 +3888,7 @@
   <cell X="47" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="48" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="48" Y="19"></cell>
   <cell X="49" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4229,9 +3898,7 @@
   <cell X="51" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="52" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="52" Y="19"></cell>
   <cell X="53" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4239,14 +3906,12 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="55" Y="19">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="56" Y="19">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="57" Y="19">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="57" Y="19"></cell>
   <cell X="58" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4436,62 +4101,28 @@
   <cell X="40" Y="20">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="41" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="42" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="41" Y="20"></cell>
+  <cell X="42" Y="20"></cell>
   <cell X="43" Y="20">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="44" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="45" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="46" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="47" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="48" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="49" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="50" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="51" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="52" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="53" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="54" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="55" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="56" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="57" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="58" Y="20">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="44" Y="20"></cell>
+  <cell X="45" Y="20"></cell>
+  <cell X="46" Y="20"></cell>
+  <cell X="47" Y="20"></cell>
+  <cell X="48" Y="20"></cell>
+  <cell X="49" Y="20"></cell>
+  <cell X="50" Y="20"></cell>
+  <cell X="51" Y="20"></cell>
+  <cell X="52" Y="20"></cell>
+  <cell X="53" Y="20"></cell>
+  <cell X="54" Y="20"></cell>
+  <cell X="55" Y="20"></cell>
+  <cell X="56" Y="20"></cell>
+  <cell X="57" Y="20"></cell>
+  <cell X="58" Y="20"></cell>
   <cell X="59" Y="20">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="60" Y="20">
     <object Name="Ursa_LabWall"></object>
@@ -4716,14 +4347,12 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="54" Y="21">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="55" Y="21">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
-  <cell X="56" Y="21">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="56" Y="21"></cell>
   <cell X="57" Y="21">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4959,7 +4588,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="55" Y="22">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Rubble Grey"></object>
   </cell>
   <cell X="56" Y="22">
     <object Name="Ursa_LabWall"></object>
