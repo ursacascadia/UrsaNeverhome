@@ -394,6 +394,15 @@
 		<part Name="BurstOnDeath" Blueprint="MiasmaticAsh80" SkipSolid="true" />
 
         <!-- Enfeebling bite -->
+        <inventoryobject Blueprint="Ursa_EnfeeblingBite" />
+    </object>
+
+    <object Name="Ursa_EnfeeblingBite" Inherits="Bite">
+        <part Name="Render" DisplayName="{{K-y-w-y sequence|enfeebling bite}}" />
+        <part Name="MeleeWeapon" BaseDamage="3d3" Skill="ShortBlades" Stat="Strength" Slot="Hand" />
+        <part Name="VibroWeapon" ChargeUse="0" />
+        <part Name="StoneOnHit" />
+        <part Name="CleaveOnHit" />
     </object>
     
     <object Name="Ursa_Stonia" Inherits="Creature">

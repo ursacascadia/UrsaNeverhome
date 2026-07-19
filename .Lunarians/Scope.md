@@ -40,11 +40,11 @@
 	- [x] Stats
 	- [x] Description
 	- [x] Natural weapon
-- [ ] Sarcoman
+- [x] Sarcoman
 	- [x] Stats
 	- [x] Description
-	- [ ] Natural weapon
-		- [ ] Custom part probably
+	- [x] Natural weapon
+		- [x] Custom part probably (NOPE)
 - [ ] Stonia
 	- [x] Stats
 	- [ ] Description
