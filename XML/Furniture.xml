@@ -17,6 +17,7 @@
         <stat Name="Hitpoints" Value="500" />
         <part Name="Description" Short="A scratched, flexible keycard. It's printed with indecipherable text and pictographs, buffed nearly clean by years of changing hands. 'Ne&#x4;&#xDB;r&#xDB;&#xDB;m&#x4;'" />
         <tag Name="NoSparkingQuest" />
+        <tag Name="QuestItem" />
     </object>
 
     <object Name="Ursa_Cryotube" Inherits="Furniture">

@@ -44,7 +44,7 @@
         </node>
         <node ID="NoTrophies" Inherits="UrahiahDoor1" SetBooleanState="DidTrophyConvo">
             <text>
-                You ought to. You'd look like less of a whelp. Keep your eye out down here—if you see a skull that looked like it belonged to a rich, or powerful man, take his teeth, and make a necklace from it. That will strike fear in the hearts of your enemies.
+                You ought to. You'd look like less of a whelp. Keep your eye out down here—if you see a skull that looked like it belonged to a rich and powerful man, take his teeth and make a necklace from it. That will strike fear in the hearts of your enemies.
             </text>
         </node>
         <node ID="TrophyA" Inherits="UrahiahDoor1" SetBooleanState="DidTrophyConvo">
