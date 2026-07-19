@@ -78,11 +78,20 @@
 	- [ ] 11th floor. some sort of dilapidated prison? no enemies
 	- [ ] 12th floor. a huge prison cell. the last conversation with Urahiah before she unlocks the last door. she projects outwardly that she thinks this is going to be it, what it was all for--but inwardly is terrified at what is behind the door. the moon king fight
 
-#### 1 questline XML:
-- [ ] Seek out the hidden cache under the tomb
-	- [ ] Find the bowels of the tomb of the eaters
-	- [ ] Convince Urahiah to follow you OR otherwise acquire the key off her
-	- [ ] Reach the bottom of the tomb and slay the Moon King (finish quest)
+#### 1 questline:
+- [ ] 3 quests
+	- [ ] If You Die in a River...
+		- [ ] First quest: recruit Urahiah and delve to the bottom of the lab.
+	- [ ] To Die, to Sleep
+		- [ ] Side quest: optional goal, "Put Agnosi to rest," for choosing to kill/freeze Agnosi.
+	- [ ] ... You Forget How to Speak.
+		- [ ] Second/last quest: Slay the Moon King, then slay Urahiah.
+	- [x] Implement XML
+		- [ ] Accomplishments, hagiograph, gossip
+	- [ ] Implement quest system
+		- [ ] Conversation moments
+		- [ ] Kill, look moments
+		- [ ] Custom part for key finishing quest step & seeing door finishing quest step
 
 #### Big picture steps:
 - [ ] Design and create XML data:
@@ -93,7 +102,7 @@
 	- [ ] Lab specific weapons, decor, items
 		- [ ] Walls that break into warm static
 		- [ ] Cryotubes part
-	- [ ] Quests.xml
+	- [x] Quests.xml
 - [x] Plan overall structure of dungeon
 - [ ] Design specific, preset maps
 - [ ] Design intended overall style of random maps in dungeon
@@ -107,5 +116,5 @@
 	- [ ] Implement designed generation for random dungeon
 	- [ ] Implement custom parts and map widgets as necessary
 
-#### up next
-- [ ] quest xml
+#### Up Next
+- [x] quest xml

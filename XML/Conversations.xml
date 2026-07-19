@@ -158,7 +158,7 @@
                 If I find it, I will never have to work for water again. I can build a cabin in the far reaches of Qud and drink as much water as I please.
             </text>
         </node>
-        <node ID="Searching">
+        <node ID="Searching" StartQuest="If You Die in a River...">
             <text>
                 You must be tougher than you look.
 
@@ -208,11 +208,11 @@
 
                 If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
             </text>
-            <choice Target="End" SetLeader="Player" SetBooleanState="UrsaUrahiahRecruited,True">Onward, for glory and water. {{magenta|[Gain companion.]}}</choice>
+            <choice Target="End" SetLeader="Player" SetBooleanState="UrsaUrahiahRecruited,True" CompleteQuestStep="If You Die in a River...~Ally with Urahiah" >Onward, for glory and water. {{magenta|[Gain companion.]}}</choice>
         </node>
         <node ID="Follows" Inherits="5050">
             <text>
-                Lead the way. I'll be close behind—turning over every stone.
+                Lead the way. I'll be close behind, turning over every stone.
 
                 If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
             </text>

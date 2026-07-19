@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quests>
+    <quest Name="If You Die in a River..." Reputation="200" Level="40"
+        Accomplishment="" 
+        Hagiograph=""
+        HagiographCategory="DoesSomethingRad"
+        Gospel="">
+     
+        <step Name="Ally with Urahiah" XP="1000" Optional="true">
+            <text>Convince Urahiah to let you help her find the tomb.</text>
+        </step>
+     
+        <step Name="Rob Urahiah's key" XP="1000" Optional="true">
+            <text>Rob Urahiah for her key.</text>
+        </step>
+
+        <step Name="Find the hidden cache" XP="2000">
+            <text>Find the hidden vault under the Tomb of the Eaters.</text>
+        </step>
+
+        <step Name="Delve to the bottom" XP="10000">
+            <text>Reach the end of the vault.</text>
+        </step>
+    </quest>
+
+    <quest Name="... You Forget How to Speak." Reputation="200" Level="40"
+        Accomplishment="" 
+        Hagiograph=""
+        HagiographCategory="DoesSomethingRad"
+        Gospel="">
+     
+        <step Name="Kill the Moon King" XP="50000">
+            <text>Put an end to the reign of the Moon King.</text>
+        </step>
+
+        <step Name="Eradicate Moon King fever" XP="10000">
+            <text>Slay the mad graverobber, putting an end to Moon King fever for good.</text>
+        </step>
+    </quest>
+
+    <quest Name="To Die, to Sleep" Reputation="200" Level="40"
+        Accomplishment="" 
+        Hagiograph=""
+        HagiographCategory="DoesSomethingRad"
+        Gospel="">
+     
+        <step Name="Put Agnosi to rest" XP="5000" Optional="true">
+            <text>Permanently relieve Agnosi of his duties.</text>
+        </step>
+    </quest>
+</quests>
