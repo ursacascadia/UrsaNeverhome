@@ -1,8 +1,8 @@
-2 sapient characters:
+#### 2 sapient characters:
 - [x] Urahiah, Legendary Graverobber
 - [ ] Agnosi, the Last Lunarian
 
-15 new enemies:
+#### 15 new enemies:
 - [ ] Fantasy, Fantasy!
 	- [x] Stats
 	- [ ] Description
@@ -66,16 +66,25 @@
 	- [ ] Description
 	- [ ] Natural weapon
 
-1 new area:
-- [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and lunarian enemies. Intended for level 35-40+, post any base game qud content
+#### 1 new area:
+- [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and Lunarian enemies. Intended for level 35-40+, post any base game Qud content
+	- [ ] 1st floor, open the door with Urahiah, find little loot on the first floor, then encounter a single Lunarian on the 2nd floor. unlock next door
+	- [ ] 3rd and 4th floor are proc gen with combat focus, enemies
+	- [ ] 5th floor has no enemies and shows some of the more domestic devices that the  used, their computers, early attempts at cryo solutions and mutation stuff. Urahiah comments on how freaky everything is, but shows unerring confidence
+	- [ ] 6th floor, combat focus. enemies are more densly packed.
+	- [ ] 7th floor, Agnosi's room. Urahiah suggests you "put it out of its misery." give the option to freeze Agnosi in a still-working cryo tank (or otherwise kill them and have conversation for after that). Urahiah is clearly disturbed.
+	- [ ] 8th and 9th floor- more combat, harder Lunarians, as dense as before. best loot here.
+	- [ ] 10th floor, the big fucking scary device with the hole in the ground below it. show the devices the Lunarians went on to develop. sparse combat encounters
+	- [ ] 11th floor. some sort of dilapidated prison? no enemies
+	- [ ] 12th floor. a huge prison cell. the last conversation with Urahiah before she unlocks the last door. she projects outwardly that she thinks this is going to be it, what it was all for--but inwardly is terrified at what is behind the door. the moon king fight
 
-1 questline XML:
+#### 1 questline XML:
 - [ ] Seek out the hidden cache under the tomb
 	- [ ] Find the bowels of the tomb of the eaters
 	- [ ] Convince Urahiah to follow you OR otherwise acquire the key off her
 	- [ ] Reach the bottom of the tomb and slay the Moon King (finish quest)
 
-Big picture steps:
+#### Big picture steps:
 - [ ] Design and create XML data:
 	- [x] Urahiah
 	- [ ] Agnosi
@@ -83,6 +92,7 @@ Big picture steps:
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
 		- [ ] Walls that break into warm static
+		- [ ] Cryotubes part
 	- [ ] Quests.xml
 - [x] Plan overall structure of dungeon
 - [ ] Design specific, preset maps
@@ -97,5 +107,5 @@ Big picture steps:
 	- [ ] Implement designed generation for random dungeon
 	- [ ] Implement custom parts and map widgets as necessary
 
-### up next
+#### up next
 - [ ] quest xml
