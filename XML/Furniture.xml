@@ -38,7 +38,7 @@
 
     <object Name="Ursa_Lipocinth" Inherits="Plant">
         <part Name="Render" DisplayName="lipocinth" RenderString="231" Tile="Objects/Ursa_Lipocinth.png" ColorString="&amp;C" DetailColor="O" Occluding="false" />
-        <part Name="Description" Short="a plant" />
+        <part Name="Description" Short="Hot globes of pressurised fat are suspended in leaf-mimicry. Running down an orb's amber seam, a substance akin to marmalade quietly leaves a coral stain on the ground. They wiggle with an unsettling jauntiness." />
         <stag Name="Luxury" />
 		<stag Name="Beauty" />
     </object>

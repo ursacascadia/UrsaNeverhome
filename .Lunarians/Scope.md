@@ -3,22 +3,22 @@
 - [ ] Agnosi, the Last Lunarian
 
 #### 15 new enemies:
-- [ ] Fantasy, Fantasy!
+- [x] Fantasy, Fantasy!
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 		- [x] custom ShakenOnHit part
-- [ ] Girsh Cask
-	- [ ] Stats
-	- [ ] Description
-	- [ ] Natural weapon
-- [ ] K-Driver
+- [x] Girsh Cask
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
-- [ ] Herald
+- [x] K-Driver
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
+	- [x] Natural weapon
+- [x] Herald
+	- [x] Stats
+	- [x] Description
 	- [x] Natural weapon
 - [x] Moon Child
 	- [x] Stats
@@ -26,11 +26,11 @@
 	- [x] Natural weapon
 - [ ] Moon King
 	- [ ] Stats
-	- [ ] Description
+	- [x] Description
 	- [ ] Natural weapon
-- [ ] Raynaut
+- [x] Raynaut
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 - [x] Paracusian
 	- [x] Stats
@@ -45,26 +45,30 @@
 	- [x] Description
 	- [x] Natural weapon
 		- [x] Custom part probably (NOPE)
-- [ ] Stonia
+- [x] Stonia
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 - [ ] Vask
 	- [ ] Stats
-	- [ ] Description
+	- [x] Description
 	- [ ] Natural weapon
-- [ ] Metastat
+- [x] Metastat
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
-- [ ] Horned
+- [x] Horned
 	- [x] Stats
-	- [ ] Description
+	- [x] Description
 	- [x] Natural weapon
 - [ ] Pheno Phen
 	- [ ] Stats
-	- [ ] Description
+	- [x] Description
 	- [ ] Natural weapon
+
+- [ ] All stats
+- [x] All descriptions done
+- [ ] All natural weapons done
 
 #### 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and Lunarian enemies. Intended for level 35-40+, post any base game Qud content
@@ -90,8 +94,8 @@
 		- [ ] Accomplishments, hagiograph, gossip
 	- [ ] Implement quest system
 		- [ ] Conversation moments
-		- [ ] Kill, look moments
 		- [ ] Custom part for key finishing quest step & seeing door finishing quest step
+		- [ ] Custom parts for kills finishing quest steps (if that doesn't exist yet)
 
 #### Big picture steps:
 - [ ] Design and create XML data:
@@ -118,3 +122,7 @@
 
 #### Up Next
 - [x] quest xml
+- [ ] C# parts
+	- [ ] Walls that drop warm static (might be a stock part)
+	- [ ] Lovesick on hit effect
+	- [ ] Finish quest step on look, get, destroy, etc.
