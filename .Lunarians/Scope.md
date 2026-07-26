@@ -124,7 +124,8 @@
 
 #### Up Next
 - [x] quest xml
-- [ ] pop tables
+- [x] pop tables
+- [ ] Static maps
 - [ ] C# parts
 	- [x] Walls that drop warm static (might be a stock part)
 	- [x] Lovesick on hit effect

@@ -4,7 +4,7 @@
         <group Name="Creatures" Style="pickone">
             <object Weight="10" Number="2-5" Blueprint="Ursa_FantasyFantasy" />
             <object Weight="10" Number="1" Blueprint="Ursa_Moonchild" />
-            <object Weight="4"  Number="2-4" Blueprint="Ursa_Moonchild" />
+            <object Weight="4" Number="2-4" Blueprint="Ursa_Moonchild" />
             <object Weight="10" Number="1" Blueprint="Ursa_KDriver" />
             <object Weight="10" Number="1" Blueprint="Ursa_Horned" />
             <object Weight="10" Number="1" Blueprint="Ursa_Paracusian" />
