@@ -106,7 +106,7 @@
 		- [ ] Agnosi conversation
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
-		- [ ] Walls that break into warm static
+		- [x] Walls that break into warm static
 		- [ ] Cryotubes part
 	- [x] Quests.xml
 - [x] Plan overall structure of dungeon
@@ -124,7 +124,9 @@
 
 #### Up Next
 - [x] quest xml
+- [ ] pop tables
 - [ ] C# parts
 	- [x] Walls that drop warm static (might be a stock part)
 	- [x] Lovesick on hit effect
 	- [ ] Finish quest step on look, get, destroy, etc.
+	- [ ] cryotubes that jumpscare you when you get close
