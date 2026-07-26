@@ -148,7 +148,7 @@
 		<part Name="RustOnHit" Chance="5" />
     </object>
 
-    <object Name="Ursa_Gravit" Inherits="Ursa_Lunarian">
+    <object Name="Ursa_KDriver" Inherits="Ursa_Lunarian">
         <part Name="Render" DisplayName="{{lunar|k-driver}}" Tile="Creatures/Lunarians/Ursa_KDriver.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A mechanical casket of flexiglass and post-partum lunar mist trembles the ground below to a fine dust, its movements deadly and absolute. As if being piloted by some otherworldly force, jets of auroric light swim through internal clockworks like a natural respiration. Beneath a titanic chassis, radio-waves stay snugly bound in their filmy holding cells, jittering in anticipation of the breach." />
 
