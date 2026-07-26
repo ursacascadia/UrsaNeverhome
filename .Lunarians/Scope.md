@@ -49,10 +49,10 @@
 	- [x] Stats
 	- [x] Description
 	- [x] Natural weapon
-- [ ] Vask
-	- [ ] Stats
+- [x] Vask
+	- [x] Stats
 	- [x] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 - [x] Metastat
 	- [x] Stats
 	- [x] Description
@@ -61,14 +61,16 @@
 	- [x] Stats
 	- [x] Description
 	- [x] Natural weapon
-- [ ] Pheno Phen
-	- [ ] Stats
+- [x] Pheno Phen
+	- [x] Stats
 	- [x] Description
-	- [ ] Natural weapon
+	- [x] Natural weapon
 
-- [ ] All stats
+- [x] All stats
 - [x] All descriptions done
-- [ ] All natural weapons done
+- [x] All natural weapons done
+
+- [ ] The moon King
 
 #### 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and Lunarian enemies. Intended for level 35-40+, post any base game Qud content
@@ -123,6 +125,6 @@
 #### Up Next
 - [x] quest xml
 - [ ] C# parts
-	- [ ] Walls that drop warm static (might be a stock part)
-	- [ ] Lovesick on hit effect
+	- [x] Walls that drop warm static (might be a stock part)
+	- [x] Lovesick on hit effect
 	- [ ] Finish quest step on look, get, destroy, etc.

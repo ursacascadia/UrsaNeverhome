@@ -43,7 +43,7 @@
     </object>
 
     <object Name="Ursa_Agnosi" Inherits="Ursa_Lunarian">
-        <part Name="Render" DisplayName="Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;C" DetailColor="Y" />
+        <part Name="Render" DisplayName="{{lunar|Agnosi" Tile="Creatures/Ursa_Agnosi.png" RenderString="h" ColorString="&amp;C" DetailColor="Y" />
         <part Name="ConversationScript" ConversationID="Ursa_Agnosi" />
         <part Name="Brain" Factions="Playerneutral-100" />
         <stat Name="Hitpoints" Value="115" />
@@ -59,13 +59,13 @@
 
     <!-- ENEMIES -->
     <object Name="Ursa_Lunarian" Inherits="Creature">
-        <part Name="Render" DisplayName="base lunarian" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Render" DisplayName="base {{lunar|lunarian}}" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Brain" Factions="Playerhater-100" />
         <part Name="Description" Short="A horrific specimin." />
     </object>
 
-    <object Name="Ursa_FantasyFantasy" Inherits="Creature">
-        <part Name="Render" DisplayName="fantasy, fantasy!" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_FantasyFantasy" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|fantasy, fantasy!}}" Tile="Creatures/Lunarians/Ursa_Fantasy.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A dozen and dozen and dozen, a hundred and hundred and hundred, a thousand and thousand and thousand. Flowing like time, an ever changing and ever moving life is not one that simply stops. Post-lunacy allows the infinite disk of lagomorphs to continue to spin and spin and spin, flow and flow and flow. To live and love and lie, to drink and delve and die." />
         
         <part Name="Body" Anatomy="Quadruped" />
@@ -106,8 +106,8 @@
         <part Name="Ursa_ShakenOnHit" />
     </object>
 
-    <object Name="Ursa_GirshCask" Inherits="Creature">
-        <part Name="Render" DisplayName="girsh cask" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />  
+    <object Name="Ursa_GirshCask" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|girsh cask}}" Tile="Creatures/Lunarians/Ursa_Girshcask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />  
         <part Name="Description" Short="The twisted marriage of bubbling flesh and sleek nanocarbon slips on its own produce-a mixture of bilespew and hydro acids that melt through anything but its own gullet. It squawks the buried psalms of the girsh, slouching from its own frozen casket into the one it was cast out of." />
 
         <stat Name="Level" Value="38" />
@@ -128,8 +128,10 @@
 
         <mutation Name="DarkVision" Level="5" />
 
-        <skill Name="ShortBlades" />
-        <skill Name="ShortBlades_Expertise" />
+        <skill Name="Axe" />
+        <skill Name="Axe_Expertise" />
+        <skill Name="Axe_Cleave" />
+        <skill Name="Axe_Dismember" />
         <skill Name="Multiweapon_Fighting" />
         <skill Name="Multiweapon_Flurry" />
 
@@ -139,15 +141,15 @@
 
     <object Name="Ursa_GirshCaskBite" Inherits="Bite">
         <part Name="Render" DisplayName="{{g|rank}} bite" />
-        <part Name="MeleeWeapon" BaseDamage="2d3" PenBonus="5" Skill="ShortBlades" Stat="Strength" Slot="Hand" />
+        <part Name="MeleeWeapon" BaseDamage="2d3" PenBonus="5" Skill="Axes" Stat="Strength" Slot="Hand" />
         <part Name="ElementalDamage" Damage="5d3" Attributes="Acid" />
 		<part Name="PoisonOnHit" Chance="5" />
 		<part Name="DiseaseOnHit" Chance="5" />
 		<part Name="RustOnHit" Chance="5" />
     </object>
 
-    <object Name="Ursa_Gravit" Inherits="Creature">
-        <part Name="Render" DisplayName="k-driver" Tile="Creatures/Lunarians/Ursa_KDriver.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Gravit" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|k-driver}}" Tile="Creatures/Lunarians/Ursa_KDriver.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A mechanical casket of flexiglass and post-partum lunar mist trembles the ground below to a fine dust, its movements deadly and absolute. As if being piloted by some otherworldly force, jets of auroric light swim through internal clockworks like a natural respiration. Beneath a titanic chassis, radio-waves stay snugly bound in their filmy holding cells, jittering in anticipation of the breach." />
 
         <stat Name="Level" Value="34" />
@@ -191,8 +193,8 @@
         <part Name="MeleeWeapon" BaseDamage="4d9" HitBonus="10" MaxStrengthBonus="999" Skill="LongBlades" Stat="Strength" Slot="Hand" />
     </object>
 
-    <object Name="Ursa_Herald" Inherits="Creature">
-        <part Name="Render" DisplayName="herald" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Herald" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|herald}}" Tile="Creatures/Lunarians/Ursa_Herald.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Lurching towards a predetermined terminus, they shudder and spark under their own neutronic weight. Once star-foam cleats grip soft chrome, and plastifer joints snap together, it is already far too late." />
 
         <stat Name="Level" Value="34" />
@@ -218,8 +220,8 @@
         <part Name="FeralLahPod" damage="3d10" />
     </object>
 
-    <object Name="Ursa_Moonchild" Inherits="Creature">
-        <part Name="Render" DisplayName="moon child" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Moonchild" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|moon child}}" Tile="Creatures/Lunarians/Ursa_Moonchild.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Polymer quartz stands taut over a slouched girdle in defiant reverence of oneness. Whisperings of a bygone hymn flow through gossamer veins like warm life, shifting their crushing frame to the key of corporeality." />
 
         <stat Name="Level" Value="34" />
@@ -260,13 +262,13 @@
         <part Name="MeleeWeapon" BaseDamage="4d4" MaxStrengthBonus="999" Skill="Axe" Stat="Strength" Slot="Hand" />
     </object>
 
-    <object Name="Ursa_Moonking" Inherits="Creature">
-        <part Name="Render" DisplayName="Moon King" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Moonking" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|Moon King}}" Tile="Creatures/Lunarians/Ursa_Moonking.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="You know this man, you are sure of it. You've seen his face; blazing in the leering eyes of madmen. You've heard his songs; those which whispered the plagues of never into the now. You've felt his presence: the rustling of leaves behind your back, the cold fog billowing overhead on a starless night, the deafening silences wrought to life by unfeeling hands. Beyond all reason, beyond all doubt, you know this man. You are sure of it." />
     </object>
 
-    <object Name="Ursa_Naut" Inherits="Creature">
-        <part Name="Render" DisplayName="raynaut" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Naut" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|raynaut}}" Tile="Creatures/Lunarians/Ursa_Naut.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A blaring lunar engine catastrophizes sightings of sub-lunar bodies, swirling into a blinding light to extinguish the heat of life within microseconds. Nanofibers coil and twist, forcing reflections to concede into bi-dimensional force." />
 
         <stat Name="Level" Value="34" />
@@ -306,8 +308,8 @@
         <part Name="ElementalDamage" Damage="1d8+20" Attributes="Electric" />
     </object>
 
-    <object Name="Ursa_Paracusian" Inherits="Creature">
-        <part Name="Render" DisplayName="paracusian" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Paracusian" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|paracusian}}" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="The winding limb of a temporal figure towers over you in a way no sublunar eye could perceive. Umbral tears like lightless ribbons flow freely through space, lacerating time as they flow by." />
         <!-- To some unknown rhythm, an extended palm jets outwards from open air, collapsing the illusion of vacuous space. With a wave of cloth, conventional optics are once again rendered alarmingly foreign. -->
         
@@ -350,8 +352,8 @@
         <part Name="ElementalDamage" Damage="1d9+12" Attributes="Umbral" />
     </object>
 
-    <object Name="Ursa_Barcarolles" Inherits="Creature">
-        <part Name="Render" DisplayName="barcarolles" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Barcarolles" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|barcarolles}}" Tile="Creatures/Lunarians/Ursa_Rena.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Swathed in plastifer wear, a lone figure bounds and stutters in the motion of a frantic waltz. Their needlepoint talons vault in fours, whirling forth a spring-loaded end faster than any manner of speech." />
         
         <stat Name="Level" Value="34" />
@@ -402,8 +404,8 @@
         <part Name="MeleeWeapon" BaseDamage="1d12+1" PenBonus="5" MaxStrengthBonus="10" Skill="Axe" Stat="Strength" Slot="Hand" />
     </object>
 
-    <object Name="Ursa_Sarcoman" Inherits="Creature">
-        <part Name="Render" DisplayName="sarcoman" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Sarcoman" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|sarcoman}}" Tile="Creatures/Lunarians/Ursa_Sarco.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Distended limbs sway like rustling branches, while a smoke-clogged gut bloats with an unearthly sickness. Pillowed beneath their exposed trachea, a noxious fog of blackened bone promises to smother the world to monochrome stillness." />
         
         <stat Name="Level" Value="34" />
@@ -441,8 +443,8 @@
         <part Name="CleaveOnHit" />
     </object>
     
-    <object Name="Ursa_Stonia" Inherits="Creature">
-        <part Name="Render" DisplayName="stonia" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Stonia" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|stonia}}" Tile="Creatures/Lunarians/Ursa_Stonia2.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A wandering Chimefolk prods and presses on the bounds of earthly thermodynamics. Wherever it skates, a torrent of pale-blue death soon follows; wiping away all into a pristine nothingness." />
         
         <stat Name="Level" Value="34" />
@@ -472,13 +474,56 @@
         <inventoryobject Blueprint="Rimewyk_Bite" />
     </object>
 
-    <object Name="Ursa_Vask" Inherits="Creature">
-        <part Name="Render" DisplayName="vask" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Vask" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|vask}}" Tile="Creatures/Lunarians/Ursa_Vask.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Seraphic vines flow from the stem of a sentience defined by a connection of thought, physicality, and existence on the level of particulate not yet observable by any native technology. It's songbird nature lures in beings too weak to resist its call, and the fronds form a connection that will end the life of any being that embraces its lunar form." />
+        
+        <stat Name="Level" Value="38" />
+
+        <stat Name="Hitpoints" Value="120" />
+        <stat Name="AV" Value="10" />
+        <stat Name="DV" Value="18" />
+        <stat Name="MA" Value="10" />
+
+        <stat Name="Speed" Value="85" />
+        
+        <stat Name="Strength" Value="18" />
+        <stat Name="Agility" Value="32" />
+        <stat Name="Toughness" Value="15" />
+        <stat Name="Willpower" Value="21" />
+        <stat Name="Intelligence" Value="21" />
+        <stat Name="Ego" Value="40" />
+
+        <stat Name="HeatResistance" Value="100" />
+        <stat Name="ColdResistance" Value="100" />
+
+        <tag Name="Role" Value="Artillery" />
+
+        <mutation Name="DarkVision" Level="8" />
+        <mutation Name="MentalMirror" />
+
+        <!-- Cherubic harp -->
+        <inventoryobject Blueprint="Ursa_CherubicHarp" />
+    </object>
+    
+    <object Name="Ursa_CherubicHarp" Inherits="NaturalMissileWeapon">
+        <part Name="Render" DisplayName="{{love|cherubic}} harp" ColorString="&amp;y" RenderString="*" />
+        <part Name="MissileWeapon" RangeIncrement="20" WeaponAccuracy="2" Skill="Rifles" />
+        <part Name="EnergyAmmoLoader" ChargeUse="0" ProjectileObject="Ursa_Projectile_Lovesick" />
+        <tag Name="MissileFireSound" Value="Sounds/Missile/Fires/Pistols/sfx_missile_laserPistol_fire" />
+        <tag Name="UsesSlots" Value="Face" />
+    </object>
+    <object Name="Ursa_Projectile_Lovesick" Inherits="TemporaryProjectile">
+        <part Name="Render" DisplayName="cherubic beam" />
+        <part Name="Projectile" BasePenetration="5" BaseDamage="3d6" ColorString="&amp;y" PassByVerb="fly" />
+        <part Name="Ursa_LovesickOnHit" />
+        <tag Name="ProjectileVFX" Value="MissileWeaponsEffects/lead_slug" />
+        <tag Name="ProjectileVFXConfiguration" Value="duration::0.25;;slugColor::#FF44AA;;trailColor::#AA0055" />
+        <tag Name="ImpactSound" Value="Sounds/Missile/MultiUse Sounds/sfx_missile_directEnergy_hit"/>
     </object>
 
-    <object Name="Ursa_Metastat" Inherits="Creature">
-        <part Name="Render" DisplayName="metastat" Tile="Creatures/Lunarians/Ursa_Metastat.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Metastat" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|metastat}}" Tile="Creatures/Lunarians/Ursa_Metastat.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Sharp silicon tentacles of almost Eldritch nature squirm under the compressing hold of a limiter that keeps them stable enough for the tangible reality around it, all while three eyes watch and observe for what can only be assumed as reasons unknown to most." />
 
         <stat Name="Level" Value="34" />
@@ -518,8 +563,8 @@
 		<part Name="RandomStatusOnHit" Chance="100" />
     </object>
 
-    <object Name="Ursa_Horned" Inherits="Creature">
-        <part Name="Render" DisplayName="horned" Tile="Creatures/Lunarians/Ursa_Horned.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_Horned" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|horned}}" Tile="Creatures/Lunarians/Ursa_Horned.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="A sharp protrusion on the underbelly of a ring bright with light defies the stars and ground below it, like an antenna or spindle of its own. It slouches in unknown intent towards the persecuted, and executes with an exactness foreign to this land." />
         
         <stat Name="Level" Value="34" />
@@ -552,13 +597,38 @@
         <skill Name="ShortBlades_Shank" />
     </object>
 
-    <object Name="Ursa_PhenoPhen" Inherits="Creature">
-        <part Name="Render" DisplayName="pheno phen" Tile="Creatures/Lunarians/Ursa_PhenoPhem.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+    <object Name="Ursa_PhenoPhen" Inherits="Ursa_Lunarian">
+        <part Name="Render" DisplayName="{{lunar|pheno phen}}" Tile="Creatures/Lunarians/Ursa_PhenoPhem.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="Rings of paracausal activity spin endlessly beyond the sight of the watching eye. A warping strange hum of activity shapes the atmosphere around it, almost pulling in towards the center like a void unfed. Beings that meet the three-eyed center are already long gone." />
+        
+        <part Name="Brain" Factions="Playerhater-100" MaxKillRadius="8" />
+        <part Name="Body" Anatomy="WheelRobot" />
+        
+        <stat Name="Level" Value="38" />
+
+        <stat Name="Hitpoints" Value="25" />
+        <stat Name="AV" Value="14" />
+        <stat Name="DV" Value="0" />
+        <stat Name="MA" Value="10" />
+        
+        <stat Name="Speed" Value="120" />
+        
+        <stat Name="Strength" Value="30" />
+        <stat Name="Agility" Value="30" />
+        <stat Name="Toughness" Value="26" />
+        <stat Name="Willpower" Value="21" />
+        <stat Name="Intelligence" Value="21" />
+        <stat Name="Ego" Value="10" />
+
+        <stat Name="ColdResistance" Value="30" />
+
+        <tag Name="Role" Value="Controller" />
+        
+        <part Name="RunOver" KnockdownSaveTarget="5" DazeSaveTarget="5"/>
+        <part Name="Twinner" />
+
+        <mutation Name="DarkVision" Level="4" />
     </object>
 
     <!-- End ENEMIES -->
-
-    <!-- NATURAL WEAPONS -->
-    <!-- End NATURAL WEAPONS -->
 </objects>
