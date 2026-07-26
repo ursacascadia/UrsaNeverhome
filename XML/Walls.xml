@@ -6,5 +6,18 @@
         <stat Name="Hitpoints" Value="200" />
         <part Name="Description" Short="Clean, burnished steel plates rise and give way to high vaulted ceilings." />
         <tag Name="PaintedWall" Value="neverhome_lab" />
+        <part Name="Corpse" CorpseChance="100" BuildCorpseChance="100" CorpseBlueprint="Ursa_StaticSoup" />
+    </object>
+    <object Name="Ursa_SmallDilutedWarmStaticPuddle" Inherits="DilutedWarmStaticPuddle">
+        <part Name="LiquidVolume" MaxVolume="-1" Volume="10" StartVolume="15-20" InitialLiquid="warmstatic-1000,water-500" />
+    </object>
+    <object Name="Ursa_LargeDilutedWarmStaticPuddle" Inherits="DilutedWarmStaticPuddle">
+        <part Name="LiquidVolume" MaxVolume="-1" Volume="1000" StartVolume="1000" InitialLiquid="warmstatic-1000,water-500" />
+    </object>
+    <object Name="Ursa_LargeMagmaticWarmStaticPuddle" Inherits="DilutedWarmStaticPuddle">
+        <part Name="LiquidVolume" MaxVolume="-1" Volume="1000" StartVolume="1000" InitialLiquid="warmstatic-1000,lava-500" />
+    </object>
+    <object Name="Ursa_StaticSoup" Inherits="DilutedWarmStaticPuddle">
+        <part Name="LiquidVolume" MaxVolume="-1" Volume="2000" StartVolume="2000" InitialLiquid="warmstatic-750,proteangunk-1000" />
     </object>
 </objects>

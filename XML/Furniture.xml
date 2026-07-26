@@ -31,7 +31,7 @@
 
     <object Name="Ursa_CrooningLamina" Inherits="Plant">
         <part Name="Render" DisplayName="crooning lamina" RenderString="231" Tile="Objects/Ursa_CrooningLamina.png" ColorString="&amp;C" DetailColor="m" Occluding="false" />
-        <part Name="Description" Short="a plant" />
+        <part Name="Description" Short="Atop a great craning spine, diaphanous tendrils bat the air with prying interest. Wherever the forking boughs sway, a dense haze of violet trails close behind." />
         <stag Name="Luxury" />
 		<stag Name="Beauty" />
     </object>
