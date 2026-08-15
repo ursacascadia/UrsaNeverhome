@@ -62,6 +62,7 @@
         <part Name="Render" DisplayName="base {{lunar|lunarian}}" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Brain" Factions="Playerhater-100" />
         <part Name="Description" Short="A horrific specimin." />
+        <tag Name="ExcludeFromDynamicEncounters" />
     </object>
 
     <object Name="Ursa_FantasyFantasy" Inherits="Ursa_Lunarian">
@@ -309,7 +310,7 @@
     </object>
 
     <object Name="Ursa_Paracusian" Inherits="Ursa_Lunarian">
-        <part Name="Render" DisplayName="{{lunar|paracusian}}" Tile="Creatures/Lunarians/Ursa_Paracus.png" RenderString="L" ColorString="&amp;B" DetailColor="y" />
+        <part Name="Render" DisplayName="{{lunar|paracusian}}" Tile="Creatures/Lunarians/Ursa_Paracus.png" CustomRender="true" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Description" Short="The winding limb of a temporal figure towers over you in a way no sublunar eye could perceive. Umbral tears like lightless ribbons flow freely through space, lacerating time as they flow by." />
         <!-- To some unknown rhythm, an extended palm jets outwards from open air, collapsing the illusion of vacuous space. With a wave of cloth, conventional optics are once again rendered alarmingly foreign. -->
         
@@ -331,6 +332,7 @@
         <stat Name="ColdResistance" Value="100" />
 
         <tag Name="Role" Value="Skirmisher" />
+        <part Name="AIJuker" /> <!-- Maybe? -->
 
         <mutation Name="Invisibility" />
         <mutation Name="DarkVision" Level="9" />
