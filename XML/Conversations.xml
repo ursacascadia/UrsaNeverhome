@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
+
     <conversation ID="Ursa_Urahiah">
         <!-- For testing the unlock function -->
         <!-- <start ID="TESTUNLOCK">
@@ -217,5 +218,20 @@
                 If you find the door, tell me. I'm not giving up this key, but I'll unlock the way forward for us.
             </text>
         </node>
+    </conversation>
+
+    <conversation ID="Ursa_Agnosi">
+        <start ID="AgnosiStart" > 
+            <text>
+                {{emote|*It heaves from its many mouths.*}} ~
+                {{emote|*The many mouths whisper in discord...*}} ~
+                {{emote|*The many mouths whisper in unity...*}} ~
+                The kingseeker, oh... where have you gone...
+            </text>
+            <choice Target="Hello">Are you not hostile, like the rest?</choice>
+            <choice Target="Hello">Can you hear me, great one?</choice>
+            <choice Target="Hello">Speak to me, abhorrent specimin.</choice>
+            <choice Target="End">{{emote|Leave it be.}}</choice>
+        </start>
     </conversation>
 </conversations>
