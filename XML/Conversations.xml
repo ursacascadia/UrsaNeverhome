@@ -233,5 +233,94 @@
             <choice Target="Hello">Speak to me, abhorrent specimin.</choice>
             <choice Target="End">{{emote|Leave it be.}}</choice>
         </start>
+        <node Target="Hello" AllowEscape="False">
+            <text>
+                {{emote|*Dry heaves suddenly warp to raucous laughter, and with a sudden jolt, a bouquet of half-remembered faces turn to meet your own.*}}
+
+                KINGSEEKER! KINGSEEKER FROM YON NEVERHOME! GREETED WE ARE! GREETED IN NOWHOME! AGNOSI! FIRST OF THE MANYFORM! HAVE YOU COME TO? HAVE YOU COME TO? HAVE YOU COME TO? HAVE YOU… the come to... you have... the king...
+            </text>
+            <choice Target="What">What?</choice>
+            <choice Target="What">...</choice>
+        </node>
+        <node ID="What" AllowEscape="False">
+            <text>
+                {{emote|*Agnosi's many faces abruptly lose all expression. A tear of phlegmy warm static dribbles down a misshapen svardym cheek.*}}
+            </text>
+            <choice Target="What2">...</choice>
+        </node>
+        <node ID="What2" AllowEscape="False">
+            <text>
+                {{emote|Blood the color of a spiderling's leg traces the contours of a lone human face. Echoes of spindly legs twitch on its side.}}
+            </text>
+            <choice Target="What3">...</choice>
+        </node>
+        <node ID="What3" AllowEscape="False">
+            <text>
+                ...O-oh? Oh! Moon and sun! F-forgive my behavior! It has been… ah… how to say… so long since I have last interacted with sapient life. I feared there was… {{emote|*wheeze*}} n-not enough left of me to do so… hah…
+
+                You see, as part of... the King's final reawakening... Complete unanimity across all genera of life, we must all be one. Complete unanimity, says the... says...
+
+                Oh, glorious King! The King! He who swept away our c-crimson flesh, he who shall shepherd us into the realm of Nowhome!
+            </text>
+            <choice Target="Nowhome">Nowhome?</choice>
+            <choice Target="The king">What glorious king?</choice>
+            <choice Target="Who are you">Who are you?</choice>
+        </node>
+        <node ID="Nowhome" Inherits="What3">
+            <text>
+                N-nowhome… the great collective! Where the skin turns to speech, where the b-bone turns to concept! In communion… we find immortality!
+            </text>
+        </node>
+        <node ID="The king" Inherits="What3">
+            <text>
+                The King, what praise is there not for the King!
+
+                The great sculptor of flesh and bone, who leads us with scalpel and syringe to the great Finale! Oh, Glorious King!
+            </text>
+        </node>
+        <node ID="Who are you" Inherits="What3">
+            <text>
+                But one of m-many vine-reapers in the fold… I've long since spent my best years *gurgle* toiling away with my wife.
+            </text>
+            <choice Target="Your wife">You have a wife?</choice>
+        </node>
+        <node ID="Your wife" AllowEscape="False">
+            <text>
+                “Ah... yes, the starapple of my eye. Hair like a drifting salt sun, twinkling eyes like sapphires in the cosmos… a-and...
+            </text>
+            <choice Target="And what">And what?</choice>
+        </node>
+        <node ID="And what" AllowEscape="false">
+            <text>
+                Hah, that's f-funny… I c-can't seem... to... recall. I c-c-can't...
+
+                {{emote|*Agnosi's numerous heads turn towards the bunker ceiling, bursting into choral weeping. Color drains from it's Waterhand face, rerouting to the misshapen heads of a Barathrumite and Snapjaw.*}}
+            </text>
+            <choice Target="Are you alright">Are you alright?</choice>
+        </node>
+        <node ID="Are you alright" AllowEscape="false">
+            <text>
+                ...Abandoned us—stitched us into some patchwork of life. {{emote|*howl*}} ohohoho, our own packmates now! ...Never wanted this, never wanted any of this. hehe, Moon King will awake, and all will be one!
+            </text>
+            <choice Target="Sorry">I'm sorry.</choice>
+            <choice Target="Living">
+                <text>This doesn't seem like living.</text>
+                <part Name="Sibs_RequireStat" Stat="Ego" Value="27" />
+            </choice>
+        </node>
+        <node ID="Sorry" AllowEscape="False">
+            <text>
+                ...Nothing can be done, forget about us. why friend apologize? soon we all one pack, ehehe! One world, one destiny! Moon children, all of us!
+                
+                {{emote|*A chorus of mumbling mouths chant asynchronously and indecipherably. The whispers devolve into snickers and cackles.*}}
+            </text>
+            <choice Target="End">...</choice>
+        </node>
+        <node ID="Living" AllowEscape="False">
+            <text>
+                ...All we've ever known, the sun will never return. {{emote|*barking*}} what you ask of us, to die? ...To sleep? ehehehe... form unchanging in Nowhome!
+            </text>
+            <choice Target="End">...</choice>
+        </node>
     </conversation>
 </conversations>

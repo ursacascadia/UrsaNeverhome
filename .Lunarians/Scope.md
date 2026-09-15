@@ -102,8 +102,8 @@
 #### Big picture steps:
 - [ ] Design and create XML data:
 	- [x] Urahiah
-	- [ ] Agnosi
-		- [ ] Agnosi conversation
+	- [x] Agnosi
+		- [x] Agnosi conversation
 	- [ ] All lunarian enemies, Moon King
 	- [ ] Lab specific weapons, decor, items
 		- [x] Walls that break into warm static
