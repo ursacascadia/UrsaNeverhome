@@ -18,6 +18,8 @@
         <part Name="Description" Short="A scratched, flexible keycard. It's printed with indecipherable text and pictographs, buffed nearly clean by years of changing hands. 'Ne&#x4;&#xDB;r&#xDB;&#xDB;m&#x4;'" />
         <tag Name="NoSparkingQuest" />
         <tag Name="QuestItem" />
+		<part Name="CompleteQuestOnTaken" Quest="If You Die in a River..." QuestStep="Rob Urahiah's key" />
+		<part Name="Interesting" Radius="1" />
     </object>
 
     <object Name="Ursa_Cryotube" Inherits="Furniture">

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="Ursa_DiscoverVault" Inherits="Widget">
+    <part Name="QuestStepFinisher" Trigger="Created" Quest="If You Die in a River..." Step="Find the hidden cache" />
+  </object>
+  <object Name="Ursa_BottomOutVault" Inherits="Widget">
+    <part Name="QuestStepFinisher" Trigger="Created" Quest="If You Die in a River..." Step="Delve to the bottom" />
+  </object>
+</objects>

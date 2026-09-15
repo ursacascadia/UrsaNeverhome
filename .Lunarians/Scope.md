@@ -96,7 +96,7 @@
 		- [ ] Accomplishments, hagiograph, gossip
 	- [ ] Implement quest system
 		- [ ] Conversation moments
-		- [ ] Custom part for key finishing quest step & seeing door finishing quest step
+		- [x] Custom part for key finishing quest step & seeing door finishing quest step
 		- [ ] Custom parts for kills finishing quest steps (if that doesn't exist yet)
 
 #### Big picture steps:
