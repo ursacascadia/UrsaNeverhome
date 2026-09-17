@@ -221,7 +221,7 @@
     </conversation>
 
     <conversation ID="Ursa_Agnosi">
-        <start ID="AgnosiStart" > 
+        <start ID="AgnosiStart"> 
             <text>
                 {{emote|*It heaves from its many mouths.*}} ~
                 {{emote|*The many mouths whisper in discord...*}} ~
@@ -233,7 +233,7 @@
             <choice Target="Hello">Speak to me, abhorrent specimin.</choice>
             <choice Target="End">{{emote|Leave it be.}}</choice>
         </start>
-        <node Target="Hello" AllowEscape="False">
+        <node ID="Hello" AllowEscape="False">
             <text>
                 {{emote|*Dry heaves suddenly warp to raucous laughter, and with a sudden jolt, a bouquet of half-remembered faces turn to meet your own.*}}
 
