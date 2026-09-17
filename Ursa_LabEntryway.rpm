@@ -2,6 +2,7 @@
 <Map Width="80" Height="25">
   <cell X="0" Y="0">
     <object Name="ConcreteFloor"></object>
+    <object Name="Ursa_DiscoverVault"></object>
   </cell>
   <cell X="1" Y="0">
     <object Name="Oolite"></object>
@@ -3289,7 +3290,6 @@
   </cell>
   <cell X="61" Y="14">
     <object Name="Ursa_LabWall"></object>
-    <object Name="StairsDown"></object>
   </cell>
   <cell X="62" Y="14">
     <object Name="Ursa_LabWall"></object>

@@ -20,6 +20,7 @@
         <removeinventoryobject Blueprint="Pickaxe" />
         <inventoryobject Blueprint="Flawless Crysteel Shardmail" />
         <inventoryobject Blueprint="Snakeskin Armlet" />
+        <inventoryobject Blueprint="Ursa_NeverhomeKey" />
         <part Name="UrsaSpawnsWithRelic" RelicCount="3" TierFrom="6" TierTo="8" />
 		<inventoryobject Blueprint="Transkinetic Cuffs" Number="1" />
         <!-- Mutations -->

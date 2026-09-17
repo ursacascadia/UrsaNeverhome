@@ -129,5 +129,5 @@
 - [ ] C# parts
 	- [x] Walls that drop warm static (might be a stock part)
 	- [x] Lovesick on hit effect
-	- [ ] Finish quest step on look, get, destroy, etc.
+	- [x] Widgets for every Discover Area quest step. Add widgets to maps
 	- [ ] cryotubes that jumpscare you when you get close
