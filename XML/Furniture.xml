@@ -23,14 +23,14 @@
     </object>
 
     <object Name="Ursa_Cryotube" Inherits="Ursa_Lunarian">
-        <part Name="Render" DisplayName="compact cryochamber" RenderString="U" Tile="Objects/Ursa_Cryotube.png" ColorString="&amp;C" DetailColor="O"/>
+        <part Name="Render" DisplayName="static womb" RenderString="U" Tile="Objects/Ursa_Cryotube.png" ColorString="&amp;C" DetailColor="O"/>
         <stat Name="AV" Value="25" />
         <stat Name="Hitpoints" Value="200" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="An embryonic mass of flesh writhes in warm static, behind the scuffed and scratched glass of this artificial womb." />
         <part Name="Physics" Weight="200" Takeable="false" />
-        <part Name="Brain" Hostile="false" Wanders="false" Mobile="false" Factions="Playerhater-100" />
+        <part Name="Brain" Hostile="false" Wanders="false" Mobile="false" Factions="Playerneutral-100" />
         <tag Name="DeathSounds" Value="Sounds/Damage/sfx_destroy_glass" />
-		<tag Name="CustomDeathMessage" Value="A horrific specimen =verb:crawl= from the embryonic static of the =subject.t=!" />
+		<tag Name="CustomDeathMessage" Value="A horrific embryo =verb:crawl= from the warmth of =subject.t=..." />
 
         <!-- Bursting cryotube: kills the object when a player allied creature walks beside it -->
         <part Name="UrsaBurstingCryotube" />

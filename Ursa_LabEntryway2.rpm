@@ -1906,11 +1906,19 @@
   <cell X="13" Y="9"></cell>
   <cell X="14" Y="9"></cell>
   <cell X="15" Y="9"></cell>
-  <cell X="16" Y="9"></cell>
-  <cell X="17" Y="9"></cell>
-  <cell X="18" Y="9"></cell>
+  <cell X="16" Y="9">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="17" Y="9">
+    <object Name="Rubble Grey"></object>
+  </cell>
+  <cell X="18" Y="9">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="19" Y="9"></cell>
-  <cell X="20" Y="9"></cell>
+  <cell X="20" Y="9">
+    <object Name="Rubble Grey"></object>
+  </cell>
   <cell X="21" Y="9"></cell>
   <cell X="22" Y="9"></cell>
   <cell X="23" Y="9"></cell>
@@ -2196,13 +2204,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="17" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Sleek Table"></object>
   </cell>
   <cell X="18" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_Cryotube"></object>
   </cell>
   <cell X="19" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Sleek Table"></object>
   </cell>
   <cell X="20" Y="11">
     <object Name="Ursa_LabWall"></object>
@@ -2699,13 +2707,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="54" Y="13"></cell>
-  <cell X="55" Y="13">
-    <object Name="Sleek Table"></object>
-  </cell>
+  <cell X="55" Y="13"></cell>
   <cell X="56" Y="13"></cell>
   <cell X="57" Y="13"></cell>
   <cell X="58" Y="13"></cell>
-  <cell X="59" Y="13"></cell>
+  <cell X="59" Y="13">
+    <object Name="Ursa_ExamTable"></object>
+  </cell>
   <cell X="60" Y="13"></cell>
   <cell X="61" Y="13">
     <object Name="TintedGlassWall"></object>
@@ -2863,7 +2871,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="44" Y="14">
-    <object Name="Ursa_Cryotube"></object>
+    <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="45" Y="14">
     <object Name="Ursa_LabWall"></object>
@@ -2891,12 +2899,16 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="54" Y="14"></cell>
-  <cell X="55" Y="14"></cell>
+  <cell X="55" Y="14">
+    <object Name="Sleek Table"></object>
+  </cell>
   <cell X="56" Y="14"></cell>
   <cell X="57" Y="14">
-    <object Name="Ursa_ExamTable"></object>
+    <object Name="Ursa_BustedCryotube"></object>
   </cell>
-  <cell X="58" Y="14"></cell>
+  <cell X="58" Y="14">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="59" Y="14"></cell>
   <cell X="60" Y="14"></cell>
   <cell X="61" Y="14">
@@ -3078,9 +3090,15 @@
   </cell>
   <cell X="54" Y="15"></cell>
   <cell X="55" Y="15"></cell>
-  <cell X="56" Y="15"></cell>
-  <cell X="57" Y="15"></cell>
-  <cell X="58" Y="15"></cell>
+  <cell X="56" Y="15">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="57" Y="15">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
+  <cell X="58" Y="15">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="59" Y="15"></cell>
   <cell X="60" Y="15"></cell>
   <cell X="61" Y="15">
@@ -3274,7 +3292,9 @@
   <cell X="55" Y="16"></cell>
   <cell X="56" Y="16"></cell>
   <cell X="57" Y="16"></cell>
-  <cell X="58" Y="16"></cell>
+  <cell X="58" Y="16">
+    <object Name="DilutedWarmStaticPuddle"></object>
+  </cell>
   <cell X="59" Y="16"></cell>
   <cell X="60" Y="16"></cell>
   <cell X="61" Y="16">
