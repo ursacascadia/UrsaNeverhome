@@ -2300,7 +2300,9 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="45" Y="11"></cell>
-  <cell X="46" Y="11"></cell>
+  <cell X="46" Y="11">
+    <object Name="Ursa_Cryotube"></object>
+  </cell>
   <cell X="47" Y="11"></cell>
   <cell X="48" Y="11"></cell>
   <cell X="49" Y="11">
@@ -2627,7 +2629,9 @@
     <object Name="Ursa_Lipocinth"></object>
   </cell>
   <cell X="41" Y="13"></cell>
-  <cell X="42" Y="13"></cell>
+  <cell X="42" Y="13">
+    <object Name="Ursa_Cryotube"></object>
+  </cell>
   <cell X="43" Y="13"></cell>
   <cell X="44" Y="13"></cell>
   <cell X="45" Y="13">
@@ -2639,7 +2643,9 @@
   <cell X="49" Y="13"></cell>
   <cell X="50" Y="13"></cell>
   <cell X="51" Y="13"></cell>
-  <cell X="52" Y="13"></cell>
+  <cell X="52" Y="13">
+    <object Name="Ursa_Cryotube"></object>
+  </cell>
   <cell X="53" Y="13"></cell>
   <cell X="54" Y="13"></cell>
   <cell X="55" Y="13"></cell>
@@ -2902,7 +2908,9 @@
     <object Name="Ursa_Lipocinth"></object>
   </cell>
   <cell X="38" Y="15"></cell>
-  <cell X="39" Y="15"></cell>
+  <cell X="39" Y="15">
+    <object Name="Ursa_Cryotube"></object>
+  </cell>
   <cell X="40" Y="15"></cell>
   <cell X="41" Y="15"></cell>
   <cell X="42" Y="15"></cell>
@@ -3056,7 +3064,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="45" Y="16">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_Cryotube"></object>
   </cell>
   <cell X="46" Y="16">
     <object Name="Ursa_LabWall"></object>
@@ -3660,7 +3668,9 @@
   <cell X="37" Y="20"></cell>
   <cell X="38" Y="20"></cell>
   <cell X="39" Y="20"></cell>
-  <cell X="40" Y="20"></cell>
+  <cell X="40" Y="20">
+    <object Name="Floating Glowsphere"></object>
+  </cell>
   <cell X="41" Y="20"></cell>
   <cell X="42" Y="20"></cell>
   <cell X="43" Y="20"></cell>

@@ -62,7 +62,7 @@
     <object Name="Ursa_Lunarian" Inherits="Creature">
         <part Name="Render" DisplayName="base {{lunar|lunarian}}" RenderString="L" ColorString="&amp;B" DetailColor="y" />
         <part Name="Brain" Factions="Playerhater-100" />
-        <part Name="Description" Short="A horrific specimin." />
+        <part Name="Description" Short="A horrific specimen." />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
 

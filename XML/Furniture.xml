@@ -29,6 +29,8 @@
         <part Name="Description" Short="" />
         <part Name="Physics" Weight="200" Takeable="false" />
         <part Name="Brain" Hostile="false" Wanders="false" Mobile="false" Factions="Playerhater-100" />
+        <tag Name="DeathSounds" Value="Sounds/Damage/sfx_destroy_glass" />
+		<tag Name="CustomDeathMessage" Value="A horrific specimen =verb:crawl= from the embryonic static of the =subject.t=!" />
 
         <!-- Bursting cryotube: kills the object when a player allied creature walks beside it -->
         <part Name="UrsaBurstingCryotube" />
