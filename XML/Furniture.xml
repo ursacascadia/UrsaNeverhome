@@ -42,7 +42,7 @@
         <part Name="Render" DisplayName="broken compact cryochamber" RenderString="U" Tile="Objects/Ursa_BrokenCryotube.png" ColorString="&amp;C" DetailColor="O"/>
         <stat Name="AV" Value="25" />
         <stat Name="Hitpoints" Value="200" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The remains of an artificial womb." />
         <part Name="Physics" Weight="200" Takeable="false" />
     </object>
     
