@@ -3520,9 +3520,7 @@
   <cell X="70" Y="15"></cell>
   <cell X="71" Y="15"></cell>
   <cell X="72" Y="15"></cell>
-  <cell X="73" Y="15">
-    <object Name="StairsDown"></object>
-  </cell>
+  <cell X="73" Y="15"></cell>
   <cell X="74" Y="15"></cell>
   <cell X="75" Y="15"></cell>
   <cell X="76" Y="15"></cell>
@@ -3635,9 +3633,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="16"></cell>
-  <cell X="34" Y="16">
-    <object Name="StairsUp"></object>
-  </cell>
+  <cell X="34" Y="16"></cell>
   <cell X="35" Y="16"></cell>
   <cell X="36" Y="16"></cell>
   <cell X="37" Y="16"></cell>
