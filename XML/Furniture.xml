@@ -22,11 +22,26 @@
 		<part Name="Interesting" Radius="1" />
     </object>
 
-    <object Name="Ursa_Cryotube" Inherits="Furniture">
+    <object Name="Ursa_Cryotube" Inherits="Ursa_Lunarian">
         <part Name="Render" DisplayName="compact cryochamber" RenderString="U" Tile="Objects/Ursa_Cryotube.png" ColorString="&amp;C" DetailColor="O"/>
         <stat Name="AV" Value="25" />
         <stat Name="Hitpoints" Value="200" />
         <part Name="Description" Short="" />
+        <part Name="Physics" Weight="200" Takeable="false" />
+        <part Name="Brain" Hostile="false" Wanders="false" Mobile="false" Factions="Playerhater-100" />
+
+        <!-- Bursting cryotube: kills the object when a player allied creature walks beside it -->
+        <part Name="UrsaBurstingCryotube" />
+        <!-- Leave a corpse that is the burst cryotube furniture and the enemy -->
+        <part Name="UrsaPopulationCorpse" PopulationName="UrsaCryochamber" />
+    </object>
+
+    <object Name="Ursa_BustedCryotube" Inherits="Furniture">
+        <part Name="Render" DisplayName="broken compact cryochamber" RenderString="U" Tile="Objects/Ursa_BrokenCryotube.png" ColorString="&amp;C" DetailColor="O"/>
+        <stat Name="AV" Value="25" />
+        <stat Name="Hitpoints" Value="200" />
+        <part Name="Description" Short="" />
+        <part Name="Physics" Weight="200" Takeable="false" />
     </object>
     
     <!-- Decorations -->
@@ -48,5 +63,6 @@
     <object Name="Ursa_ExamTable" Inherits="Furniture">
         <part Name="Render" DisplayName="surgical table" RenderString="242" Tile="Objects/Ursa_ExamTable.png" ColorString="&amp;C" DetailColor="Y" Occluding="false" />
         <part Name="Description" Short="omnimouse table..." />
+        <part Name="Physics" Weight="100" Takeable="false" />
     </object>
 </objects>

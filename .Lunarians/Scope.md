@@ -87,7 +87,7 @@
 #### 1 questline:
 - [ ] 3 quests
 	- [ ] If You Die in a River...
-		- [ ] First quest: recruit Urahiah and delve to the bottom of the lab.
+		- [ ] First quest: ~~recruit Urahiah and~~ delve to the bottom of the lab.
 	- [ ] To Die, to Sleep
 		- [ ] Side quest: optional goal, "Put Agnosi to rest," for choosing to kill/freeze Agnosi.
 	- [ ] ... You Forget How to Speak.
@@ -105,29 +105,30 @@
 	- [x] Agnosi
 		- [x] Agnosi conversation
 	- [ ] All lunarian enemies, Moon King
-	- [ ] Lab specific weapons, decor, items
+	- [x] Lab specific weapons, decor, items
 		- [x] Walls that break into warm static
-		- [ ] Cryotubes part
+		- [x] Cryotubes part
 	- [x] Quests.xml
 - [x] Plan overall structure of dungeon
 - [ ] Design specific, preset maps
-- [ ] Design intended overall style of random maps in dungeon
+- [x] Design intended overall style of random maps in dungeon
 - [ ] Program
-	- [ ] Implement placement of lab under tomb
+	- [x] Implement placement of lab under tomb
 	- [ ] Implement quest system, including
 		- [x] Urahiah's quest start, detecting sultan masks or intimidating her with strength
 		- [x] Urahiah joining the party and
 		- [x] If possible, Urahiah "unlocking" doors (by just zapping them from a conversation part, probably)
 		- [ ] Urahiah going mad at the end, after Moon King dies
 	- [ ] Implement designed generation for random dungeon
-	- [ ] Implement custom parts and map widgets as necessary
+	- [x] Implement custom parts and map widgets as necessary
 
 #### Up Next
 - [x] quest xml
 - [x] pop tables
-- [ ] Static maps
-- [ ] C# parts
+- [x] C# parts
 	- [x] Walls that drop warm static (might be a stock part)
 	- [x] Lovesick on hit effect
 	- [x] Widgets for every Discover Area quest step. Add widgets to maps
-	- [ ] cryotubes that jumpscare you when you get close
+	- [x] cryotubes that jumpscare you when you get close
+- [ ] Static maps
+- [ ] Agnosi's map and quest functionality

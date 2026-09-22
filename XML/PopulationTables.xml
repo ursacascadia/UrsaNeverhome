@@ -20,4 +20,11 @@
             <object Weight="2" Number="1" Blueprint="Ursa_PhenoPhen" />
         </group>
     </population>
+    <population Name="UrsaCryochamber">
+        <group Name="Cryodrop" Style="pickeach">
+            <table Number="1" Name="UrsaLunarians" />
+            <object Number="1" Blueprint="Ursa_BustedCryotube" />
+            <object Number="1" Blueprint="Ursa_SmallDilutedWarmStaticPuddle" />
+        </group>
+    </population>
 </populations>
