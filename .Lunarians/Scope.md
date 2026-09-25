@@ -75,11 +75,11 @@
 #### 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and Lunarian enemies. Intended for level 35-40+, post any base game Qud content
 	- [x] 1st floor, open the door with Urahiah, find little loot on the first floor, then encounter a single Lunarian on the 2nd floor. unlock next door
-	- [ ] 3rd and 4th floor are proc gen with combat focus, enemies
+	- [x] 3rd and 4th floor are proc gen with combat focus, enemies
 	- [ ] 5th floor has no enemies and shows some of the more domestic devices that the  used, their computers, early attempts at cryo solutions and mutation stuff. Urahiah comments on how freaky everything is, but shows unerring confidence
-	- [ ] 6th floor, combat focus. enemies are more densly packed.
+	- [x] 6th floor, combat focus. enemies are more densly packed.
 	- [ ] 7th floor, Agnosi's room. Urahiah suggests you "put it out of its misery." give the option to freeze Agnosi in a still-working cryo tank (or otherwise kill them and have conversation for after that). Urahiah is clearly disturbed.
-	- [ ] 8th and 9th floor- more combat, harder Lunarians, as dense as before. best loot here.
+	- [x] 8th and 9th floor- more combat, harder Lunarians, as dense as before. best loot here.
 	- [ ] 10th floor, the big fucking scary device with the hole in the ground below it. show the devices the Lunarians went on to develop. sparse combat encounters
 	- [ ] 11th floor. some sort of dilapidated prison? no enemies
 	- [ ] 12th floor. a huge prison cell. the last conversation with Urahiah before she unlocks the last door. she projects outwardly that she thinks this is going to be it, what it was all for--but inwardly is terrified at what is behind the door. the moon king fight
@@ -130,8 +130,9 @@
 	- [x] Lovesick on hit effect
 	- [x] Widgets for every Discover Area quest step. Add widgets to maps
 	- [x] cryotubes that jumpscare you when you get close
-- [ ] Static maps
-- [ ] Agnosi's map and quest functionality
+	- [ ] Rewrite builder to clear grass and add concrete floor (if thats what we want. i like the crystal grass)
 - [x] Map generator
 - [x] Map names
-- [ ] Widget for clearing grass and adding concrete floor
+- [ ] Static maps
+- [ ] Agnosi's map and quest functionality
+- [ ] population for maps
