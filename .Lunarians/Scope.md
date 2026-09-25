@@ -74,7 +74,7 @@
 
 #### 1 new area:
 - [ ] The lab under the tomb, a 15~ strata deep dungeon with a mixture of set maps, featuring lore, Agnosi, the Moon King boss, and Lunarian enemies. Intended for level 35-40+, post any base game Qud content
-	- [ ] 1st floor, open the door with Urahiah, find little loot on the first floor, then encounter a single Lunarian on the 2nd floor. unlock next door
+	- [x] 1st floor, open the door with Urahiah, find little loot on the first floor, then encounter a single Lunarian on the 2nd floor. unlock next door
 	- [ ] 3rd and 4th floor are proc gen with combat focus, enemies
 	- [ ] 5th floor has no enemies and shows some of the more domestic devices that the  used, their computers, early attempts at cryo solutions and mutation stuff. Urahiah comments on how freaky everything is, but shows unerring confidence
 	- [ ] 6th floor, combat focus. enemies are more densly packed.
@@ -132,3 +132,6 @@
 	- [x] cryotubes that jumpscare you when you get close
 - [ ] Static maps
 - [ ] Agnosi's map and quest functionality
+- [x] Map generator
+- [x] Map names
+- [ ] Widget for clearing grass and adding concrete floor
