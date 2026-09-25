@@ -52,6 +52,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 5, "y", 13);
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
             The.ZoneManager.SetZoneName(current_zone, "scrawling halls", "Neverhome", null, null, null, Proper: false);
             // Proc gen dungeon floor
             current_zone = "JoppaWorld.53.3.1.1.18";

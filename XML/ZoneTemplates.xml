@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<zonetemplates>
+    <zonetemplate Name="UrsaNeverhome" RegionSize="2000">
+        <global>
+            <population Table="UrsaNeverhomePopulation"></population>
+        </global>
+    </zonetemplate>
+</zonetemplates>
