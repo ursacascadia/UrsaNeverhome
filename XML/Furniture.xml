@@ -64,7 +64,13 @@
 
     <object Name="Ursa_ExamTable" Inherits="Furniture">
         <part Name="Render" DisplayName="surgical table" RenderString="242" Tile="Objects/Ursa_ExamTable.png" ColorString="&amp;C" DetailColor="Y" Occluding="false" />
-        <part Name="Description" Short="omnimouse table..." />
+        <part Name="Description" Short="Slabs of dusty sheets are stashed between woven-stitch quilts. What was once a place of rest now buckles when the slightest pressure is applied upon their coarse and weak metal fibers." />
         <part Name="Physics" Weight="100" Takeable="false" />
+    </object>
+
+    <object Name="Ursa_Computer" Inherits="Furniture">
+        <part Name="Render" DisplayName="indecipherable computer" RenderString="242" Tile="Objects/Ursa_Computer.png" ColorString="&amp;y" DetailColor="W" Occluding="true" />
+        <part Name="Description" Short="" />
+        <part Name="Physics" Weight="400" Takeable="false" />
     </object>
 </objects>
