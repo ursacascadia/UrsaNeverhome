@@ -127,8 +127,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.24");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.24", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.24", 4900, "ClearAll");
-            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.24", "MapBuilder", "FileName", "");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
+            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.24", "MapBuilder", "FileName", "Ursa_Level10.rpm");
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.24", "oscillatory antre", "Nowhome", null, null, null, Proper: false);
             // Static map 6
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.25");
