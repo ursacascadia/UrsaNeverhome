@@ -119,7 +119,7 @@
 		- [x] Urahiah joining the party and
 		- [x] If possible, Urahiah "unlocking" doors (by just zapping them from a conversation part, probably)
 		- [ ] Urahiah going mad at the end, after Moon King dies
-	- [ ] Implement designed generation for random dungeon
+	- [x] Implement designed generation for random dungeon
 	- [x] Implement custom parts and map widgets as necessary
 
 #### Up Next
@@ -130,9 +130,10 @@
 	- [x] Lovesick on hit effect
 	- [x] Widgets for every Discover Area quest step. Add widgets to maps
 	- [x] cryotubes that jumpscare you when you get close
-	- [ ] Rewrite builder to clear grass and add concrete floor (if thats what we want. i like the crystal grass)
+	- [x] Rewrite builder to clear grass and add concrete floor (if thats what we want. i like the crystal grass)
 - [x] Map generator
 - [x] Map names
 - [x] population for maps
 - [ ] Static maps
+- [ ] Connect static maps stairways in the world generator
 - [ ] Agnosi's map and quest functionality

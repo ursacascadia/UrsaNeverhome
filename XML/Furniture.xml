@@ -95,4 +95,42 @@
     <object Name="Ursa_SE_Device" Inherits="Ursa_Device">
         <part Name="Render" Tile="Objects/Ursa_SE_Device.png" />
     </object>
+
+    <object Name="Ursa_Device2" Inherits="Furniture">
+        <part Name="Render" DisplayName="[device]" RenderString="242" Tile="Objects/Ursa_great_machine_0.png" ColorString="&amp;B" DetailColor="Y" Occluding="false" />
+        <part Name="Description" Short="" />
+        <part Name="Physics" Weight="400" Takeable="false" />
+    </object>
+
+    <object Name="Ursa_Device2_0" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_0.png" />
+    </object>
+
+    <object Name="Ursa_Device2_1" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_1.png" />
+    </object>
+
+    <object Name="Ursa_Device2_2" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_2.png" />
+    </object>
+
+    <object Name="Ursa_Device2_3" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_3.png" />
+    </object>
+
+    <object Name="Ursa_Device2_4" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_4.png" />
+    </object>
+
+    <object Name="Ursa_Device2_5" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_5.png" />
+    </object>
+
+    <object Name="Ursa_Device2_6" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_6.png" />
+    </object>
+
+    <object Name="Ursa_Device2_7" Inherits="Ursa_Device2">
+        <part Name="Render" Tile="Objects/Ursa_great_machine_7.png" />
+    </object>
 </objects>

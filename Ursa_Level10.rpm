@@ -2296,16 +2296,16 @@
     <object Name="Air"></object>
   </cell>
   <cell X="35" Y="10">
-    <object Name="Air"></object>
+    <object Name="Ursa_Device2_0"></object>
   </cell>
   <cell X="36" Y="10">
-    <object Name="Ursa_NE_Device"></object>
+    <object Name="Ursa_Device2_1"></object>
   </cell>
   <cell X="37" Y="10">
-    <object Name="Ursa_NW_Device"></object>
+    <object Name="Ursa_Device2_2"></object>
   </cell>
   <cell X="38" Y="10">
-    <object Name="Air"></object>
+    <object Name="Ursa_Device2_3"></object>
   </cell>
   <cell X="39" Y="10">
     <object Name="Air"></object>
@@ -2482,16 +2482,16 @@
     <object Name="Air"></object>
   </cell>
   <cell X="35" Y="11">
-    <object Name="Air"></object>
+    <object Name="Ursa_Device2_4"></object>
   </cell>
   <cell X="36" Y="11">
-    <object Name="Ursa_SW_Device"></object>
+    <object Name="Ursa_Device2_5"></object>
   </cell>
   <cell X="37" Y="11">
-    <object Name="Ursa_SE_Device"></object>
+    <object Name="Ursa_Device2_6"></object>
   </cell>
   <cell X="38" Y="11">
-    <object Name="Air"></object>
+    <object Name="Ursa_Device2_7"></object>
   </cell>
   <cell X="39" Y="11">
     <object Name="Air"></object>
