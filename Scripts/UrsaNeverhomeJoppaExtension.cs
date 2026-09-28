@@ -133,7 +133,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.25");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.25", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.25", 4900, "ClearAll");
-            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.25", "MapBuilder", "FileName", "");
+            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.25", "MapBuilder", "FileName", "Ursa_Level11.rpm");
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.25", "palimpsest vault", "Nowhome", null, null, null, Proper: false);
             // Static map 7 (Ending)
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.26");

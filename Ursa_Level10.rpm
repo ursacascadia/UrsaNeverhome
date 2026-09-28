@@ -2298,8 +2298,12 @@
   <cell X="35" Y="10">
     <object Name="Air"></object>
   </cell>
-  <cell X="36" Y="10"></cell>
-  <cell X="37" Y="10"></cell>
+  <cell X="36" Y="10">
+    <object Name="Ursa_NE_Device"></object>
+  </cell>
+  <cell X="37" Y="10">
+    <object Name="Ursa_NW_Device"></object>
+  </cell>
   <cell X="38" Y="10">
     <object Name="Air"></object>
   </cell>
@@ -2480,8 +2484,12 @@
   <cell X="35" Y="11">
     <object Name="Air"></object>
   </cell>
-  <cell X="36" Y="11"></cell>
-  <cell X="37" Y="11"></cell>
+  <cell X="36" Y="11">
+    <object Name="Ursa_SW_Device"></object>
+  </cell>
+  <cell X="37" Y="11">
+    <object Name="Ursa_SE_Device"></object>
+  </cell>
   <cell X="38" Y="11">
     <object Name="Air"></object>
   </cell>
