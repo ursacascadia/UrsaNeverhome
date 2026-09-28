@@ -73,4 +73,26 @@
         <part Name="Description" Short="Digitized godrays gleam bright with a warmth foreign to the sterile chambers of yesteryear. Beneath the tawny scriptures, a winding console bears the faded mark of Neverhome LLC." />
         <part Name="Physics" Weight="400" Takeable="false" />
     </object>
+
+    <object Name="Ursa_Device" Inherits="Furniture">
+        <part Name="Render" DisplayName="[device]" RenderString="242" Tile="Objects/Ursa_NW_Device.png" ColorString="&amp;B" DetailColor="Y" Occluding="false" />
+        <part Name="Description" Short="" />
+        <part Name="Physics" Weight="400" Takeable="false" />
+    </object>
+
+    <object Name="Ursa_NW_Device" Inherits="Ursa_Device">
+        <part Name="Render" Tile="Objects/Ursa_NW_Device.png" />
+    </object>
+
+    <object Name="Ursa_NE_Device" Inherits="Ursa_Device">
+        <part Name="Render" Tile="Objects/Ursa_NE_Device.png" />
+    </object>
+
+    <object Name="Ursa_SW_Device" Inherits="Ursa_Device">
+        <part Name="Render" Tile="Objects/Ursa_SW_Device.png" />
+    </object>
+
+    <object Name="Ursa_SE_Device" Inherits="Ursa_Device">
+        <part Name="Render" Tile="Objects/Ursa_SE_Device.png" />
+    </object>
 </objects>
