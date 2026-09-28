@@ -70,7 +70,7 @@
 
     <object Name="Ursa_Computer" Inherits="Furniture">
         <part Name="Render" DisplayName="heliographic mill" RenderString="242" Tile="Objects/Ursa_Computer.png" ColorString="&amp;y" DetailColor="W" Occluding="true" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="Digitized godrays gleam bright with a warmth foreign to the sterile chambers of yesteryear. Beneath the tawny scriptures, a winding console bears the faded mark of Neverhome LLC." />
         <part Name="Physics" Weight="400" Takeable="false" />
     </object>
 </objects>
