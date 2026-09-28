@@ -69,7 +69,7 @@
     </object>
 
     <object Name="Ursa_Computer" Inherits="Furniture">
-        <part Name="Render" DisplayName="indecipherable computer" RenderString="242" Tile="Objects/Ursa_Computer.png" ColorString="&amp;y" DetailColor="W" Occluding="true" />
+        <part Name="Render" DisplayName="heliographic mill" RenderString="242" Tile="Objects/Ursa_Computer.png" ColorString="&amp;y" DetailColor="W" Occluding="true" />
         <part Name="Description" Short="" />
         <part Name="Physics" Weight="400" Takeable="false" />
     </object>
