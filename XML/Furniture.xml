@@ -75,7 +75,7 @@
     </object>
 
     <object Name="Ursa_Device" Inherits="Furniture">
-        <part Name="Render" DisplayName="[device]" RenderString="242" Tile="Objects/Ursa_NW_Device.png" ColorString="&amp;B" DetailColor="Y" Occluding="false" />
+        <part Name="Render" DisplayName="[device]" RenderString="242" Tile="Objects/Ursa_NW_Device.png" ColorString="&amp;c" DetailColor="y" Occluding="false" />
         <part Name="Description" Short="" />
         <part Name="Physics" Weight="400" Takeable="false" />
     </object>

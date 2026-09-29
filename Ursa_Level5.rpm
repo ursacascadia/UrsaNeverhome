@@ -2153,6 +2153,7 @@
   </cell>
   <cell X="59" Y="8">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Sleek Table"></object>
   </cell>
   <cell X="60" Y="8">
     <object Name="Ursa_LabWall"></object>
@@ -2365,24 +2366,25 @@
   </cell>
   <cell X="59" Y="9">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Sleek Table"></object>
   </cell>
   <cell X="60" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Table"></object>
   </cell>
   <cell X="61" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="62" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_NW_Device"></object>
   </cell>
   <cell X="63" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_NE_Device"></object>
   </cell>
   <cell X="64" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Table"></object>
   </cell>
   <cell X="65" Y="9">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Work Chair"></object>
   </cell>
   <cell X="66" Y="9">
     <object Name="Ursa_LabWall"></object>
@@ -2555,23 +2557,21 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="60" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Work Chair"></object>
   </cell>
   <cell X="61" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Metal Table"></object>
   </cell>
   <cell X="62" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_SW_Device"></object>
   </cell>
   <cell X="63" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_SE_Device"></object>
   </cell>
   <cell X="64" Y="10">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
-  <cell X="65" Y="10">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="65" Y="10"></cell>
   <cell X="66" Y="10">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2690,35 +2690,27 @@
   <cell X="53" Y="11"></cell>
   <cell X="54" Y="11"></cell>
   <cell X="55" Y="11"></cell>
-  <cell X="56" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="57" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
-  <cell X="58" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="56" Y="11"></cell>
+  <cell X="57" Y="11"></cell>
+  <cell X="58" Y="11"></cell>
   <cell X="59" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
-  <cell X="60" Y="11">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="60" Y="11"></cell>
   <cell X="61" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="62" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="63" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="64" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Advanced Toolkit"></object>
   </cell>
   <cell X="65" Y="11">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="66" Y="11">
     <object Name="Ursa_LabWall"></object>
@@ -2855,23 +2847,19 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="60" Y="12">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
-  <cell X="61" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="61" Y="12"></cell>
   <cell X="62" Y="12">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Sleek Table"></object>
   </cell>
   <cell X="63" Y="12">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
   <cell X="64" Y="12">
-    <object Name="Ursa_LabWall"></object>
+    <object Name="Garbage"></object>
   </cell>
-  <cell X="65" Y="12">
-    <object Name="Ursa_LabWall"></object>
-  </cell>
+  <cell X="65" Y="12"></cell>
   <cell X="66" Y="12">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -3564,7 +3552,9 @@
   <cell X="5" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="6" Y="16"></cell>
+  <cell X="6" Y="16">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="7" Y="16">
     <object Name="Ursa_BustedCryotube"></object>
   </cell>
@@ -3742,7 +3732,9 @@
   <cell X="5" Y="17">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="6" Y="17"></cell>
+  <cell X="6" Y="17">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="7" Y="17"></cell>
   <cell X="8" Y="17"></cell>
   <cell X="9" Y="17">
@@ -3782,9 +3774,12 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="39" Y="17"></cell>
-  <cell X="40" Y="17"></cell>
+  <cell X="40" Y="17">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="41" Y="17">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
   <cell X="42" Y="17">
     <object Name="Ursa_LabWall"></object>
@@ -3916,6 +3911,7 @@
   </cell>
   <cell X="6" Y="18">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
   <cell X="7" Y="18">
     <object Name="Ursa_LabWall"></object>
@@ -4013,9 +4009,11 @@
   </cell>
   <cell X="39" Y="18">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
   <cell X="40" Y="18">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
   <cell X="41" Y="18">
     <object Name="Ursa_LabWall"></object>
@@ -4152,7 +4150,9 @@
   <cell X="5" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="6" Y="19"></cell>
+  <cell X="6" Y="19">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="7" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4225,7 +4225,9 @@
   <cell X="38" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="39" Y="19"></cell>
+  <cell X="39" Y="19">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="40" Y="19">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -4364,33 +4366,60 @@
   <cell X="5" Y="20">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="6" Y="20"></cell>
-  <cell X="7" Y="20"></cell>
-  <cell X="8" Y="20"></cell>
-  <cell X="9" Y="20"></cell>
+  <cell X="6" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="7" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="8" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="9" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="10" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="11" Y="20"></cell>
+  <cell X="11" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="12" Y="20">
     <object Name="Ursa_Cryotube"></object>
   </cell>
   <cell X="13" Y="20">
     <object Name="Ursa_BustedCryotube"></object>
   </cell>
-  <cell X="14" Y="20"></cell>
-  <cell X="15" Y="20"></cell>
+  <cell X="14" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="15" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="16" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="17" Y="20"></cell>
-  <cell X="18" Y="20"></cell>
-  <cell X="19" Y="20"></cell>
-  <cell X="20" Y="20"></cell>
+  <cell X="17" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="18" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="19" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="20" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="21" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="22" Y="20"></cell>
+  <cell X="22" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="23" Y="20">
     <object Name="Ursa_Cryotube"></object>
   </cell>
@@ -4400,33 +4429,57 @@
   <cell X="25" Y="20">
     <object Name="Ursa_Cryotube"></object>
   </cell>
-  <cell X="26" Y="20"></cell>
+  <cell X="26" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="27" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="28" Y="20"></cell>
-  <cell X="29" Y="20"></cell>
-  <cell X="30" Y="20"></cell>
+  <cell X="28" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="29" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="30" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="31" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="32" Y="20"></cell>
-  <cell X="33" Y="20"></cell>
+  <cell X="32" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="33" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="34" Y="20">
     <object Name="Ursa_FantasyFantasy"></object>
   </cell>
   <cell X="35" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
-  <cell X="36" Y="20"></cell>
-  <cell X="37" Y="20"></cell>
-  <cell X="38" Y="20"></cell>
-  <cell X="39" Y="20"></cell>
+  <cell X="36" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="37" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="38" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
+  <cell X="39" Y="20">
+    <object Name="GlassHydraulicPipe"></object>
+  </cell>
   <cell X="40" Y="20">
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="41" Y="20">
     <object Name="Ursa_LabWall"></object>
+    <object Name="GlassHydraulicPipe"></object>
   </cell>
   <cell X="42" Y="20">
     <object Name="Ursa_LabWall"></object>

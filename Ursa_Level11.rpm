@@ -2059,9 +2059,7 @@
   <cell X="7" Y="9">
     <object Name="Ursa_Lipocinth"></object>
   </cell>
-  <cell X="8" Y="9">
-    <object Name="StairsDown"></object>
-  </cell>
+  <cell X="8" Y="9"></cell>
   <cell X="9" Y="9">
     <object Name="StairsDown"></object>
   </cell>
