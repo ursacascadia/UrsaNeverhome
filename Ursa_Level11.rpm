@@ -1911,13 +1911,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="34" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="35" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="36" Y="8">
     <object Name="Ursa_LabWall"></object>
@@ -1926,13 +1926,13 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="38" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="39" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="40" Y="8">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="41" Y="8">
     <object Name="Ursa_LabWall"></object>
@@ -2120,7 +2120,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="9">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="34" Y="9">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2141,7 +2141,7 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="40" Y="9">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="41" Y="9">
     <object Name="Ursa_LabWall"></object>
@@ -2334,10 +2334,10 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="31" Y="10">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="32" Y="10">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="33" Y="10">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2356,6 +2356,7 @@
   </cell>
   <cell X="38" Y="10">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Bones"></object>
   </cell>
   <cell X="39" Y="10">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2364,10 +2365,10 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="41" Y="10">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="42" Y="10">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="43" Y="10">
     <object Name="GlassWall"></object>
@@ -2560,7 +2561,7 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="31" Y="11">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="32" Y="11">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2581,6 +2582,7 @@
   </cell>
   <cell X="37" Y="11">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Bones"></object>
   </cell>
   <cell X="38" Y="11">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2596,7 +2598,7 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="42" Y="11">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="43" Y="11">
     <object Name="GlassWall"></object>
@@ -2789,7 +2791,7 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="31" Y="12">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="32" Y="12">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -2810,6 +2812,7 @@
   </cell>
   <cell X="37" Y="12">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Bones"></object>
   </cell>
   <cell X="38" Y="12">
     <object Name="Bones"></object>
@@ -2825,7 +2828,7 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="42" Y="12">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="43" Y="12">
     <object Name="GlassWall"></object>
@@ -3008,7 +3011,7 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="31" Y="13">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="32" Y="13">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -3042,7 +3045,7 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="42" Y="13">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="43" Y="13">
     <object Name="GlassWall"></object>
@@ -3205,10 +3208,10 @@
     <object Name="GlassWall"></object>
   </cell>
   <cell X="31" Y="14">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="32" Y="14">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="33" Y="14">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -3221,6 +3224,7 @@
   </cell>
   <cell X="36" Y="14">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Bones"></object>
   </cell>
   <cell X="37" Y="14">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -3235,10 +3239,10 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="41" Y="14">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="42" Y="14">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="43" Y="14">
     <object Name="GlassWall"></object>
@@ -3414,7 +3418,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="15">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="34" Y="15">
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
@@ -3435,7 +3439,7 @@
     <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
   </cell>
   <cell X="40" Y="15">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="41" Y="15">
     <object Name="Ursa_LabWall"></object>
@@ -3601,28 +3605,28 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="33" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="34" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="35" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="36" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="37" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="38" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="39" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="40" Y="16">
-    <object Name="Ursa_LargeDilutedWarmStaticPuddle"></object>
+    <object Name="Ursa_Neverhome_Tile"></object>
   </cell>
   <cell X="41" Y="16">
     <object Name="Ursa_LabWall"></object>
