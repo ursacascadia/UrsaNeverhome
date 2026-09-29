@@ -139,7 +139,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.26");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.26", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.26", 4900, "ClearAll");
-            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.26", "MapBuilder", "FileName", "");
+            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.26", "MapBuilder", "FileName", "Ursa_Level12.rpm");
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.25", "juvenilian shadow", "Nowhome", null, null, null, Proper: true);
         }
 
