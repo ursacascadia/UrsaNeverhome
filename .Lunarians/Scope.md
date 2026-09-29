@@ -78,11 +78,11 @@
 	- [x] 3rd and 4th floor are proc gen with combat focus, enemies
 	- [x] 5th floor has no enemies and shows some of the more domestic devices that the  used, their computers, early attempts at cryo solutions and mutation stuff. Urahiah comments on how freaky everything is, but shows unerring confidence
 	- [x] 6th floor, combat focus. enemies are more densly packed.
-	- [ ] 7th floor, Agnosi's room. Urahiah suggests you "put it out of its misery." give the option to freeze Agnosi in a still-working cryo tank (or otherwise kill them and have conversation for after that). Urahiah is clearly disturbed.
+	- [x] 7th floor, Agnosi's room. Urahiah suggests you "put it out of its misery." give the option to freeze Agnosi in a still-working cryo tank (or otherwise kill them and have conversation for after that). Urahiah is clearly disturbed.
 	- [x] 8th and 9th floor- more combat, harder Lunarians, as dense as before. best loot here.
-	- [ ] 10th floor, the big fucking scary device with the hole in the ground below it. show the devices the Lunarians went on to develop. sparse combat encounters
-	- [ ] 11th floor. some sort of dilapidated prison? no enemies
-	- [ ] 12th floor. a huge prison cell. the last conversation with Urahiah before she unlocks the last door. she projects outwardly that she thinks this is going to be it, what it was all for--but inwardly is terrified at what is behind the door. the moon king fight
+	- [x] 10th floor, the big fucking scary device with the hole in the ground below it. show the devices the Lunarians went on to develop. sparse combat encounters
+	- [x] 11th floor. some sort of dilapidated prison? no enemies
+	- [x] 12th floor. a huge prison cell. the last conversation with Urahiah before she unlocks the last door. she projects outwardly that she thinks this is going to be it, what it was all for--but inwardly is terrified at what is behind the door. the moon king fight
 
 #### 1 questline:
 - [ ] 3 quests
@@ -110,7 +110,7 @@
 		- [x] Cryotubes part
 	- [x] Quests.xml
 - [x] Plan overall structure of dungeon
-- [ ] Design specific, preset maps
+- [x] Design specific, preset maps
 - [x] Design intended overall style of random maps in dungeon
 - [ ] Program
 	- [x] Implement placement of lab under tomb
@@ -134,6 +134,6 @@
 - [x] Map generator
 - [x] Map names
 - [x] population for maps
-- [ ] Static maps
+- [x] Static maps
 - [ ] Connect static maps stairways in the world generator
-- [ ] Agnosi's map and quest functionality
+- [ ] Agnosi's quest functionality
