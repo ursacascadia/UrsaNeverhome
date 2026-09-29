@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <object Name="Ursa_MoonkingMask" Inherits="BaseMask">
+        <part Name="Armor" DV="3" Strength="-5" Toughness="-5" Agility="-5" Ego="5" Willpower="15" Intelligence="-5" Heat="10" Cold="10" Acid="10" Elec="10" WornOn="Face" />
+        <part Name="Render" DisplayName="{{lunar|Yerach}} Face" RenderString="]" Tile="Items/sw_gentlingmask.bmp" ColorString="&amp;B" DetailColor="Y" />
+        <part Name="Commerce" Value="0" />
+        <part Name="Description" Short="" />
+        <part Name="Physics" Weight="1" />
+        <part Name="Cursed" RevealInDescription="true"/>
+        <part Name="Unreplicable" />
+        <tag Name="EquipSound" Value="sfx_equip_material_generic_glass" />
+        <tag Name="Tier" Value="8" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="Mods" Value="None" />
+        <xtagGrammar Proper="true" />
+    </object>
+</objects>
