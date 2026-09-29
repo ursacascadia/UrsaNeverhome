@@ -46,6 +46,13 @@
         <part Name="UrsaPopulationCorpse" PopulationName="UrsaCryochamber" />
     </object>
 
+
+    <object Name="Ursa_ActiveComputer" Inherits="Furniture">
+        <part Name="Render" DisplayName="heliographic mill [online]" RenderString="242" Tile="Objects/Ursa_Computer.png" ColorString="&amp;y" DetailColor="B" Occluding="true" />
+        <part Name="Description" Short="Digitized godrays gleam bright with a warmth foreign to the sterile chambers of yesteryear. Beneath the tawny scriptures, a winding console bears the faded mark of Neverhome LLC. The machine is powered and logged in." />
+        <part Name="Physics" Weight="400" Takeable="false" />
+    </object>
+
     <object Name="Ursa_BustedCryotube" Inherits="Furniture">
         <part Name="Render" DisplayName="broken compact cryochamber" RenderString="U" Tile="Objects/Ursa_BrokenCryotube.png" ColorString="&amp;C" DetailColor="O"/>
         <stat Name="AV" Value="25" />

@@ -93,7 +93,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.21");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.21", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.21", 4900, "ClearAll");
-            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.21", "MapBuilder", "FileName", "");
+            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.21", "MapBuilder", "FileName", "Ursa_Level7.rpm");
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.21", "antecedent den", "Neverhome", null, null, null, Proper: false);
 
             // Proc gen dungeon floor
