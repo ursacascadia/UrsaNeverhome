@@ -94,8 +94,8 @@
     </object>
 
     <object Name="Ursa_Device" Inherits="Furniture">
-        <part Name="Render" DisplayName="[device]" RenderString="242" Tile="Objects/Ursa_NW_Device.png" ColorString="&amp;c" DetailColor="y" Occluding="false" />
-        <part Name="Description" Short="" />
+        <part Name="Render" DisplayName="the {{lunar|intermezzo}}" RenderString="242" Tile="Objects/Ursa_NW_Device.png" ColorString="&amp;c" DetailColor="y" Occluding="false" />
+        <part Name="Description" Short="Nets of conduits channel inwards to face the spoiled prophet. Fractured against the crags of spacetime, the poem-spinner’s reverie has long since concluded." />
         <part Name="Physics" Weight="400" Takeable="false" />
     </object>
 
