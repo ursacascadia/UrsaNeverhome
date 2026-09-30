@@ -1883,22 +1883,43 @@
   </cell>
   <cell X="18" Y="8">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="19" Y="8"></cell>
-  <cell X="20" Y="8"></cell>
-  <cell X="21" Y="8"></cell>
+  <cell X="19" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="20" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="21" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="22" Y="8">
     <object Name="Ursa_CrooningLamina"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="23" Y="8"></cell>
-  <cell X="24" Y="8"></cell>
-  <cell X="25" Y="8"></cell>
+  <cell X="23" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="24" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="25" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="26" Y="8">
     <object Name="Ursa_CrooningLamina"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="27" Y="8"></cell>
-  <cell X="28" Y="8"></cell>
-  <cell X="29" Y="8"></cell>
+  <cell X="27" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="28" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="8">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="8">
     <object Name="GlassWall"></object>
   </cell>
@@ -2068,29 +2089,45 @@
   <cell X="18" Y="9">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="9"></cell>
+  <cell X="19" Y="9">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="20" Y="9">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="21" Y="9">
     <object Name="CryochamberWallBroken"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="22" Y="9"></cell>
-  <cell X="23" Y="9"></cell>
+  <cell X="22" Y="9">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="23" Y="9">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="24" Y="9">
     <object Name="Glass Printer"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="25" Y="9">
     <object Name="Sleek Table"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="26" Y="9"></cell>
+  <cell X="26" Y="9">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="27" Y="9">
     <object Name="CryochamberWallBroken"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="28" Y="9">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="29" Y="9"></cell>
+  <cell X="29" Y="9">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="9">
     <object Name="GlassWall"></object>
   </cell>
@@ -2254,21 +2291,41 @@
   <cell X="18" Y="10">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="10"></cell>
-  <cell X="20" Y="10"></cell>
+  <cell X="19" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="20" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="21" Y="10">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="22" Y="10"></cell>
-  <cell X="23" Y="10"></cell>
-  <cell X="24" Y="10"></cell>
-  <cell X="25" Y="10"></cell>
-  <cell X="26" Y="10"></cell>
+  <cell X="22" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="23" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="24" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="25" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="26" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="27" Y="10">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="28" Y="10"></cell>
-  <cell X="29" Y="10"></cell>
+  <cell X="28" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="10">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="10">
     <object Name="GlassWall"></object>
   </cell>
@@ -2442,29 +2499,46 @@
   <cell X="18" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="11"></cell>
-  <cell X="20" Y="11"></cell>
-  <cell X="21" Y="11"></cell>
+  <cell X="19" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="20" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="21" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="22" Y="11">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="23" Y="11">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="24" Y="11">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="25" Y="11">
     <object Name="Ursa_Agnosi"></object>
     <object Name="Ursa_Neverhome_Tile"></object>
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="26" Y="11">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="27" Y="11"></cell>
-  <cell X="28" Y="11"></cell>
-  <cell X="29" Y="11"></cell>
+  <cell X="27" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="28" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="11">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="11">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2586,24 +2660,44 @@
   </cell>
   <cell X="19" Y="12">
     <object Name="Ursa_BustedCryotube"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="20" Y="12"></cell>
-  <cell X="21" Y="12"></cell>
+  <cell X="20" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="21" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="22" Y="12">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="23" Y="12"></cell>
+  <cell X="23" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="24" Y="12">
     <object Name="Ursa_ExamTable"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="25" Y="12"></cell>
+  <cell X="25" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="26" Y="12">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="27" Y="12"></cell>
-  <cell X="28" Y="12"></cell>
-  <cell X="29" Y="12"></cell>
-  <cell X="30" Y="12"></cell>
+  <cell X="27" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="28" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="12">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="30" Y="12">
+    <object Name="Ursa_CreateDoor"></object>
+  </cell>
   <cell X="31" Y="12"></cell>
   <cell X="32" Y="12"></cell>
   <cell X="33" Y="12"></cell>
@@ -2720,29 +2814,45 @@
   <cell X="18" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="13"></cell>
+  <cell X="19" Y="13">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="20" Y="13">
     <object Name="Ursa_CrooningLamina"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="21" Y="13"></cell>
+  <cell X="21" Y="13">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="22" Y="13">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="23" Y="13">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="24" Y="13">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="25" Y="13">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="26" Y="13">
     <object Name="Ursa_Neverhome_Tile"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="27" Y="13"></cell>
-  <cell X="28" Y="13"></cell>
-  <cell X="29" Y="13"></cell>
+  <cell X="27" Y="13">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="28" Y="13">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="13">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="13">
     <object Name="Ursa_LabWall"></object>
   </cell>
@@ -2914,21 +3024,41 @@
   <cell X="18" Y="14">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="14"></cell>
-  <cell X="20" Y="14"></cell>
+  <cell X="19" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="20" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="21" Y="14">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="22" Y="14"></cell>
-  <cell X="23" Y="14"></cell>
-  <cell X="24" Y="14"></cell>
-  <cell X="25" Y="14"></cell>
-  <cell X="26" Y="14"></cell>
+  <cell X="22" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="23" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="24" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="25" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="26" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="27" Y="14">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="28" Y="14"></cell>
-  <cell X="29" Y="14"></cell>
+  <cell X="28" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="14">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="14">
     <object Name="GlassWall"></object>
   </cell>
@@ -3098,29 +3228,45 @@
   <cell X="18" Y="15">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="15"></cell>
+  <cell X="19" Y="15">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="20" Y="15">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="21" Y="15">
     <object Name="CryochamberWallBroken"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="22" Y="15"></cell>
+  <cell X="22" Y="15">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="23" Y="15">
     <object Name="Ursa_Computer"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="24" Y="15"></cell>
-  <cell X="25" Y="15"></cell>
+  <cell X="24" Y="15">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="25" Y="15">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="26" Y="15">
     <object Name="Ursa_CrooningLamina"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="27" Y="15">
     <object Name="CryochamberWallBroken"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
   <cell X="28" Y="15">
     <object Name="Ursa_LabWall"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="29" Y="15"></cell>
+  <cell X="29" Y="15">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="15">
     <object Name="GlassWall"></object>
   </cell>
@@ -3295,19 +3441,40 @@
   <cell X="18" Y="16">
     <object Name="Ursa_LabWall"></object>
   </cell>
-  <cell X="19" Y="16"></cell>
-  <cell X="20" Y="16"></cell>
-  <cell X="21" Y="16"></cell>
-  <cell X="22" Y="16"></cell>
-  <cell X="23" Y="16"></cell>
-  <cell X="24" Y="16"></cell>
+  <cell X="19" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="20" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="21" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="22" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="23" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="24" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="25" Y="16">
     <object Name="Ursa_CrooningLamina"></object>
+    <object Name="Ursa_ReleaseCryogas"></object>
   </cell>
-  <cell X="26" Y="16"></cell>
-  <cell X="27" Y="16"></cell>
-  <cell X="28" Y="16"></cell>
-  <cell X="29" Y="16"></cell>
+  <cell X="26" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="27" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="28" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
+  <cell X="29" Y="16">
+    <object Name="Ursa_ReleaseCryogas"></object>
+  </cell>
   <cell X="30" Y="16">
     <object Name="GlassWall"></object>
   </cell>

@@ -298,7 +298,7 @@
             </text>
             <choice Target="Are you alright">Are you alright?</choice>
         </node>
-        <node ID="Are you alright" AllowEscape="false">
+        <node ID="Are you alright" AllowEscape="false" >
             <text>
                 ...Abandoned us—stitched us into some patchwork of life. {{emote|*howl*}} ohohoho, our own packmates now! ...Never wanted this, never wanted any of this. hehe, Moon King will awake, and all will be one!
             </text>
@@ -314,13 +314,83 @@
                 
                 {{emote|*A chorus of mumbling mouths chant asynchronously and indecipherably. The whispers devolve into snickers and cackles.*}}
             </text>
-            <choice Target="End">...</choice>
+            <choice Target="End" StartQuest="To Die, to Sleep">...</choice>
         </node>
         <node ID="Living" AllowEscape="False">
             <text>
                 ...All we've ever known, the sun will never return. {{emote|*barking*}} what you ask of us, to die? ...To sleep? ehehehe... form unchanging in Nowhome!
             </text>
-            <choice Target="End">...</choice>
+            <choice Target="End" StartQuest="To Die, to Sleep">...</choice>
+        </node>
+    </conversation>
+
+    <conversation ID="Ursa_CryoPC">
+        <start ID="start2" IfTestState="ursa_loggedoff">
+            <text>
+                {{B|NVRSOFT 13.3.0 TTY1
+                ENTERING A NVRSOFT COMPUTER SYSTEM WITHOUT AUTHORIZATION IS AN OFFENSE PUNISHABLE BY TERMINATION AND NEUTRALIZATION.
+
+                NVRSOFT LOGIN: _}}
+
+                {{emote|*The terminal blinks. You won't be able to log back in.*}}
+            </text>
+            <choice Target="End">Step back.</choice>
+        </start>
+        <start>
+            <text>
+                {{emote|*A blinking terminal has been left alone, still logged in.*}}
+
+                {{B|WELCOME BACK, AGNOSI. PLEASE CONTINUE EXECUTING THE NOWHOME PROTOCOL.
+                AGNOSI@NEVERHOME: /CRYO/$ _}}
+            </text>
+            <choice Target="ls">{{B|list}}</choice>
+            <choice Target="quit">{{B|quit}}</choice>
+            <choice Target="End">Step back.</choice>
+        </start>
+        <node ID="ls">
+            <text>
+                {{B|AGNOSI@NEVERHOME: /CRYO/$ LIST
+                /CRYO/
+                &#195; DATA/
+                &#195; SEQUENCING/
+                &#195; SOURCE/
+                &#195; USAGE.RD
+                &#195; BUILD.RD
+                &#192; ACTIVATE_CRYOCHAMBER.XNV
+                AGNOSI@NEVERHOME: /CRYO/$ _}}
+            </text>
+            <choice Target="activate" RunDestroyAndReplace="">{{B|./ACTIVATE_CRYOCHAMBER.XNV}}</choice>
+            <choice Target="quit">{{B|quit}}</choice>
+            <choice Target="End">Step back.</choice>
+        </node>
+        <node ID="activate" AllowEscape="false">
+            <text>
+                {{B|AGNOSI@NEVERHOME: /CRYO/$ ./ACTIVATE_CRYOCHAMBER.XNV
+                ACTIVATING CRYOGEN PRESERVATION PROTOCOLS...
+                .
+                .
+                .
+                PROCESS COMPLETE.
+
+                THANK YOU FOR YOUR SERVICE, AGNOSI. PLEASE REMEMBER TO LOG THE RESULTS OF THIS EXPERIMENT. SEE YOUR SUPERVISOR FOR FURTHER QUESTIONS. PLEASE SEEK THE KING IF YOU BELIEVE YOU HAVE MADE A BREAKTHROUGH. PLEASE REMEMBER PETITIONING FOR AUDIENCE UNDER FALSE PRETENSE IS PUNISHABLE BY TERMINATION AND NEUTRALIZATION. 
+
+                AGNOSI@NEVERHOME: /CRYO/$ _}}
+            </text>
+            <choice Target="quit">{{B|quit}}</choice>
+        </node>
+        <node ID="quit" SetBooleanState="ursa_loggedoff,true">
+            <text>
+                {{B|LOGGING OFF. SEE YOU AGAIN SOON, AGNOSI.
+                
+                
+                NVRSOFT 13.3.0 TTY1
+                ENTERING A NVRSOFT COMPUTER SYSTEM WITHOUT AUTHORIZATION IS AN OFFENSE PUNISHABLE BY TERMINATION AND NEUTRALIZATION.
+
+                NVRSOFT LOGIN: _}}
+
+                {{emote|*The terminal blinks. You won't be able to log back in.*}}
+            </text>
+            <choice Target="End">Step back.</choice>
         </node>
     </conversation>
 </conversations>

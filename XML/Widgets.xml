@@ -6,4 +6,10 @@
   <object Name="Ursa_BottomOutVault" Inherits="Widget">
     <part Name="QuestStepFinisher" Trigger="Created" Quest="If You Die in a River..." Step="Delve to the bottom" />
   </object>
+  <object Name="Ursa_ReleaseCryogas" Inherits="Widget">
+    <tag Name="DestroyAndReplaceWith" Value="StableCryoGas" />
+  </object>
+  <object Name="Ursa_CreateDoor" Inherits="Widget">
+    <tag Name="DestroyAndReplaceWith" Value="Ursa_NeverhomeDoor_NoUnlockEver" />
+  </object>
 </objects>
