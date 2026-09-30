@@ -1310,9 +1310,7 @@
     <object Name="Ursa_LabWall"></object>
   </cell>
   <cell X="40" Y="5"></cell>
-  <cell X="41" Y="5">
-    <object Name="StairsUp"></object>
-  </cell>
+  <cell X="41" Y="5"></cell>
   <cell X="42" Y="5"></cell>
   <cell X="43" Y="5">
     <object Name="Ursa_LabWall"></object>
@@ -3611,9 +3609,7 @@
     <object Name="CryochamberWallNW"></object>
   </cell>
   <cell X="72" Y="17"></cell>
-  <cell X="73" Y="17">
-    <object Name="StairsDown"></object>
-  </cell>
+  <cell X="73" Y="17"></cell>
   <cell X="74" Y="17"></cell>
   <cell X="75" Y="17">
     <object Name="Ursa_LabWall"></object>

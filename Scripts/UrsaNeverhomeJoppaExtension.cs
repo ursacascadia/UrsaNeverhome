@@ -21,7 +21,7 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.2.2.11", "UrsaNeverhomeCatacombs");
 
             // Place stairs down to the lab
-            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.14", "StairsDown", "x", 34, "y", 16);
+            The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.14", "ClearWallAddObject", "obj", "StairsDown", "x", 34, "y", 16);
 
             // ### Lab maps
 
@@ -30,14 +30,14 @@ namespace Ursa.Neverhome
             The.ZoneManager.SetZoneProperty(current_zone, "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "MapBuilder", "FileName", "Ursa_LabEntryway.rpm");
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 34, "y", 16);
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown", "x", 73, "y", 15);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 73, "y", 15);
             The.ZoneManager.SetZoneName(current_zone, "antechamber", "Neverhome", null, null, null, Proper: false);
             // Static map 2
             current_zone = "JoppaWorld.53.3.1.1.16";
             The.ZoneManager.SetZoneProperty(current_zone, "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "MapBuilder", "FileName", "Ursa_LabEntryway2.rpm");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 73, "y", 15);
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown", "x", 5, "y", 13);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 73, "y", 15);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 5, "y", 13);
             The.ZoneManager.SetZoneName(current_zone, "surgical theatre", "Neverhome", null, null, null, Proper: false);
 
             // Proc gen dungeon floor
@@ -49,7 +49,8 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "UrsaTileBuilding");
             The.ZoneManager.AddZoneBuilder(current_zone, 5100, "UrsaRemoveDirtyWidget"); // this does a lot more than it says on the tin lol
             // The.ZoneManager.AddZoneBuilder(current_zone, 5200, "AddWidgetBuilder", "Blueprint", "ConcreteFloor"); // removed since the dirty widget sets it
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 5, "y", 13);
+            The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 5, "y", 13);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 5, "y", 13);
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
@@ -62,17 +63,25 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZoneBuilder(current_zone, 4900, "SolidEarth");
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "UrsaTileBuilding");
             The.ZoneManager.AddZoneBuilder(current_zone, 5100, "UrsaRemoveDirtyWidget");
+            The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 9, "y", 11);
+            The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 9, "y", 12);
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 9, "y", 11);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 9, "y", 12);
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
             The.ZoneManager.SetZoneName(current_zone, "scrawling halls", "Neverhome", null, null, null, Proper: false);
 
             // Static map 3
+            current_zone = "JoppaWorld.53.3.1.1.19";
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.19");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.19", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.19", 4900, "ClearAll");
             The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.19", "MapBuilder", "FileName", "Ursa_Level5.rpm");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 9, "y", 11);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 9, "y", 12);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 53, "y", 16);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.19", "etching bank", null, null, null, null, Proper: false);
 
             // Proc gen dungeon floor
@@ -83,17 +92,20 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZoneBuilder(current_zone, 4900, "SolidEarth");
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "UrsaTileBuilding");
             The.ZoneManager.AddZoneBuilder(current_zone, 5100, "UrsaRemoveDirtyWidget");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 53, "y", 16);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 41, "y", 5);
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
             The.ZoneManager.SetZoneName(current_zone, "prolixity chambers", "Neverhome", null, null, null, Proper: false);
 
             // Static map 4
+            current_zone = "JoppaWorld.53.3.1.1.21";
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.21");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.21", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.21", 4900, "ClearAll");
             The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.21", "MapBuilder", "FileName", "Ursa_Level7.rpm");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 41, "y", 5);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 73, "y", 17);
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.21", "antecedent den", "Neverhome", null, null, null, Proper: false);
 
             // Proc gen dungeon floor
@@ -104,7 +116,8 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZoneBuilder(current_zone, 4900, "SolidEarth");
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "UrsaTileBuilding");
             The.ZoneManager.AddZoneBuilder(current_zone, 5100, "UrsaRemoveDirtyWidget");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp");
+            The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 73, "y", 17);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsUp", "x", 73, "y", 17);
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
@@ -117,17 +130,29 @@ namespace Ursa.Neverhome
             The.ZoneManager.AddZoneBuilder(current_zone, 4900, "SolidEarth");
             The.ZoneManager.AddZoneBuilder(current_zone, 5000, "UrsaTileBuilding");
             The.ZoneManager.AddZoneBuilder(current_zone, 5100, "UrsaRemoveDirtyWidget");
+            // The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 20, "y", 12);
+            // The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 20, "y", 13);
+            // The.ZoneManager.AddZoneBuilder(current_zone, 5200, "Ursa_ClearCell", "x", 20, "y", 14);
             The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp");
-            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 20, "y", 12);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 20, "y", 13);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "ClearWallAddObject", "obj", "StairsDown", "x", 20, "y", 14);
+            // The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown", "x", 20, "y", 12);
+            // The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown", "x", 20, "y", 13);
+            // The.ZoneManager.AddZonePostBuilder(current_zone, "StairsDown", "x", 20, "y", 14);
             The.ZoneManager.AddZonePostBuilder(current_zone, "Connecter");
             The.ZoneManager.AddZonePostBuilder(current_zone, "ZoneTemplate:UrsaNeverhome");
             The.ZoneManager.SetZoneName(current_zone, "notionary hollows", "Neverhome", null, null, null, Proper: false);
 
             // Static map 5
+            current_zone = "JoppaWorld.53.3.1.1.24";
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.24");
             The.ZoneManager.SetZoneProperty("JoppaWorld.53.3.1.1.24", "SkipTerrainBuilders", true);
             The.ZoneManager.AddZoneBuilder("JoppaWorld.53.3.1.1.24", 4900, "ClearAll");
             The.ZoneManager.AddZonePostBuilder("JoppaWorld.53.3.1.1.24", "MapBuilder", "FileName", "Ursa_Level10.rpm");
+            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 20, "y", 12);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 20, "y", 13);
+            The.ZoneManager.AddZonePostBuilder(current_zone, "StairsUp", "x", 20, "y", 14);
             The.ZoneManager.SetZoneName("JoppaWorld.53.3.1.1.24", "oscillatory antre", "Nowhome", null, null, null, Proper: false);
             // Static map 6
             The.ZoneManager.ClearZoneBuilders("JoppaWorld.53.3.1.1.25");
