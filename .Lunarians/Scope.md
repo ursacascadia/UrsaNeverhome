@@ -135,5 +135,5 @@
 - [x] Map names
 - [x] population for maps
 - [x] Static maps
-- [ ] Connect static maps stairways in the world generator
+- [x] Connect static maps stairways in the world generator
 - [ ] Agnosi's quest functionality
