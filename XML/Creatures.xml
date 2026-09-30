@@ -53,6 +53,7 @@
         <part Name="Description" Short="Scales, fur, flesh and steel have conjoined; lining the upper eyeline with a form both familiar and distantly alien. Legions of faces writhe in spiritual ecstacy, speaking wordless poetry with the voice of a thousand madmen. They scream in tandem, to the pity of onlooking spectres." />
         <tag Name="Role" Value="Skirmisher" />
         <part Name="Interesting" />
+        <part Name="UrsaAgnosi" />
         <xtagGrammar Proper="true" />
     </object>
 

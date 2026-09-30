@@ -376,7 +376,7 @@
 
                 AGNOSI@NEVERHOME: /CRYO/$ _}}
             </text>
-            <choice Target="quit">{{B|quit}}</choice>
+            <choice Target="quit" FinishAgnosiQuest="">{{B|quit}}</choice>
         </node>
         <node ID="quit" SetBooleanState="ursa_loggedoff,true">
             <text>
