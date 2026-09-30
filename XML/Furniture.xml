@@ -38,7 +38,7 @@
         <part Name="Physics" Weight="200" Takeable="false" />
         <part Name="Brain" Hostile="false" Wanders="false" Mobile="false" Factions="Playerneutral-100" />
         <tag Name="DeathSounds" Value="Sounds/Damage/sfx_destroy_glass" />
-		<tag Name="CustomDeathMessage" Value="A horrific embryo =verb:crawl= from the warmth of =subject.t=..." />
+		<tag Name="CustomDeathMessage" Value="{{red|A horrific {{lunar|embryo}} =verb:crawl= from the warmth of =subject.t=...}}" />
 
         <!-- Bursting cryotube: kills the object when a player allied creature walks beside it -->
         <part Name="UrsaBurstingCryotube" />
